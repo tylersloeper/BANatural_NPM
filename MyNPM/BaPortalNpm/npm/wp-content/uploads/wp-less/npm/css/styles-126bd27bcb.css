@@ -557,7 +557,13 @@ footer .footer-copyright {
 .animation img {
   filter: grayscale(100%);
   height: auto;
-  width: 10%;
+  width: 100%;
+}
+
+.nmpInstagramStrip{
+	width: 9%;
+	display: inline-block;
+	height:auto;
 }
 
 #insta.li{
