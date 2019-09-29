@@ -561,7 +561,9 @@ footer .footer-copyright {
 }
 
 #insta.li{
-  width: 10%;
+	width: 30%;
+	height: auto;
+	dispay:none;
 }
 
 .animation img:hover {

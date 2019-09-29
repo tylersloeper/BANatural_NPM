@@ -2062,14 +2062,6 @@
                 <div class="memorisme" id="bistarts">
                     <img style="cursor: pointer;" src="npm/wp-content/themes/npm/img/3D.png"></div>
                 <div id="memoriframe"></div>
-                <!--iframe class="height-frame"  id="frts"  width="1920" height="650"   src="https://sketchfab.com/models/960cff85a59849d88a8a4e4859d7815b/embed?api_version=1.3.0&api_id=1_hero-viewer&autostart=1&internal=1&scrollwheel=0&sound_enable=0&transparent=1&ui_animations=0&ui_annotations=0&ui_controls=0&ui_fadeout=0&ui_fullscreen=0&ui_help=0&ui_infos=0&ui_inspector=0&ui_settings=0&ui_snapshots=0&ui_stop=0&ui_theatre=0&ui_watermark=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        <div class="up bounce"> <a href="#strip5"><img class="height-icon" style="position: relative; top: -424px;  width: 54px;     right: 48.5%;" src="npm/wp-content/themes/npm/img/download.png" alt="" > </a></div>
-        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A; display:none">
-            <a href="https://sketchfab.com/models/960cff85a59849d88a8a4e4859d7815b?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Tablet NPM</a>
-            by <a href="https://sketchfab.com/mormizrahi?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">3D_Interactive</a>
-            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-        </p-->
-
             </div>
 
             <!-- 	<a class="btn-3d">INTERACT</a>-->
@@ -2150,54 +2142,54 @@
             <!--block2--->
         </section>
         <!--*****for mobile slider strip 5 <1025******--->
-        <section class="nogallery-mobile" id="strip5">
+        <section id="strip5">
             <div>
                 <div class="bottom-title">
                     <h2 class="title">
                         <div>OUR TECHNOLOGY – YOUR <span class="color-m">ART</span></div>
                     </h2>
                 </div>
-                <div class="owl-carousel owl-theme" style="display: block">
-                    <ul class="slick-initialized slick-slider" id="insta">
-                        <div class="slick-list draggable">
-                            <div class="slick-track" style="transition: transform 500ms; width: 6100px; opacity: 1; transform: translate3d(-1708px, 0px, 0px);">
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="-5">
+                <div style="display: block">
+                    <ul>
+                        <div>
+                            <div>
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="-5">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B1_8YBznxBu/">
                                                 <img src="//scontent.cdninstagram.com/vp/bad29b3b3531fbf04ab698ec3dad0cc2/5E1B0B46/t51.2885-15/sh0.08/e35/s640x640/69855148_502953773857739_5199591188006671739_n.jpg?_nc_ht=scontent.cdninstagram.com">
                                             </a></li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="-4">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="-4">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B1VyOaZHIxo/">
                                                 <img src="//scontent.cdninstagram.com/vp/584b6c20a83cad1fce49f76dc81f89c7/5E242338/t51.2885-15/sh0.08/e35/s640x640/67147878_2390409597663398_7377448083139889043_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="-3">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="-3">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B01HEcvH5k2/">
                                                 <img src="//scontent.cdninstagram.com/vp/bbd2810eb8b13edecf56a6b3663e2cc4/5E327451/t51.2885-15/sh0.08/e35/s640x640/67643727_341493786735347_8485069186049031870_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="-2">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="-2">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B0ltkY5nw-H/">
                                                 <img src="//scontent.cdninstagram.com/vp/b4c0cd439610267b4c4bb4f47322b921/5E2FC6E5/t51.2885-15/sh0.08/e35/s640x640/66806136_192718925054294_7666541080418318385_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="-1">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="-1">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B0fo0Own66r/">
                                                 <img src="//scontent.cdninstagram.com/vp/ed21820515693c794563e81f748a949a/5E3A6443/t51.2885-15/sh0.08/e35/s640x640/64397482_907435572952534_8629249198313077349_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
@@ -2205,7 +2197,7 @@
                                 <div class="slick-slide" aria-hidden="true" style="width: 244px;" data-slick-index="0">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2liRROH2UQ/">
                                                 <img src="//scontent.cdninstagram.com/vp/d6601980e18659e1f3eae84ce9c8a557/5E22EBAA/t51.2885-15/sh0.08/e35/s640x640/70049156_172692783778631_6600527836114322798_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
@@ -2213,47 +2205,47 @@
                                 <div class="slick-slide" aria-hidden="true" style="width: 244px;" data-slick-index="1">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2j2EvOnRpa/">
                                                 <img src="//scontent.cdninstagram.com/vp/124509fdf30353914583549cb6c33aa3/5E230722/t51.2885-15/sh0.08/e35/s640x640/69584016_905452683152851_6873036978385336092_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-current slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="2">
+                                <div class="slick-current slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="2">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2T9FuunXOl/">
                                                 <img src="//scontent.cdninstagram.com/vp/a21f43d4267caa560c0708ec08bdd2ce/5E202DED/t51.2885-15/sh0.08/e35/s640x640/71184630_1631116917022147_5600529133141922084_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="3">
+                                <div class="slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="3">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2RLEQ8HtQY/">
                                                 <img src="//scontent.cdninstagram.com/vp/18cb338b4519e23bcb11b03f790abe6c/5E1BF7BA/t51.2885-15/sh0.08/e35/s640x640/69941812_669378046901369_3837254121564501687_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="4">
+                                <div class="slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="4">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2JjB7Xnm3O/">
                                                 <img src="//scontent.cdninstagram.com/vp/5f3a3602575c0fe9a087580d58ba904a/5E2F7EA1/t51.2885-15/sh0.08/e35/s640x640/69217409_2696503257061730_792889456014083303_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="5">
+                                <div class="slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="5">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B1_8YBznxBu/">
                                                 <img src="//scontent.cdninstagram.com/vp/bad29b3b3531fbf04ab698ec3dad0cc2/5E1B0B46/t51.2885-15/sh0.08/e35/s640x640/69855148_502953773857739_5199591188006671739_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="6">
+                                <div class="slick-active" aria-hidden="false" style="width: 244px;" data-slick-index="6">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B1VyOaZHIxo/">
                                                 <img src="//scontent.cdninstagram.com/vp/584b6c20a83cad1fce49f76dc81f89c7/5E242338/t51.2885-15/sh0.08/e35/s640x640/67147878_2390409597663398_7377448083139889043_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
@@ -2261,7 +2253,7 @@
                                 <div class="slick-slide" aria-hidden="true" style="width: 244px;" data-slick-index="7">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B01HEcvH5k2/">
                                                 <img src="//scontent.cdninstagram.com/vp/bbd2810eb8b13edecf56a6b3663e2cc4/5E327451/t51.2885-15/sh0.08/e35/s640x640/67643727_341493786735347_8485069186049031870_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
@@ -2269,7 +2261,7 @@
                                 <div class="slick-slide" aria-hidden="true" style="width: 244px;" data-slick-index="8">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B0ltkY5nw-H/">
                                                 <img src="//scontent.cdninstagram.com/vp/b4c0cd439610267b4c4bb4f47322b921/5E2FC6E5/t51.2885-15/sh0.08/e35/s640x640/66806136_192718925054294_7666541080418318385_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
@@ -2277,87 +2269,87 @@
                                 <div class="slick-slide" aria-hidden="true" style="width: 244px;" data-slick-index="9">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B0fo0Own66r/">
                                                 <img src="//scontent.cdninstagram.com/vp/ed21820515693c794563e81f748a949a/5E3A6443/t51.2885-15/sh0.08/e35/s640x640/64397482_907435572952534_8629249198313077349_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="10">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="10">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2liRROH2UQ/">
                                                 <img src="//scontent.cdninstagram.com/vp/d6601980e18659e1f3eae84ce9c8a557/5E22EBAA/t51.2885-15/sh0.08/e35/s640x640/70049156_172692783778631_6600527836114322798_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="11">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="11">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2j2EvOnRpa/">
                                                 <img src="//scontent.cdninstagram.com/vp/124509fdf30353914583549cb6c33aa3/5E230722/t51.2885-15/sh0.08/e35/s640x640/69584016_905452683152851_6873036978385336092_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="12">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="12">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2T9FuunXOl/">
                                                 <img src="//scontent.cdninstagram.com/vp/a21f43d4267caa560c0708ec08bdd2ce/5E202DED/t51.2885-15/sh0.08/e35/s640x640/71184630_1631116917022147_5600529133141922084_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="13">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="13">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2RLEQ8HtQY/">
                                                 <img src="//scontent.cdninstagram.com/vp/18cb338b4519e23bcb11b03f790abe6c/5E1BF7BA/t51.2885-15/sh0.08/e35/s640x640/69941812_669378046901369_3837254121564501687_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="14">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="14">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B2JjB7Xnm3O/">
                                                 <img src="//scontent.cdninstagram.com/vp/5f3a3602575c0fe9a087580d58ba904a/5E2F7EA1/t51.2885-15/sh0.08/e35/s640x640/69217409_2696503257061730_792889456014083303_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="15">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="15">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B1_8YBznxBu/">
                                                 <img src="//scontent.cdninstagram.com/vp/bad29b3b3531fbf04ab698ec3dad0cc2/5E1B0B46/t51.2885-15/sh0.08/e35/s640x640/69855148_502953773857739_5199591188006671739_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="16">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="16">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B1VyOaZHIxo/">
                                                 <img src="//scontent.cdninstagram.com/vp/584b6c20a83cad1fce49f76dc81f89c7/5E242338/t51.2885-15/sh0.08/e35/s640x640/67147878_2390409597663398_7377448083139889043_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="17">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="17">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B01HEcvH5k2/">
                                                 <img src="//scontent.cdninstagram.com/vp/bbd2810eb8b13edecf56a6b3663e2cc4/5E327451/t51.2885-15/sh0.08/e35/s640x640/67643727_341493786735347_8485069186049031870_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="18">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="18">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B0ltkY5nw-H/">
                                                 <img src="//scontent.cdninstagram.com/vp/b4c0cd439610267b4c4bb4f47322b921/5E2FC6E5/t51.2885-15/sh0.08/e35/s640x640/66806136_192718925054294_7666541080418318385_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
                                 </div>
-                                <div class="slick-slide slick-cloned" aria-hidden="true" style="width: 244px;" data-slick-index="19">
+                                <div class="" aria-hidden="true" style="width: 244px;" data-slick-index="19">
                                     <div>
                                         <li style="width: 100%; display: inline-block;">
-                                            <img style="margin: 0 0 -25px 0; top: 5px; left: 5px; filter: grayscale(0%); position: relative; z-index: 99;" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
+                                            <img style="" src="https://localhost:8081/npm/wp-content/uploads/2018/11/bluehart.png">
                                             <a class="animation" href="https://www.instagram.com/p/B0fo0Own66r/">
                                                 <img src="//scontent.cdninstagram.com/vp/ed21820515693c794563e81f748a949a/5E3A6443/t51.2885-15/sh0.08/e35/s640x640/64397482_907435572952534_8629249198313077349_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                                     </div>
@@ -2791,7 +2783,7 @@
                                 <div class="slick-prev slick-arrow" style="display: block;"><i class="fa fa-angle-left"></i></div>
                                 <div class="slick-list draggable">
                                     <div class="slick-track" style="transition: transform 600ms; width: 14238px; opacity: 1; transform: translate3d(-3842px, 0px, 0px);">
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="-5">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="-5">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -2799,7 +2791,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="-4">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="-4">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -2807,7 +2799,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="-3">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="-3">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -2815,7 +2807,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="-2">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="-2">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -2823,7 +2815,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="-1">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="-1">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3063,7 +3055,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="29">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="29">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3071,7 +3063,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="30">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="30">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3079,7 +3071,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="31">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="31">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3087,7 +3079,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="32">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="32">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3095,7 +3087,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="33">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="33">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3103,7 +3095,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="34">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="34">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3111,7 +3103,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="35">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="35">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3119,7 +3111,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="36">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="36">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3127,7 +3119,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="37">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="37">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3135,7 +3127,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="38">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="38">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3143,7 +3135,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="39">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="39">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3151,7 +3143,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="40">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="40">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3159,7 +3151,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="41">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="41">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3167,7 +3159,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="42">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="42">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3175,7 +3167,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="43">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="43">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3183,7 +3175,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="44">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="44">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3191,7 +3183,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="45">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="45">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3199,7 +3191,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="46">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="46">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3207,7 +3199,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="47">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="47">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3215,7 +3207,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="48">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="48">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3223,7 +3215,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="49">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="49">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3231,7 +3223,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="50">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="50">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3239,7 +3231,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="51">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="51">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3247,7 +3239,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="52">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="52">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3255,7 +3247,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="53">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="53">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3263,7 +3255,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="54">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="54">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3271,7 +3263,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="55">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="55">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3279,7 +3271,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="56">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="56">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
@@ -3287,7 +3279,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 206px;" data-slick-index="57">
+                                        <div tabindex="-1" class="slick-slide " aria-hidden="true" style="width: 206px;" data-slick-index="57">
                                             <div>
                                                 <div class="wpcp-single-item" style="width: 100%; display: inline-block;">
                                                     <div class="wpcp-slide-image">
