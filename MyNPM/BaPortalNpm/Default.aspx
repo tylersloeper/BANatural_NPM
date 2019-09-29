@@ -3476,7 +3476,9 @@
                     <div class="widget_text" id="text-2">
                         <h3>Info footer address</h3>
                         <div class="textwidget">
-                            <p>Main Branch: Hahistadrut Avenue 228, Haifa | Phone: +9724-870-2206</p>
+                            <p>
+                                Miami Branch: 8330 SW 8th StMiami, FL 33144 | Phone: (305) 551-1600
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -3520,18 +3522,6 @@
         <div class="col-6 align-self-center">
             <p class="footer-copyright">
                 <span class="content-info-text" style="font-size: 14px;">© Copyright 2018. NPM. All Rights Reserved</span>
-            </p>
-        </div>
-        <!-- /copyright -->
-        <div class="col-6 align-self-center">
-            <p class="center">
-                <span class="content-info-text" style="font-size: 14px;">Design and development </span>
-                <span>
-                    <a href="https://I-L.org.il" target="_blank">
-                        <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-                        <img style="width: 63px; position: relative; top: -4px;" alt="Logo" src="npm/wp-content/themes/npm/img/icon_logo_footer.png">
-                    </a>
-                </span>
             </p>
         </div>
 
