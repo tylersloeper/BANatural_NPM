@@ -2127,18 +2127,10 @@
             });
 
         </script>
-        <!-- /Section Category  3D-->
-
-        <!-- test-->
-
         <section>
             <a class="smoothScroll" id="bottom" href="#top"></a>
         </section>
-
-
         <!---Project collapse-->
-
-
         <section id="strip2_gallery" style="display: none">
             <div class="wrapper width-grid">
                 <div class="row-space">
@@ -2151,53 +2143,12 @@
                 </div>
             </div>
         </section>
-
-
         <section id="strip2_gallery">
-            <!--<a id="top" class="smoothScroll cursor-pointer" href="#bottom">Click to bottom</a>-->
-
-
-            <!--<a name="strip5"></a>-->
-
         </section>
-
         <!--mobile-->
-
         <section>
-
-
-
             <!--block2--->
-
-
         </section>
-
-
-
-
-
-        <!--strip 5 post  *****for desktop gallery >1025*********-->
-
-        <!--section id="strip5" class="nogallery-desktop">
-<div class="row" style="background-color:#f9f8f9">
-    <div class="bottom-title"><br />
-        <font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
-            <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: Use of undefined constant our_technology_text - assumed 'our_technology_text' (this will throw an Error in a future version of PHP) in C:\wamp64\www\npm\wp-content\themes\npm\front-page.php on line <i>487</i></th></tr>
-            <tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
-            <tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
-            <tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0078</td><td bgcolor='#eeeeec' align='right'>407640</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\npm\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
-            <tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0159</td><td bgcolor='#eeeeec' align='right'>407992</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'C:\wamp64\www\npm\wp-blog-header.php'</font> )</td><td title='C:\wamp64\www\npm\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>17</td></tr>
-            <tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.3137</td><td bgcolor='#eeeeec' align='right'>10187960</td><td bgcolor='#eeeeec'>require_once( <font color='#00bb00'>'C:\wamp64\www\npm\wp-includes\template-loader.php'</font> )</td><td title='C:\wamp64\www\npm\wp-blog-header.php' bgcolor='#eeeeec'>...\wp-blog-header.php<b>:</b>19</td></tr>
-            <tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.5447</td><td bgcolor='#eeeeec' align='right'>10229104</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'C:\wamp64\www\npm\wp-content\themes\npm\front-page.php'</font> )</td><td title='C:\wamp64\www\npm\wp-includes\template-loader.php' bgcolor='#eeeeec'>...\template-loader.php<b>:</b>74</td></tr>
-        </table></font>
-        <h2 class="title"><div>OUR TECHNOLOGY &#8211; YOUR <span class="color-m">ART</span></div>
-        </h2></div>
-								
-    <div class="clearfix"></div>
-</div>
-</section-->
-
-
         <!--*****for mobile slider strip 5 <1025******--->
         <section class="nogallery-mobile" id="strip5">
             <div>
