@@ -556,7 +556,14 @@ footer .footer-copyright {
 }
 .animation img {
   filter: grayscale(100%);
+  height: auto;
+  width: 10%;
 }
+
+#insta.li{
+  width: 10%;
+}
+
 .animation img:hover {
   filter: none;
 }
