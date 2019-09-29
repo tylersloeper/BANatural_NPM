@@ -2149,7 +2149,7 @@
                         <div>OUR TECHNOLOGY – YOUR <span class="color-m">ART</span></div>
                     </h2>
                 </div>
-                <div style="display: block">
+                <div style="display: block; text-align: center;">
                     <ul>
                         <div>
                             <div>

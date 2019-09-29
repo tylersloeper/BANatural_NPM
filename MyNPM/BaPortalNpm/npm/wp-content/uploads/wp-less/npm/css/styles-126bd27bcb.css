@@ -17,7 +17,6 @@ html.js.flexbox.canvas.canvastext.webgl.touch.geolocation.postmessage.websqldata
 body {
   font-family: 'Heebo', sans-serif !important;
   /*direction: rtl;*/
-  text-align: right;
   font-size: 16px;
   margin: 0;
   letter-spacing: 1px;
@@ -558,12 +557,18 @@ footer .footer-copyright {
   filter: grayscale(100%);
   height: auto;
   width: 100%;
+  text-align: none;
 }
 
 .nmpInstagramStrip{
 	width: 9%;
 	display: inline-block;
 	height:auto;
+	text-align:center !important;
+}
+
+.nmpInstagramStrip div, .nmpInstagramStrip li {
+	text-align:center !important;
 }
 
 #insta.li{
@@ -2544,7 +2549,7 @@ div.wpcf7-acceptance-missing {
   background-color: #35ceff;
 }
 #map2 {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 #map2 h4 {
   color: #616161;
