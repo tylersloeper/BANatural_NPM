@@ -1188,65 +1188,6 @@
             </div>
             <!--mobile icons-->
 
-            <!-- nav menu -->
-            <div class="col-10 mainmenu">
-                <nav class="nav right" role="navigation">
-                    <hr style="color:#76b143; width:100%">
-                    <div class="menu"><ul>
-                        <li class="page_item page-item-4699"><a href="http://localhost:8081/npm/thanks-page/">Thanks page</a></li>
-                        <li class="page_item page-item-4842"><a href="http://localhost:8081/npm/spotlight/">Spotlight</a></li>
-                        <li class="page_item page-item-4247"><a href="http://localhost:8081/npm/tererte/">tererte</a></li>
-                        <li class="page_item page-item-3885"><a href="http://localhost:8081/npm/lptnx/">lptnx</a></li>
-                        <li class="page_item page-item-3882"><a href="http://localhost:8081/npm/lpmobile/">lpmobile</a></li>
-                        <li class="page_item page-item-3884"><a href="http://localhost:8081/npm/lptnx-2/">lptnx</a></li>
-                        <li class="page_item page-item-3878"><a href="http://localhost:8081/npm/lp1/">lp1</a></li>
-                        <li class="page_item page-item-182"><a href="http://localhost:8081/npm/about/">About</a></li>
-                        <li class="page_item page-item-1385"><a href="http://localhost:8081/npm/accessories/">Accessories</a></li>
-                        <li class="page_item page-item-1113"><a href="http://localhost:8081/npm/accessories-3/">Accessories old</a></li>
-                        <li class="page_item page-item-131"><a href="http://localhost:8081/npm/carousel/">carousel our partners</a></li>
-                        <li class="page_item page-item-339"><a href="http://localhost:8081/npm/carousel-tutorials/">carousel tutorials</a></li>
-                        <li class="page_item page-item-177"><a href="http://localhost:8081/npm/clients/">Clients</a></li>
-                        <li class="page_item page-item-1060"><a href="http://localhost:8081/npm/colors/">Colors</a></li>
-                        <li class="page_item page-item-965"><a href="http://localhost:8081/npm/colors-2/">Colors</a></li>
-                        <li class="page_item page-item-278"><a href="http://localhost:8081/npm/contact-page-m/">Contact page for menu</a></li>
-                        <li class="page_item page-item-348"><a href="http://localhost:8081/npm/gadgets/">gadgets</a></li>
-                        <li class="page_item page-item-2 current_page_item"><a href="http://localhost:8081/npm/">HOME</a></li>
-                        <li class="page_item page-item-5023"><a href="http://localhost:8081/npm/%d7%91%d7%99%d7%aa/">בית</a></li>
-                        <li class="page_item page-item-1244"><a href="http://localhost:8081/npm/my-wish-list/">MY WISH LIST</a></li>
-                        <li class="page_item page-item-639"><a href="http://localhost:8081/npm/needles/">Needles</a></li>
-                        <li class="page_item page-item-138"><a href="http://localhost:8081/npm/our-technology/">our technology</a></li>
-                        <li class="page_item page-item-419"><a href="http://localhost:8081/npm/partners/">Partners</a></li>
-                        <li class="page_item page-item-594"><a href="http://localhost:8081/npm/product-details/">product details  (template  posts)</a></li>
-                        <li class="page_item page-item-286"><a href="http://localhost:8081/npm/spotlight-old/">Spotlight Old</a></li>
-                        <li class="page_item page-item-1318"><a href="http://localhost:8081/npm/test-2/">test</a></li>
-                        <li class="page_item page-item-303"><a href="http://localhost:8081/npm/test/">test</a></li>
-                        <li class="page_item page-item-1787"><a href="http://localhost:8081/npm/test-list/">test list</a></li>
-                        <li class="page_item page-item-1846"><a href="http://localhost:8081/npm/test-scrolll/">test scrolll</a></li>
-                    </ul></div>
-                    <ul class="ul-top">
-                        <li style="display:none">
-                            <a class="btn-no-visib" href="http://localhost:8081/npm" data-target="#exampleModalLong2" data-toggle="modal">
-                                <img alt="Logo" src="http://localhost:8081/npm/wp-content/themes/npm/img/search.png">
-                            </a>
-                        </li>
-                        <!--search modal-->
-                        <!--- / search modal-->
-
-                        <!--	<li class="right-icon-share">
-                            <a  target="_blank" rel="nofollow" href="<?php/// echo $share; ?>">
-                                <img src="/img/share.png" alt="Logo" >
-                            </a>
-                        </li>-->
-                        <li style="display:none">
-                            <a href="" target="_blank" rel="nofollow">
-                                <img alt="Logo" src="http://localhost:8081/npm/wp-content/themes/npm/img/search.png">
-                            </a>
-                        </li>
-
-                    </ul>
-                </nav>
-            </div>
-
             <!--col-md-10 end-->
 
             <!--	<hr />-->
@@ -1259,35 +1200,6 @@
 		
 
 <script>
-/*
-function closewish(){
-var date = new Date,
-day = 1; // day save cookie
-date.setDate(date.getDate() + day);
-document.cookie = "coo-wish=no; path=/; expires=" + date.toUTCString();
-$("#coo-wish").remove();
-
-}
-
-
-function getCookiewish(name) {
-
-var matches = document.cookie.match(new RegExp(
-"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-));
-return matches ? decodeURIComponent(matches[1]) : undefined;
-}
-var alertwin = getCookiewish("coo-wish");
-if (alertwin == "no") {
-//alert(alertwin);
-$("#coo-wish").remove();
-}else{
-	$("#coo-wish").css("display", "");
-}
-*/
-
-
-
     function closecoo(){
         var date = new Date,
             day = 120; // day save cookie
@@ -1581,67 +1493,6 @@ $("#coo-wish").remove();
         duration: 1200,
     })
 </script>
-
-
-
-<!--strip7 post  slider from category--->
-
-
-<div>
-    <section class="row" id="strip7" style="background-image:url(http://localhost:8081/npm/wp-content/uploads/2018/10/background.jpg)">
-        <div class="wrapper padding-clients2">
-            <h2 class="sectionTitle"></h2>
-            <h2 class="sectionTitle"></h2>
-
-            <div class="recs">
-
-            </div>
-            <div class="recDots">
-                <ul>
-                </ul>
-            </div>
-        </div><!-- / main Content-->
-
-    </section>
-
-
-
-
-    <script type="text/javascript">
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        // Next/previous controls
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("rec");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].className = "rec";
-            }
-            //slideIndex++;
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].className += " showing fadeInRight animated";
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 1000);
-        }
-    </script>
-</div>
 
 
 <!--strip8 post  close map--->
