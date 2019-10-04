@@ -137,42 +137,6 @@
     <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/782916104/?random=1569772719558&amp;cv=9&amp;fst=1569772719558&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=691&amp;u_w=1229&amp;u_ah=659&amp;u_aw=1229&amp;u_cd=24&amp;u_his=2&amp;u_tz=-240&amp;u_java=true&amp;u_nplug=1&amp;u_nmime=1&amp;gtm=2wg9i1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;tiba=NPM%20International%20%7C%20New%20Permanent%20Makeup%20%7C%20npm&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
 </head>
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-2 sample-page mob-menu-slideout-over" style="top: 0px; position: relative; min-height: 100%;" data-aos-duration="1200" data-aos-delay="0" data-aos-easing="ease">
-    <div class="acor">
-        <button class="accordion">
-            <div class="contboo" style="background: rgb(31, 195, 243);">
-                <img class="aswqaed" src="npm/wp-content/plugins/AccessibilityIWC/img/nag.png"></div>
-        </button>
-    </div>
-    <div class="acdiv">
-
-        <ul>
-            <li><a id="grayclass" href="javascript:void(0)">
-                <img src="npm/wp-content/plugins/AccessibilityIWC/img/2.png"><br>
-                Mono chrome</a></li>
-            <li><a id="negativeclass" href="javascript:void(0)">
-                <img src="npm/wp-content/plugins/AccessibilityIWC/img/3.png"><br>
-                Dark contrast</a></li>
-            <li><a id="negativeclasswhite" href="javascript:void(0)">
-                <img src="npm/wp-content/plugins/AccessibilityIWC/img/4.png"><br>
-                Bright contrast</a></li>
-            <li><a id="plus" href="javascript:void(0)">
-                <img src="npm/wp-content/plugins/AccessibilityIWC/img/5.png"><br>
-                A+</a></li>
-            <li><a id="minus" href="javascript:void(0)">
-                <img src="npm/wp-content/plugins/AccessibilityIWC/img/6.png"><br>
-                A-</a></li>
-            <li><a id="underline" href="javascript:void(0)">
-                <img src="npm/wp-content/plugins/AccessibilityIWC/img/7.png"><br>
-                Highlight links</a></li>
-            <li><a id="reset" href="javascript:void(0)">
-                <img src="npm/wp-content/plugins/AccessibilityIWC/img/8.png"><br>
-                Reset</a></li>
-        </ul>
-
-        <span>
-            <p>© Copyright 2018 All rights reserved</p>
-        </span>
-    </div>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(function () {
