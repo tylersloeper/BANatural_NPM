@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>NPM International | New Permanent Makeup | npm</title>
+    <title>NPM Miami | New Permanent Makeup | npm</title>
 
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
@@ -3236,12 +3236,8 @@
                 </section>
             </main>
             <div class="clearfix"></div>
-
         </section>
-
-
         <section id="contact-page">
-
             <main role="main">
                 <!--Section 2 about-->
                 <section class="row justify-content-md-center" id="contact_form">
@@ -3319,96 +3315,7 @@
                 </section>
             </main>
         </section>
-
-        <script>
-            /*function StartVideo(){
-            var vt = document.getElementById('techno').style.display = "none";
-            document.getElementById('multiCollapseExample6').innerHTML = '<div style="padding:20px"><iframe style="border:none;" src="https://www.youtube.com/embed/XIMLoLxmTDw?playlist=kCfVv3RsGw4c&amp;autoplay=1&amp;VQ=HD720&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;loop=1" width="100%" height="515"></iframe></div>';
-            }
-             function StartVideo2(){
-            var vt = document.getElementById('clientsvideo1').style.display = "none";
-            var vt2 = document.getElementById('clientsvideo2').style.display = "none";
-            var vt3 = document.getElementById('tgfr1').style.display = "none";
-            var vt4 = document.getElementById('tgfr2').style.display = "none";
-        
-            document.getElementById('multiCollapseExample1').innerHTML = '<iframe style="border:none;" src="https://www.youtube.com/embed/XIMLoLxmTDw?playlist=kCfVv3RsGw4c&amp;autoplay=1&amp;VQ=HD720&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;loop=1" width="100%" height="515"></iframe>';
-            document.getElementById('multiCollapseExample2').innerHTML = '<iframe style="border:none;" src="https://www.youtube.com/embed/XIMLoLxmTDw?playlist=kCfVv3RsGw4c&amp;autoplay=1&amp;VQ=HD720&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;loop=1" width="100%" height="515"></iframe>';
-            }*/
-
-
-
-            $(function () {
-                // This will select everything with the class smoothScroll
-                // This should prevent problems with carousel, scrollspy, etc...
-                /*$(window).bind('mousewheel', function(event) {
-                    if (event.originalEvent.wheelDelta >= 0) {
-                        console.log('Scroll up');
-                    }
-                    else {
-                        if($(this).scrollTop() < 50){
-                              var target = $('#bottom');
-                              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                              if (target.length) {
-                                $('html,body').animate({
-                                  scrollTop: target.offset().top
-                                }, 1000);
-                                return true;
-                              }
-                        }
-                    }
-                });*/
-
-
-
-
-
-                /*$(window).scroll(function(event){
-                        event.preventDefault();
-                    if($(this).scrollTop() < 50){
-                          var target = $('#bottom');
-                          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                          if (target.length) {
-                            $('html,body').animate({
-                              scrollTop: target.offset().top
-                            }, 1000);
-                            return false;
-                          }
-                    }else{
-                        return false;
-                    }
-                });*/
-
-
-
-                /*$('.smoothScroll').click(function() {
-                     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                          var target = $(this.hash);
-                          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                          if (target.length) {
-                            $('html,body').animate({
-                              scrollTop: target.offset().top
-                            }, 1000); // The number here represents the speed of the scroll in milliseconds
-                            return false;
-                          }
-                        }
-                  });*/
-            });
-
-
-
-
-        </script>
-
-
-
-
-
-
     </main>
-
-
-
-
     <style>
         .watapp img {
             width: 93%;
@@ -3483,11 +3390,8 @@
                     </div>
                 </div>
                 <!--widget contact data--->
-
-
             </div>
             <!--col-md-10 end-->
-
             <!--icon--->
             <div class="social-icons align-self-center center">
                 <div>
@@ -3500,18 +3404,11 @@
                     </div>
                 </div>
             </div>
-
-
             <!--	<hr />-->
         </div>
-
-
         <!--end icon--->
     </div>
-
     <!-- end desktop footer -->
-
-
     <!--</div>-->
     <footer class="row desktop-show" role="contentinfo">
         <div>
@@ -3711,33 +3608,6 @@
 
 
     <script>
-        /*
-        
-        $(function() {
-          // This will select everything with the class smoothScroll
-          // This should prevent problems with carousel, scrollspy, etc...
-        
-         var $newjq = jQuery.noConflict();
-        
-          $newjq(window).bind('mousewheel', function(event) {
-            if (event.originalEvent.wheelDelta >= 0) {
-                console.log('Scroll up');
-            }
-            else {
-                if($newjq(this).scrollTop() < 50){
-                      var target = $newjq('#bottom');
-                      target = target.length ? target : $newjq('[name=' + this.hash.slice(1) + ']');
-                      if (target.length) {
-                        $newjq('html,body').animate({
-                          scrollTop: target.offset().top
-                        }, 1000);
-                        return true;
-                      }
-                }
-            }
-        });
-        
-        */
         /*****************/
 
         var wpcf7Elm = document.querySelector('.wpcf7');
@@ -3773,23 +3643,6 @@
             console.log(x);
         });
     /******** contact *********/
-
-
-
-
-
-
-
-
-
-/*jQuery(function ($) {
-   var now = new Date(); 
-   var day = ("0" + now.getDate()).slice(-2);
-   var month = ("0" + (now.getMonth() + 1)).slice(-2);
-   var today = now.getFullYear()+"-"+(month)+"-"+(day);
-  $('#datePicker').val(today);
-$("#datePicker").attr("min", today);
-});*/
     </script>
 
     <!-- Load Facebook SDK for JavaScript -->

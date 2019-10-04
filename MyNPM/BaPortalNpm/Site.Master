@@ -7,14 +7,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
-
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="Content/Site.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -37,7 +35,6 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -61,8 +58,99 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+            <footer >
+                <div class=" justify-content-md-center footer-menu desktop-show row" id="footer-menu" style="background-color: #505050; padding-top: 17px;">
+                    <!--icons-->
+                    <div class="row mobile-logo ">
+                        <!-- logo -->
+                        <div>
+                            <div class="logo logo-center">
+                                <a href="npm">
+                                    <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo_footer.png">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /logo -->
+                        <!-- nav menu -->
+                        <div class="col mainmenu">
+                            <nav class="nav right" role="navigation">
+                                <div class="menu">
+                                    <ul>
+                                        <li class="page_item page-item-4699"><a href="npm/thanks-page/">Thanks page</a></li>
+                                        <li class="page_item page-item-4842"><a href="npm/spotlight/">Spotlight</a></li>
+                                        <li class="page_item page-item-4247"><a href="npm/tererte/">tererte</a></li>
+                                        <li class="page_item page-item-3885"><a href="npm/lptnx/">lptnx</a></li>
+                                        <li class="page_item page-item-3882"><a href="npm/lpmobile/">lpmobile</a></li>
+                                        <li class="page_item page-item-3884"><a href="npm/lptnx-2/">lptnx</a></li>
+                                        <li class="page_item page-item-3878"><a href="npm/lp1/">lp1</a></li>
+                                        <li class="page_item page-item-182"><a href="npm/about/">About</a></li>
+                                        <li class="page_item page-item-1385"><a href="npm/accessories/">Accessories</a></li>
+                                        <li class="page_item page-item-1113"><a href="npm/accessories-3/">Accessories old</a></li>
+                                        <li class="page_item page-item-131"><a href="npm/carousel/">carousel our partners</a></li>
+                                        <li class="page_item page-item-339"><a href="npm/carousel-tutorials/">carousel tutorials</a></li>
+                                        <li class="page_item page-item-177"><a href="npm/clients/">Clients</a></li>
+                                        <li class="page_item page-item-1060"><a href="npm/colors/">Colors</a></li>
+                                        <li class="page_item page-item-965"><a href="npm/colors-2/">Colors</a></li>
+                                        <li class="page_item page-item-278"><a href="npm/contact-page-m/">Contact page for menu</a></li>
+                                        <li class="page_item page-item-348"><a href="npm/gadgets/">gadgets</a></li>
+                                        <li class="page_item page-item-2 current_page_item"><a href="npm/">HOME</a></li>
+                                        <li class="page_item page-item-5023"><a href="npm/%d7%91%d7%99%d7%aa/">בית</a></li>
+                                        <li class="page_item page-item-1244"><a href="npm/my-wish-list/">MY WISH LIST</a></li>
+                                        <li class="page_item page-item-639"><a href="npm/needles/">Needles</a></li>
+                                        <li class="page_item page-item-138"><a href="npm/our-technology/">our technology</a></li>
+                                        <li class="page_item page-item-419"><a href="npm/partners/">Partners</a></li>
+                                        <li class="page_item page-item-594"><a href="npm/product-details/">product details  (template  posts)</a></li>
+                                        <li class="page_item page-item-286"><a href="npm/spotlight-old/">Spotlight Old</a></li>
+                                        <li class="page_item page-item-1318"><a href="npm/test-2/">test</a></li>
+                                        <li class="page_item page-item-303"><a href="npm/test/">test</a></li>
+                                        <li class="page_item page-item-1787"><a href="npm/test-list/">test list</a></li>
+                                        <li class="page_item page-item-1846"><a href="npm/test-scrolll/">test scrolll</a></li>
+                                    </ul>
+                                </div>
+                                <hr style="color: white !important; width: 100%; background-color: white">
+                            </nav>
+                            <!--widget contact data--->
+                            <div class="block">
+                                <div class="widget_text" id="text-2">
+                                    <h3>Info footer address</h3>
+                                    <div class="textwidget">
+                                        <p>
+                                            Miami Branch: 8330 SW 8th StMiami, FL 33144 | Phone: (305) 551-1600
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--widget contact data--->
+                        </div>
+                        <!--col-md-10 end-->
+                        <!--icon--->
+                        <div class="social-icons align-self-center center">
+                            <div>
+                                <div class="widget_text" id="text-3">
+                                    <h3>Icons</h3>
+                                    <div class="textwidget">
+                                        <div style="background-color: #505050;"><a href="https://www.facebook.com/newpermanentmakeup/" target="_blank" rel="noopener">
+                                            <img width="50" height="50" class="alignnone wp-image-171" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/5.svg"></a><a href="https://www.instagram.com/npminternational/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-172" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/7.svg"></a><a href="https://www.linkedin.com/company/npm-international/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-173" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/8.svg"></a><a href="https://www.youtube.com/channel/UCNjAwiKP9z_xJT9d0Rx2PcQ" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-174" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/6.svg"></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--	<hr />-->
+                    </div>
+                    <!--end icon--->
+                </div>
+                <div class="row desktop-show" role="contentinfo">
+                    <div>
+                        <img class="logo-img" style="width: 100%;" alt="pas" src="npm/wp-content/themes/npm/img/pas1.gif">
+                    </div>
+                    <!-- copyright -->
+
+                    <div class="col-6 align-self-center">
+                        <p class="footer-copyright">
+                            <span class="content-info-text" style="font-size: 14px;">© Copyright 2018. NPM. All Rights Reserved</span>
+                        </p>
+                    </div>
+                </div>
             </footer>
         </div>
 

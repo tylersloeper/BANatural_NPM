@@ -29,3 +29,58 @@ textarea {
         padding: 0;
     }
 }
+
+#pictureFounder {
+    height: auto;
+    width: auto;
+    max-height: 600px;
+    float: right;
+    max-width: 100%;
+    vertical-align: text-bottom;
+}
+
+#founderContent {
+    width: 50% !important;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+}
+
+#founderImageholder {
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    align-self: flex-end !important;
+    position: relative;
+    width: 25%;
+    height: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#strip6_about h2 {
+    color: #616161;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: lighter !important;
+}
+
+#strip6_about p {
+    text-align: left;
+    line-height: 1.3;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+    font-family: 'Heebo', sans-serif !important;
+}
+
+.padding-about {
+    padding-left: 15%;
+    padding-right: 3%;
+    margin-bottom: 35px;
+}
+
+#founderContentBody {
+    height: auto;
+}
