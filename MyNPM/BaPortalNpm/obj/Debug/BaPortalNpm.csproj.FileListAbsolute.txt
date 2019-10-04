@@ -64,7 +64,6 @@ C:\BaPortalNpm\MyNPM\BaPortalNpm\bin\Newtonsoft.Json.xml
 C:\BaPortalNpm\MyNPM\BaPortalNpm\bin\Antlr3.Runtime.pdb
 C:\BaPortalNpm\MyNPM\BaPortalNpm\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\BaPortalNpm\MyNPM\BaPortalNpm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csprojAssemblyReference.cache
 C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csproj.CoreCompileInputs.cache
 C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csproj.CopyComplete
 C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.dll
