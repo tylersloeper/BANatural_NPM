@@ -67,6 +67,10 @@ textarea {
     font-weight: lighter !important;
 }
 
+#behindTheTechnologyStrip {
+    width: 90%;
+}
+
 #strip6_about p {
     text-align: left;
     line-height: 1.3;

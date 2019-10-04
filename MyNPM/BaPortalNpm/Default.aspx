@@ -418,7 +418,7 @@
 <section id="strip6" style="background-image: url()">
 
 
-    <div class=" row">
+    <div id="behindTheTechnologyStrip" class=" row">
         <div class="maContent fade-right col-md-6 padding-strip6 aos-init" style="text-align: left;" data-aos="fade-right">
             <h2 style="display: none"></h2>
             <p></p>
