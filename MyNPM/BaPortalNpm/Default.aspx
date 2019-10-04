@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BaPortalNpm._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="BodyContentnpm" style="max-width: 100%;" ContentPlaceHolderID="MainContent" runat="server">
 <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg no-smil svgclippaths" lang="en-US" style="height: 100%;">
 <head>
     <link href="npm/wp-content/themes/npm/img/favicon.ico" rel="shortcut icon">
@@ -119,7 +119,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/782916104/?random=1569772719558&amp;cv=9&amp;fst=1569772719558&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=691&amp;u_w=1229&amp;u_ah=659&amp;u_aw=1229&amp;u_cd=24&amp;u_his=2&amp;u_tz=-240&amp;u_java=true&amp;u_nplug=1&amp;u_nmime=1&amp;gtm=2wg9i1&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;tiba=NPM%20International%20%7C%20New%20Permanent%20Makeup%20%7C%20npm&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
 </head>
-<body class="home page-template page-template-front-page page-template-front-page-php page page-id-2 sample-page mob-menu-slideout-over" style="top: 0px; position: relative; min-height: 100%;" data-aos-duration="1200" data-aos-delay="0" data-aos-easing="ease">
+<body class="home page-template page-template-front-page page-template-front-page-php page page-id-2 sample-page mob-menu-slideout-over" style="top: 0px; max-width: 100%; position: relative; min-height: 100%;" data-aos-duration="1200" data-aos-delay="0" data-aos-easing="ease">
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         $(function () {
@@ -216,160 +216,7 @@
 <!-- End Google Tag Manager (noscript) -->
 <div class="strip1 row" id="strip1" style="background-image: url(npm/wp-content/uploads/2018/10/GlowUnlimited.png)">
 
-    <!-- wrapper -->
-    <div class="wrapper">
-        <!-- header -->
-        <header class="header clear" role="banner">
-            <div class="noscroll scrollon" id="headerBGs">
-                <div class="wrapper">
-                    <!--icons-->
-                    <div class="row mobile-logo" style="margin-top: 10px;">
-                        <!-- nav icons-->
-                        <div class="col mainmenu">
-                            <nav class="nav right" role="navigation">
-                                <ul>
-                                    <li>
-                                        <a class="wishlist-icon" href="/my-wish-list/">
-                                            <img style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg"><span class="header-icontext">Wish<span class="header-coltextw">List</span></span>
-                                        </a>
-                                    </li>
-                                    <!---search desktop-->
-                                    <li>
-                                        <!-- sidebar -->
-                                        <aside class="sidebar" role="complementary">
 
-
-
-                                            <form class="search-form" role="search" action="npm/" method="get">
-                                                <button class="search-submit searchbttn inline va-middle" type="submit"></button>
-                                                <input name="s" class="search-field inline pad-right-20 va-middle col-orange font-s-30" type="search" placeholder="search..." value="">
-                                            </form>
-                                            <div class="sidebar-widget">
-                                            </div>
-
-                                            <div class="sidebar-widget">
-                                            </div>
-
-                                        </aside>
-                                        <!-- /sidebar -->
-                                    </li>
-                                    <!--- / search -->
-                                    <li>
-                                        <!--a class="" style="padding: 0;" href="npm">
-                                        <img src="npm/wp-content/themes/npm/img/icons/Globe-01.svg" style="width: 28px;" alt="Logo" ><span class="text-lng"></span>
-                                        <!---btn lng Dropdown-->
-                                        <!--span class="dropdown" ><a class="no-padding" style="font-size: 20px;padding:0" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="btnlng-drow" src="npm/wp-content/themes/npm/img/down-arow.png"></a></span>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item"  style="font-size:16px" href="#">He</a>
-                                            <a class="dropdown-item"  style="font-size:16px" href="#">En</a>
-                                        </div-->
-                                        <!--/a-->
-                                        <div class="dropdown">
-                                        </div>
-                                    </li>
-                                    <!--/ lng-->
-                                </ul>
-                            </nav>
-                        </div>
-                        <hr>
-                    </div>
-                    <!--<hr class="desktop-show2" style="color:#76b143">-->
-
-
-                    <!--icons-->
-                    <div class="row mobile-logo" id="headerBG">
-                        <!-- logo -->
-                        <div class="col-2 logo-top" id="headerMobile">
-                            <div class="logo">
-                                <a href="npm">
-                                    <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo.png">
-                                </a>
-                            </div>
-
-                        </div>
-                        <!-- /logo -->
-
-                        <!--mobile icons-->
-                        <div class="mobile-show4 ">
-                            <a class="col-4" href="/my-wish-list/">
-                                <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg">
-                            </a>
-
-                            <!--<a  class="col-4" data-toggle="modal" data-target="#search3"  href="npm">-->
-                            <a class="col-4" href="npm">
-                                <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
-                            </a>
-
-
-                            <!-- Modal search -->
-                            <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button class="close" aria-label="Close" type="button" data-dismiss="modal">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <a class="col-4" href="npm">
-                                <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Globe-01.svg">
-                            </a>
-
-                        </div>
-                        <!--mobile icons-->
-
-                        <!--col-md-10 end-->
-
-                        <!--	<hr />-->
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <script>
-                function closecoo() {
-                    var date = new Date,
-                        day = 120;
-                    date.setDate(date.getDate() + day);
-                    document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
-                    $("#coo-popoup").remove();
-
-                }
-
-
-                function closecoods() {
-                    window.location.replace("http://www.google.com");
-                }
-
-
-                function getCookiecoo(name) {
-
-                    var matches = document.cookie.match(new RegExp(
-                        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-                    ));
-                    return matches ? decodeURIComponent(matches[1]) : undefined;
-                }
-
-
-                var alertwin = getCookiecoo("coo-popoup");
-                if (alertwin == "no") {
-                    $("#coo-popoup").remove();
-                } else {
-                    $("#coo-popoup").css("display", "");
-                }
-            </script>
-        </header>
-        <!-- /header -->
-    </div>
 </div>
 
 <main role="main">

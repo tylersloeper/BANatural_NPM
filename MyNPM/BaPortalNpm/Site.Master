@@ -85,26 +85,151 @@
             <%--Site Scripts--%>
         </Scripts>
     </asp:ScriptManager>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" runat="server" href="~/">Application name</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a runat="server" href="~/">Home</a></li>
-                    <li><a runat="server" href="~/About">About</a></li>
-                    <li><a runat="server" href="~/Contact">Contact</a></li>
-                </ul>
+<!-- wrapper -->
+<div class="wrapper">
+    <!-- header -->
+    <header class="header clear" role="banner">
+        <div class="noscroll scrollon" id="headerBGs">
+            <div class="wrapper">
+                <!--icons-->
+                <div class="row mobile-logo" style="margin-top: 10px;">
+                    <!-- nav icons-->
+                    <div class="col mainmenu">
+                        <nav class="nav right" role="navigation">
+                            <ul>
+                                <li>
+                                    <a class="wishlist-icon" href="/my-wish-list/">
+                                        <img style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg"><span class="header-icontext">Wish<span class="header-coltextw">List</span></span>
+                                    </a>
+                                </li>
+                                <!---search desktop-->
+                                <li>
+                                    <!-- sidebar -->
+                                    <aside class="sidebar" role="complementary">
+
+
+
+                                        <form class="search-form" role="search" action="npm/" method="get">
+                                            <button class="search-submit searchbttn inline va-middle" type="submit"></button>
+                                            <input name="s" class="search-field inline pad-right-20 va-middle col-orange font-s-30" type="search" placeholder="search..." value="">
+                                        </form>
+                                        <div class="sidebar-widget">
+                                        </div>
+
+                                        <div class="sidebar-widget">
+                                        </div>
+
+                                    </aside>
+                                    <!-- /sidebar -->
+                                </li>
+                                <!--- / search -->
+                                <li>
+                                    <!--a class="" style="padding: 0;" href="npm">
+                                    <img src="npm/wp-content/themes/npm/img/icons/Globe-01.svg" style="width: 28px;" alt="Logo" ><span class="text-lng"></span>
+                                    <!---btn lng Dropdown-->
+                                    <!--span class="dropdown" ><a class="no-padding" style="font-size: 20px;padding:0" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="btnlng-drow" src="npm/wp-content/themes/npm/img/down-arow.png"></a></span>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item"  style="font-size:16px" href="#">He</a>
+                                        <a class="dropdown-item"  style="font-size:16px" href="#">En</a>
+                                    </div-->
+                                    <!--/a-->
+                                    <div class="dropdown">
+                                    </div>
+                                </li>
+                                <!--/ lng-->
+                            </ul>
+                        </nav>
+                    </div>
+                    <hr>
+                </div>
+                <!--<hr class="desktop-show2" style="color:#76b143">-->
+
+
+                <!--icons-->
+                <div class="row mobile-logo" id="headerBG">
+                    <!-- logo -->
+                    <div class="col-2 logo-top" id="headerMobile">
+                        <div class="logo">
+                            <a href="npm">
+                                <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo.png">
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- /logo -->
+
+                    <!--mobile icons-->
+                    <div class="mobile-show4 ">
+                        <a class="col-4" href="/my-wish-list/">
+                            <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg">
+                        </a>
+
+                        <!--<a  class="col-4" data-toggle="modal" data-target="#search3"  href="npm">-->
+                        <a class="col-4" href="npm">
+                            <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
+                        </a>
+
+
+                        <!-- Modal search -->
+                        <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" aria-label="Close" type="button" data-dismiss="modal">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="col-4" href="npm">
+                            <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Globe-01.svg">
+                        </a>
+
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
+        <script>
+            function closecoo() {
+                var date = new Date,
+                    day = 120;
+                date.setDate(date.getDate() + day);
+                document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
+                $("#coo-popoup").remove();
+
+            }
+
+
+            function closecoods() {
+                window.location.replace("http://www.google.com");
+            }
+
+
+            function getCookiecoo(name) {
+
+                var matches = document.cookie.match(new RegExp(
+                    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                ));
+                return matches ? decodeURIComponent(matches[1]) : undefined;
+            }
+
+
+            var alertwin = getCookiecoo("coo-popoup");
+            if (alertwin == "no") {
+                $("#coo-popoup").remove();
+            } else {
+                $("#coo-popoup").css("display", "");
+            }
+        </script>
+    </header>
+    <!-- /header -->
+</div>
+    <div style="max-width: 100%; width:100%;">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
         <hr />
