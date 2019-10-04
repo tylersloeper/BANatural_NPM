@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="BehindTheTechnology.aspx.cs" Inherits="BaPortalNpm.BehindTheTechnology" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <div style="height: 50px;"></div>
     <section id="strip6_about" class="row">
         <div id="founderContentBody" class="row">
             <div id="founderContent" class="maContent col-md-7 col-12 padding-about">

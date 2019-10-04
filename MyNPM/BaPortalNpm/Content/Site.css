@@ -37,6 +37,7 @@ textarea {
     float: right;
     max-width: 100%;
     vertical-align: text-bottom;
+    margin-top: 50%;
 }
 
 #founderContent {
