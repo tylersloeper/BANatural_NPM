@@ -109,9 +109,7 @@
 <script src="npm/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4" type="text/javascript"></script>
 <script src="npm/wp-content/plugins/before-after/js/jquery.beforeafter-1.3.instruite.min.js?ver=4.9.11" type="text/javascript"></script>
 <script type="text/javascript">
-    /* <![CDATA[ */
     var gdMyListAjax = { "ajaxurl": "http:\/\/localhost:8081\/npm\/wp-admin\/admin-ajax.php", "chunckLoading": "http:\/\/localhost:8081\/npm\/wp-content\/plugins\/gd-mylist\/template\/chunck-loading.php?locale=en_US", "chunckBtnLogin": "http:\/\/localhost:8081\/npm\/wp-content\/plugins\/gd-mylist\/template\/btn-login.php?locale=en_US", "chunckBtnAdd": "http:\/\/localhost:8081\/npm\/wp-content\/plugins\/gd-mylist\/template\/chunck-add.php?locale=en_US", "chunckBtnRemove": "http:\/\/localhost:8081\/npm\/wp-content\/plugins\/gd-mylist\/template\/chunck-remove.php?locale=en_US" };
-/* ]]> */
 </script>
 <script src="npm/wp-content/plugins/gd-mylist/js/gd-script.js?ver=4.9.11" type="text/javascript"></script>
 <script src="npm/wp-content/themes/npm/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0" type="text/javascript"></script>
@@ -125,9 +123,7 @@
 <script src="npm/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2" type="text/javascript"></script>
 <script src="npm/wp-content/plugins/sravnitel/assets/js/jquery.sravnitel.js?ver=4.9.11" type="text/javascript"></script>
 <script type="text/javascript">
-    /* <![CDATA[ */
     var favorites_data = { "ajaxurl": "http:\/\/localhost:8081\/npm\/wp-admin\/admin-ajax.php", "nonce": "31c9b472de", "favorite": "Favorite <i  class=\"sf-icon-star-empty\"><\/i>", "favorited": "Favorited <i  class=\"sf-icon-star-full\"><\/i>", "includecount": "1", "indicate_loading": "1", "loading_text": "Loading", "loading_image": "", "loading_image_active": "", "loading_image_preload": "1", "cache_enabled": "", "button_options": { "button_type": "custom", "custom_colors": true, "box_shadow": false, "include_count": true, "default": { "background_default": "transparent", "border_default": "transparent", "text_default": false, "icon_default": "transparent", "count_default": "#000000" }, "active": { "background_active": "transparent", "border_active": "transparent", "text_active": false, "icon_active": "transparent", "count_active": "#1e73be" } }, "authentication_modal_content": "<p>Please login to add favorites.<\/p>\n<p><a href=\"#\" data-favorites-modal-close>Dismiss this notice<\/a><\/p>\n", "authentication_redirect": "", "dev_mode": "", "logged_in": "", "user_id": "0", "authentication_redirect_url": "http:\/\/localhost:8081\/npm\/wp-login.php" };
-/* ]]> */
 </script>
 <script src="npm/wp-content/plugins/favorites/assets/js/favorites.min.js?ver=2.3.1" type="text/javascript"></script>
 <script src="npm/wp-content/plugins/mobile-menu/includes/js/mobmenu.js?ver=4.9.11" type="text/javascript"></script>
@@ -182,7 +178,6 @@
         border: 0px solid #000;
         float: left;
     }
-    /* left/right || top/bottom  */
     .contiwc {
         width: 100px;
         height: 100%;
@@ -196,7 +191,6 @@
         background: #b-left;
         text-align: center;
     }
-    /* background:#999; */
     .contboo img {
         margin: 10px 0 0 0;
         width: 50%;
@@ -212,7 +206,6 @@
         bottom: 0px;
         left: 0px;
     }
-    /* left/right || top/bottom  */
     .acdiv ul {
         list-style-type: none;
         margin: 0;
@@ -233,7 +226,6 @@
         padding: 7px;
         margin: 0px 0 0 0;
     }
-    /* background-color */
     .acdiv ul li a img {
         width: 100%;
     }
@@ -870,22 +862,22 @@
     jQuery(document).ready(function ($) {
         $(function () {
             $(".rslides").responsiveSlides({
-                auto: true,             // Boolean: Animate automatically, true or false
-                speed: 500,            // Integer: Speed of the transition, in milliseconds
-                timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
-                pager: true,           // Boolean: Show pager, true or false
-                nav: true,             // Boolean: Show navigation, true or false
-                random: false,          // Boolean: Randomize the order of the slides, true or false
-                pause: false,           // Boolean: Pause on hover, true or false
-                pauseControls: false,    // Boolean: Pause when hovering controls, true or false
-                prevText: "Prev",   // String: Text for the "previous" button
-                nextText: "Next",       // String: Text for the "next" button
-                maxwidth: "500",           // Integer: Max-width of the slideshow, in pixels
-                navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
-                manualControls: "",     // Selector: Declare custom pager navigation
-                namespace: "rslides",   // String: Change the default namespace used
-                before: function () { },   // Function: Before callback
-                after: function () { }     // Function: After callback
+                auto: true,
+                speed: 500,
+                timeout: 4000,
+                pager: true,
+                nav: true,
+                random: false,
+                pause: false,
+                pauseControls: false,
+                prevText: "Prev",
+                nextText: "Next",
+                maxwidth: "500",
+                navContainer: "",
+                manualControls: "",
+                namespace: "rslides",
+                before: function () { },
+                after: function () { }
             });
         });
     });
@@ -958,8 +950,6 @@
             display: none !important;
         }
     }
-
-    /* Our css Custom Options values */
     @media only screen and (max-width:1025px) {
 
         .mob-menu-left-panel .mobmenu-left-bt, .mob-menu-right-panel .mobmenu-right-bt {
@@ -1018,23 +1008,15 @@
             width: 100%;
             position: initial;
         }
-
-        /* 2nd Level Left Background Color on Hover */
         .mobmenu_content #mobmenuleft .sub-menu li:hover {
             background-color: #eff1f1;
         }
-
-        /* 2nd Level Left Background Color on Hover */
         .mobmenu_content #mobmenuleft .sub-menu li:hover a {
             color: #222;
         }
-
-        /* 2nd Level Right Background Color on Hover */
         .mobmenu_content #mobmenuright .sub-menu li:hover {
             background-color: #eff1f1;
         }
-
-        /* 2nd Level Right Background Color on Hover */
         .mobmenu_content #mobmenuright .sub-menu li:hover a {
             color: #222;
         }
@@ -1114,53 +1096,33 @@
             top: 5px;
             margin-right: 5px;
         }
-
-        /* 2nd Level Menu Items Padding */
         .mobmenu .sub-menu li a {
             padding-left: 50px;
         }
-
-        /* 3rd Level Menu Items Padding */
         .mobmenu .sub-menu .sub-menu li a {
             padding-left: 75px;
         }
-
-        /* 3rd Level Left Menu Items Background color*/
         .mobmenu_content #mobmenuleft .sub-menu .sub-menu li a {
             color: #222;
         }
-
-        /* 3rd Level Left Menu Items Background color on Hover*/
         .mobmenu_content #mobmenuleft .sub-menu .sub-menu li a:hover {
             color: #222;
         }
-
-        /* 3rd Level Left Menu Items Background color*/
         .mobmenu_content #mobmenuleft .sub-menu .sub-menu li {
             background-color: #eff1f1;
         }
-
-        /* 3rd Level Left Menu Items Background color on Hover*/
         .mobmenu_content #mobmenuleft .sub-menu .sub-menu li:hover {
             background-color: #eff1f1;
         }
-
-        /* 3rd Level Right Menu Items Background color*/
         .mobmenu_content #mobmenuright .sub-menu .sub-menu li a {
             color: #222;
         }
-
-        /* 3rd Level Right Menu Items Background color*/
         .mobmenu_content #mobmenuright .sub-menu .sub-menu li {
             background-color: #eff1f1;
         }
-
-        /* 3rd Level Right Menu Items Background color on Hover*/
         .mobmenu_content #mobmenuright .sub-menu .sub-menu li:hover {
             background-color: #eff1f1;
         }
-
-        /* 3rd Level Right Menu Items Background color on Hover*/
         .mobmenu_content #mobmenuright .sub-menu .sub-menu li a:hover {
             color: #222;
         }
@@ -1210,8 +1172,6 @@
             -o-transform: translateX( 270px );
             transform: translateX( 270px );
         }
-
-        /* Will animate the content to the right 275px revealing the hidden nav */
         .mob-menu-slideout.show-nav-left .mobmenu-push-wrap, .mob-menu-slideout.show-nav-left .mob-menu-header-holder {
             -webkit-transform: translate(270px, 0);
             -moz-transform: translate(270px, 0);
@@ -1237,9 +1197,6 @@
             -o-transform: translate3d(-270px, 0, 0);
             transform: translate3d(-270px, 0, 0);
         }
-
-
-        /* Mobmenu Slide Over */
         .mobmenu-overlay {
             opacity: 0;
         }
@@ -1327,8 +1284,6 @@
             -o-transform: translateX(0 );
             transform: translateX( 0 );
         }
-
-        /* Hides everything pushed outside of it */
         .mob-menu-slideout .mob-menu-left-panel, .mob-menu-slideout-over .mob-menu-left-panel {
             position: fixed;
             top: 0;
@@ -1351,8 +1306,6 @@
             opacity: 1;
         }
 
-        /*End of Mobmenu Slide Over */
-
         .mobmenu .headertext {
             color: #222;
         }
@@ -1361,9 +1314,6 @@
             position: initial;
             line-height: 40px;
         }
-
-
-        /* Adds a transition and the resting translate state */
         .mob-menu-slideout .mobmenu-push-wrap, .mob-menu-slideout .mob-menu-header-holder {
             -webkit-transition: -webkit-transform .5s;
             -moz-transition: -moz-transform .5s;
@@ -1381,8 +1331,6 @@
             -o-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
         }
-
-        /* Mobile Menu Frontend CSS Style*/
         html, body {
             overflow-x: hidden;
         }
@@ -1390,8 +1338,6 @@
         .hidden-overflow {
             overflow: hidden !important;
         }
-
-        /* Hides everything pushed outside of it */
         .mob-menu-slideout .mob-menu-left-panel {
             position: fixed;
             top: 0;
@@ -1454,8 +1400,6 @@
     .show-nav-left .mobmenu-push-wrap {
         height: 100%;
     }
-
-    /* Will animate the content to the right 275px revealing the hidden nav */
     .mob-menu-slideout.show-nav-left .mobmenu-push-wrap, .show-nav-left .mob-menu-header-holder {
         -webkit-transition: -webkit-transform .5s;
         -moz-transition: -moz-transform .5s;
@@ -1467,8 +1411,6 @@
     .show-nav-right .mobmenu-push-wrap {
         height: 100%;
     }
-
-    /* Will animate the content to the right 275px revealing the hidden nav */
     .mob-menu-slideout.show-nav-right .mobmenu-push-wrap, .mob-menu-slideout.show-nav-right .mob-menu-header-holder {
         -webkit-transition: -webkit-transform .5s;
         -moz-transition: -moz-transform .5s;
@@ -1675,8 +1617,6 @@
     }
 </style>
 <script>
-    // conditionizr.com
-    // configure environment tests
     conditionizr.config({
         assets: 'npm/wp-content/themes/npm',
         tests: {}
@@ -1951,7 +1891,7 @@
             <script>
                 function closecoo() {
                     var date = new Date,
-                        day = 120; // day save cookie
+                        day = 120;
                     date.setDate(date.getDate() + day);
                     document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
                     $("#coo-popoup").remove();
@@ -1975,7 +1915,6 @@
 
                 var alertwin = getCookiecoo("coo-popoup");
                 if (alertwin == "no") {
-                    //alert(alertwin);
                     $("#coo-popoup").remove();
                 } else {
                     $("#coo-popoup").css("display", "");
@@ -1989,7 +1928,6 @@
 <main role="main">
 
 <script>
-    //bistart
     $('#bistart').click(function (e) {
         document.getElementById('bistart').style.display = "none";
         document.getElementById('trfdehtc').style.top = "-200px";
@@ -1997,20 +1935,14 @@
 
         document.getElementById('bistarts').style.display = "none";
         var ifrm = document.createElement('iframe');
-        ifrm.setAttribute('class', 'height-frame'); // assign an id
-        ifrm.setAttribute('width', '1920'); // assign an id
-        ifrm.setAttribute('height', '650'); // assign an id
-        ifrm.setAttribute('frameborder', '0'); // assign an id
-        ifrm.setAttribute('allow', 'autoplay; fullscreen; vr'); // assign an id
-        ifrm.setAttribute('mozallowfullscreen', 'true'); // assign an id
-
-        //document.body.appendChild(ifrm); // to place at end of document
-
-        // to place before another page element
+        ifrm.setAttribute('class', 'height-frame');
+        ifrm.setAttribute('width', '1920');
+        ifrm.setAttribute('height', '650');
+        ifrm.setAttribute('frameborder', '0');
+        ifrm.setAttribute('allow', 'autoplay; fullscreen; vr');
+        ifrm.setAttribute('mozallowfullscreen', 'true');
         var el = document.getElementById('memoriframe');
         el.parentNode.insertBefore(ifrm, el);
-
-        // assign url
         ifrm.setAttribute('src', 'https://sketchfab.com/models/960cff85a59849d88a8a4e4859d7815b/embed?api_version=1.3.0&api_id=1_hero-viewer&autostart=1&internal=1&scrollwheel=0&sound_enable=0&transparent=1&ui_animations=0&ui_annotations=0&ui_controls=0&ui_fadeout=0&ui_fullscreen=0&ui_help=0&ui_infos=0&ui_inspector=0&ui_settings=0&ui_snapshots=0&ui_stop=0&ui_theatre=0&ui_watermark=0');
     });
     $('#bistarts').click(function (e) {
@@ -2021,20 +1953,14 @@
 
         document.getElementById('bistarts').style.display = "none";
         var ifrm = document.createElement('iframe');
-        ifrm.setAttribute('class', 'height-frame'); // assign an id
-        ifrm.setAttribute('width', '1920'); // assign an id
-        ifrm.setAttribute('height', '650'); // assign an id
-        ifrm.setAttribute('frameborder', '0'); // assign an id
-        ifrm.setAttribute('allow', 'autoplay; fullscreen; vr'); // assign an id
-        ifrm.setAttribute('mozallowfullscreen', 'true'); // assign an id
-
-        //document.body.appendChild(ifrm); // to place at end of document
-
-        // to place before another page element
+        ifrm.setAttribute('class', 'height-frame');
+        ifrm.setAttribute('width', '1920');
+        ifrm.setAttribute('height', '650');
+        ifrm.setAttribute('frameborder', '0');
+        ifrm.setAttribute('allow', 'autoplay; fullscreen; vr');
+        ifrm.setAttribute('mozallowfullscreen', 'true');
         var el = document.getElementById('memoriframe');
         el.parentNode.insertBefore(ifrm, el);
-
-        // assign url
         ifrm.setAttribute('src', 'https://sketchfab.com/models/960cff85a59849d88a8a4e4859d7815b/embed?api_version=1.3.0&api_id=1_hero-viewer&autostart=1&internal=1&scrollwheel=0&sound_enable=0&transparent=1&ui_animations=0&ui_annotations=0&ui_controls=0&ui_fadeout=0&ui_fullscreen=0&ui_help=0&ui_infos=0&ui_inspector=0&ui_settings=0&ui_snapshots=0&ui_stop=0&ui_theatre=0&ui_watermark=0');
     });
 
@@ -2266,9 +2192,7 @@
 </div>
 
 <script type="text/javascript">
-    /* <![CDATA[ */
     var wpcf7 = { "apiSettings": { "root": "http:\/\/localhost:8081\/npm\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };
-/* ]]> */
 </script>
 <script src="npm/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1" type="text/javascript"></script>
 <script src="npm/wp-content/plugins/google-language-translator/js/scripts.js?ver=5.0.48" type="text/javascript"></script>
@@ -2276,9 +2200,7 @@
 <script src="npm/wp-content/plugins/twenty20/assets/js/jquery.twenty20.js?ver=1.55" type="text/javascript"></script>
 <script src="npm/wp-content/plugins/twenty20/assets/js/jquery.event.move.js?ver=1.55" type="text/javascript"></script>
 <script type="text/javascript">
-    /* <![CDATA[ */
     var viewsCacheL10n = { "admin_ajax_url": "http:\/\/localhost:8081\/npm\/wp-admin\/admin-ajax.php", "post_id": "2", "is_singular": "1" };
-/* ]]> */
 </script>
 <script src="npm/wp-content/plugins/yuzo-related-post/assets/js/yuzo-postviews-cache.js?ver=5.12.88" type="text/javascript"></script>
 <script src="npm/wp-content/plugins/yuzo-related-post/assets/js/jquery.equalizer.js?ver=5.12.88" type="text/javascript"></script>
@@ -2286,9 +2208,7 @@
 <script src="npm/wp-content/plugins/wp-carousel-free/public/js/slick.js?ver=2.0.0" type="text/javascript"></script>
 <script src="npm/wp-content/plugins/wp-carousel-free/public/js/wp-carousel-free-public.js?ver=2.0.0" type="text/javascript"></script>
 <script type="text/javascript">
-    /* <![CDATA[ */
     var wpcf7iqfix = { "recaptcha_empty": "Please verify that you are not a robot." };
-/* ]]> */
 </script>
 <script src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&amp;render=explicit&amp;ver=2.0" type="text/javascript"></script>
 <script type="text/javascript">
@@ -2360,16 +2280,11 @@
 
 
 <script>
-    /*****************/
 
     var wpcf7Elm = document.querySelector('.wpcf7');
     wpcf7Elm.addEventListener('wpcf7mailsent', function (event) {
         window.setTimeout(function () { window.location = "https://localhost:8081/npm/thanks-page/"; }, 1000);
     }, false);
-    /*****************/
-
-
-    /******** contact *********/
     jQuery(function ($) {
         var now = new Date();
         var day = ("0" + now.getDate()).slice(-2);
@@ -2390,11 +2305,10 @@
             ampm = "pm";
         }
         x = hr + ":" + min + ampm;
-        $('#yoururl').val(''); // ערוץ	
-        $('#yourtime').val(x); // ערוץ	
+        $('#yoururl').val('');
+        $('#yourtime').val(x);
         console.log(x);
     });
-    /******** contact *********/
 </script>
 
 <!-- Load Facebook SDK for JavaScript -->
@@ -2445,22 +2359,16 @@
 <script>
     $('.show-form').on('click', function (event) {
         event.preventDefault();
-        var elem = $(this); //writing $(this) every time is bad
+        var elem = $(this);
         var target = $('div[data-target="' + elem.attr("data-target") + '"]');
 
         if (elem.hasClass('active')) {
-            //remove from this
             elem.removeClass("active");
-            //close box
             target.slideUp("slow");
-        } else { //toggle menu when clicking on some other link
-            //remove from everywhere
+        } else {
             $('.show-form').removeClass('active');
-            //slide every box up
             $('.collapse').slideUp("slow");
-            //add to this only
             elem.addClass('active');
-            //slide associated box down
             target.slideDown("slow");
         }
     });
