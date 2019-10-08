@@ -85,144 +85,120 @@
             <%--Site Scripts--%>
         </Scripts>
     </asp:ScriptManager>
+    <div class="wrapper">
+        <header class="header clear" role="banner">
+            <div class="noscroll scrollon" id="headerBGs">
+                <div class="wrapper">
+                    <div class="row mobile-logo" style="margin-top: 10px;">
+                        <div class="col mainmenu">
+                            <nav class="nav right" role="navigation">
+                                <ul>
+                                    <li>
+                                        <a class="wishlist-icon" href="/my-wish-list/">
+                                            <span>Shop</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="wishlist-icon" href="/my-wish-list/">
+                                            <span>Treatments</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="wishlist-icon" href="/my-wish-list/">
+                                            <span>Seminars</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="wishlist-icon" href="http://www.banatural.com/">
+                                            <span>About BA Natural</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <aside class="sidebar" role="complementary">
+                                            <form class="search-form" role="search" action="npm/" method="get">
+                                                <button class="search-submit searchbttn inline va-middle" type="submit"></button>
+                                                <input name="s" class="search-field inline pad-right-20 va-middle col-orange font-s-30" type="search" placeholder="search..." value="">
+                                            </form>
+                                            <div class="sidebar-widget">
+                                            </div>
 
-<div class="wrapper">
-    
-    <header class="header clear" role="banner">
-        <div class="noscroll scrollon" id="headerBGs">
-            <div class="wrapper">
-                
-                <div class="row mobile-logo" style="margin-top: 10px;">
-                    
-                    <div class="col mainmenu">
-                        <nav class="nav right" role="navigation">
-                            <ul>
-                                <li>
-                                    <a class="wishlist-icon" href="/my-wish-list/">
-                                        <img style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg"><span class="header-icontext">Wish<span class="header-coltextw">List</span></span>
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    
-                                    <aside class="sidebar" role="complementary">
-
-
-
-                                        <form class="search-form" role="search" action="npm/" method="get">
-                                            <button class="search-submit searchbttn inline va-middle" type="submit"></button>
-                                            <input name="s" class="search-field inline pad-right-20 va-middle col-orange font-s-30" type="search" placeholder="search..." value="">
-                                        </form>
-                                        <div class="sidebar-widget">
+                                            <div class="sidebar-widget">
+                                            </div>
+                                        </aside>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown">
                                         </div>
-
-                                        <div class="sidebar-widget">
-                                        </div>
-
-                                    </aside>
-                                    
-                                </li>
-                                
-                                <li>
-                                    
-                                    
-                                    
-                                    <div class="dropdown">
-                                    </div>
-                                </li>
-                                
-                            </ul>
-                        </nav>
-                    </div>
-                    <hr>
-                </div>
-                
-
-
-                
-                <div class="row mobile-logo" id="headerBG">
-                    
-                    <div class="col-2 logo-top" id="headerMobile">
-                        <div class="logo">
-                            <a href="npm">
-                                <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo.png">
-                            </a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
-
+                        <hr>
                     </div>
-                    
-
-                    
-                    <div class="mobile-show4 ">
-                        <a class="col-4" href="/my-wish-list/">
-                            <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg">
-                        </a>
-
-                        
-                        <a class="col-4" href="npm">
-                            <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
-                        </a>
-
-
-                        
-                        <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button class="close" aria-label="Close" type="button" data-dismiss="modal">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                    </div>
-
-                                </div>
+                    <div class="row mobile-logo" id="headerBG">
+                        <div class="col-2 logo-top" id="headerMobile">
+                            <div class="logo">
+                                <a href="Default.aspx">
+                                    <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo.png">
+                                </a>
                             </div>
                         </div>
-
-                        <a class="col-4" href="npm">
-                            <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Globe-01.svg">
-                        </a>
-
+                        <div class="mobile-show4 ">
+                            <a class="col-4" href="npm">
+                                <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
+                            </a>
+                            <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button class="close" aria-label="Close" type="button" data-dismiss="modal">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="col-4" href="npm">
+                                <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Globe-01.svg">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <script>
-            function closecoo() {
-                var date = new Date,
-                    day = 120;
-                date.setDate(date.getDate() + day);
-                document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
-                $("#coo-popoup").remove();
+            <script>
+                function closecoo() {
+                    var date = new Date,
+                        day = 120;
+                    date.setDate(date.getDate() + day);
+                    document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
+                    $("#coo-popoup").remove();
 
-            }
+                }
 
+                function closecoods() {
+                    window.location.replace("http://www.google.com");
+                }
 
-            function closecoods() {
-                window.location.replace("http://www.google.com");
-            }
+                function getCookiecoo(name) {
 
+                    var matches = document.cookie.match(new RegExp(
+                        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                    ));
+                    return matches ? decodeURIComponent(matches[1]) : undefined;
+                }
 
-            function getCookiecoo(name) {
-
-                var matches = document.cookie.match(new RegExp(
-                    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-                ));
-                return matches ? decodeURIComponent(matches[1]) : undefined;
-            }
-
-
-            var alertwin = getCookiecoo("coo-popoup");
-            if (alertwin == "no") {
-                $("#coo-popoup").remove();
-            } else {
-                $("#coo-popoup").css("display", "");
-            }
-        </script>
-    </header>
+                var alertwin = getCookiecoo("coo-popoup");
+                if (alertwin == "no") {
+                    $("#coo-popoup").remove();
+                } else {
+                    $("#coo-popoup").css("display", "");
+                }
+            </script>
+        </header>
     
-</div>
+    </div>
     <div style="max-width: 100%; width:100%;">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
@@ -252,7 +228,6 @@
                         <img src="npm/wp-content/plugins/AccessibilityIWC/img/8.png"><br>
                         Reset</a></li>
                 </ul>
-
                 <span>
                     <p>© Copyright 2018 All rights reserved</p>
                 </span>
@@ -260,10 +235,7 @@
             <div class="watapp"><a href="https://api.whatsapp.com/send?phone=972552449798" target="_blank">
                 <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/fin-01-01.svg"></a></div>
             <div class=" justify-content-md-center footer-menu desktop-show row" id="footer-menu" style="background-color: #505050; padding-top: 17px;">
-
-                
                 <div class="row mobile-logo ">
-                    
                     <div>
                         <div class="logo logo-center">
                             <a href="npm">
@@ -271,10 +243,6 @@
                             </a>
                         </div>
                     </div>
-                    
-
-
-                    
                     <div class="col mainmenu">
                         <nav class="nav right" role="navigation">
                             <div class="menu">
@@ -300,10 +268,7 @@
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    
-                    
                     <div class="social-icons align-self-center center">
                         <div>
                             <div class="widget_text" id="text-3">
@@ -315,22 +280,17 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-                
             </div>
             <footer class="row desktop-show" role="contentinfo">
                 <div>
                     <img class="logo-img" style="width: 100%;" alt="pas" src="npm/wp-content/themes/npm/img/pas1.gif">
                 </div>
-                
-
                 <div class="col-6 align-self-center">
                     <p class="footer-copyright">
                         <span class="content-info-text" style="font-size: 14px;">© Copyright 2018. NPM. All Rights Reserved</span>
                     </p>
                 </div>
-
             </footer>
             <div class="size18" id="flags" style="display: none">
                 <ul class="ui-sortable" id="sortable">
@@ -356,7 +316,6 @@
             </div>
         </div>
     </div>
-
 </form>
 </body>
 </html>

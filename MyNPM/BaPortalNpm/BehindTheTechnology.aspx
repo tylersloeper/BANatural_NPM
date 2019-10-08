@@ -1,7 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="BehindTheTechnology.aspx.cs" Inherits="BaPortalNpm.BehindTheTechnology" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="height: 50px;"></div>
+    <div style="height: 60px;"></div>
+    <section id="topImage" class="row">
+        <div class="img-top2">
+            <iframe id="player" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="1920" height="900" src="https://www.youtube.com/embed/_99R7qGkSck?autoplay=1&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;showsearch=0&amp;autohide=0&amp;wmode=opaque&amp;mute=1&amp;playsinline=1&amp;loop=1&amp;playlist=_99R7qGkSck&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fnpm-int.com&amp;widgetid=1"></iframe>
+        </div>
+    </section>
     <section id="strip6_about" class="row">
         <div id="founderContentBody" class="row">
             <div id="founderContent" class="maContent col-md-7 col-12 padding-about">
