@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BaPortalNpm.SiteMaster" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -59,249 +60,255 @@
     <link href="https://translate.googleapis.com/translate_static/css/translateelement.css" rel="stylesheet" type="text/css" charset="UTF-8">
 </head>
 <body>
-<form runat="server">
-    <asp:ScriptManager runat="server">
-        <Scripts>
-            <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-            <%--Framework Scripts--%>
-            <asp:ScriptReference Name="MsAjaxBundle" />
-            <asp:ScriptReference Name="jquery" />
-            <asp:ScriptReference Name="bootstrap" />
-            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
-            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
-            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
-            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
-            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
-            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
-            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
-            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-            <asp:ScriptReference Name="WebFormsBundle" />
-            <%--Site Scripts--%>
-        </Scripts>
-    </asp:ScriptManager>
-    <div class="wrapper">
-        <header class="header clear" role="banner">
-            <div class="noscroll scrollon" id="headerBGs">
-                <div class="wrapper">
-                    <div class="row mobile-logo" style="margin-top: 10px;">
-                        <div class="col mainmenu">
-                            <nav class="nav right" role="navigation">
-                                <ul>
-                                    <li>
-                                        <a class="wishlist-icon" href="/my-wish-list/">
-                                            <span>Shop</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="wishlist-icon" href="/my-wish-list/">
-                                            <span>Treatments</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="wishlist-icon" href="/my-wish-list/">
-                                            <span>Seminars</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="wishlist-icon" href="http://www.banatural.com/">
-                                            <span>About BA Natural</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <aside class="sidebar" role="complementary">
-                                            <form class="search-form" role="search" action="npm/" method="get">
-                                                <button class="search-submit searchbttn inline va-middle" type="submit"></button>
-                                                <input name="s" class="search-field inline pad-right-20 va-middle col-orange font-s-30" type="search" placeholder="search..." value="">
-                                            </form>
-                                            <div class="sidebar-widget">
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <div class="wrapper">
+            <header class="header clear" role="banner">
+                <div class="noscroll scrollon" id="headerBGs">
+                    <div class="wrapper">
+                        <div class="row mobile-logo" style="margin-top: 10px;">
+                            <div class="col mainmenu">
+                                <nav class="nav right" role="navigation">
+                                    <ul>
+                                        <li>
+                                            <a class="wishlist-icon" href="/my-wish-list/">
+                                                <span>Shop</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="wishlist-icon" href="/my-wish-list/">
+                                                <span>Treatments</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="wishlist-icon" href="/my-wish-list/">
+                                                <span>Seminars</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="wishlist-icon" href="http://www.banatural.com/">
+                                                <span>About BA Natural</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <aside class="sidebar" role="complementary">
+                                                <form class="search-form" role="search" action="npm/" method="get">
+                                                    <button class="search-submit searchbttn inline va-middle" type="submit"></button>
+                                                    <input name="s" class="search-field inline pad-right-20 va-middle col-orange font-s-30" type="search" placeholder="search..." value="">
+                                                </form>
+                                                <div class="sidebar-widget">
+                                                </div>
+                                                <div class="sidebar-widget">
+                                                </div>
+                                            </aside>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown">
                                             </div>
-                                            <div class="sidebar-widget">
-                                            </div>
-                                        </aside>
-                                    </li>
-                                    <li>
-                                        <div class="dropdown">
-                                        </div>
-                                    </li>
-                                </ul>
-                            </nav>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
-                    </div>
-                    <div class="row mobile-logo" id="headerBG">
-                        <div class="col-2 logo-top" id="headerMobile">
-                            <div class="logo">
-                                <a href="Default.aspx">
-                                    <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo.png">
+                        <div class="row mobile-logo" id="headerBG">
+                            <div class="col-2 logo-top" id="headerMobile">
+                                <div class="logo">
+                                    <a href="Default.aspx">
+                                        <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mobile-show4 ">
+                                <a class="col-4" href="npm">
+                                    <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
+                                </a>
+                                <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button class="close" aria-label="Close" type="button" data-dismiss="modal">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="col-4" href="npm">
+                                    <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Globe-01.svg">
                                 </a>
                             </div>
                         </div>
-                        <div class="mobile-show4 ">
-                            <a class="col-4" href="npm">
-                                <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
-                            </a>
-                            <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button class="close" aria-label="Close" type="button" data-dismiss="modal">
-                                                <span aria-hidden="true">×</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
+                    </div>
+                </div>
+                <script>
+                    function closecoo() {
+                        var date = new Date,
+                            day = 120;
+                        date.setDate(date.getDate() + day);
+                        document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
+                        $("#coo-popoup").remove();
+                    }
+                    function closecoods() {
+                        window.location.replace("http://www.google.com");
+                    }
+                    function getCookiecoo(name) {
+                        var matches = document.cookie.match(new RegExp(
+                            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                        ));
+                        return matches ? decodeURIComponent(matches[1]) : undefined;
+                    }
+                    var alertwin = getCookiecoo("coo-popoup");
+                    if (alertwin == "no") {
+                        $("#coo-popoup").remove();
+                    } else {
+                        $("#coo-popoup").css("display", "");
+                    }
+                </script>
+            </header>
+        </div>
+        <div style="max-width: 100%; width: 100%;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <div id="footerContainer">
+                <div class="acdiv">
+                    <ul>
+                        <li><a id="grayclass" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/2.png"><br>
+                            Mono chrome</a></li>
+                        <li><a id="negativeclass" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/3.png"><br>
+                            Dark contrast</a></li>
+                        <li><a id="negativeclasswhite" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/4.png"><br>
+                            Bright contrast</a></li>
+                        <li><a id="plus" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/5.png"><br>
+                            A+</a></li>
+                        <li><a id="minus" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/6.png"><br>
+                            A-</a></li>
+                        <li><a id="underline" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/7.png"><br>
+                            Highlight links</a></li>
+                        <li><a id="reset" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/8.png"><br>
+                            Reset</a></li>
+                    </ul>
+                    <span>
+                        <p>© Copyright 2018 All rights reserved</p>
+                    </span>
+                </div>
+                <div class="watapp">
+                    <a href="https://api.whatsapp.com/send?phone=972552449798" target="_blank">
+                        <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/fin-01-01.svg"></a>
+                </div>
+                <div class=" justify-content-md-center footer-menu desktop-show row" id="footer-menu" style="background-color: #505050; padding-top: 17px;">
+                    <div class="row mobile-logo ">
+                        <div>
+                            <div class="logo logo-center">
+                                <a href="npm">
+                                    <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo_footer.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col mainmenu">
+                            <nav class="nav right" role="navigation">
+                                <div class="menu">
+                                    <ul>
+                                        <li class="page_item page-item-4699"><a href="npm/thanks-page/">About</a></li>
+                                        <li class="page_item page-item-4842"><a href="npm/spotlight/">Gadgets</a></li>
+                                        <li class="page_item page-item-4247"><a href="npm/tererte/">Colors</a></li>
+                                        <li class="page_item page-item-3885"><a href="npm/lptnx/">Needles</a></li>
+                                        <li class="page_item page-item-3882"><a href="npm/lpmobile/">Accessories</a></li>
+                                        <li class="page_item page-item-3882"><a href="npm/lpmobile/">Treatments</a></li>
+                                    </ul>
+                                </div>
+                                <hr style="color: white !important; width: 100%; background-color: white">
+                            </nav>
+                            <div class="block">
+                                <div class="widget_text" id="text-2">
+                                    <h3>Info footer address</h3>
+                                    <div class="textwidget">
+                                        <p>
+                                            Miami Branch: 8330 SW 8th StMiami, FL 33144 | Phone: (305) 551-1600
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons align-self-center center">
+                            <div>
+                                <div class="widget_text" id="text-3">
+                                    <h3>Icons</h3>
+                                    <div class="textwidget">
+                                        <div style="background-color: #505050;">
+                                            <a href="https://www.facebook.com/newpermanentmakeup/" target="_blank" rel="noopener">
+                                                <img width="50" height="50" class="alignnone wp-image-171" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/5.svg"></a><a href="https://www.instagram.com/npminternational/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-172" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/7.svg"></a><a href="https://www.linkedin.com/company/npm-international/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-173" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/8.svg"></a><a href="https://www.youtube.com/channel/UCNjAwiKP9z_xJT9d0Rx2PcQ" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-174" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/6.svg"></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="col-4" href="npm">
-                                <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Globe-01.svg">
-                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <script>
-                function closecoo() {
-                    var date = new Date,
-                        day = 120;
-                    date.setDate(date.getDate() + day);
-                    document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
-                    $("#coo-popoup").remove();
-                }
-                function closecoods() {
-                    window.location.replace("http://www.google.com");
-                }
-                function getCookiecoo(name) {
-                    var matches = document.cookie.match(new RegExp(
-                        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-                    ));
-                    return matches ? decodeURIComponent(matches[1]) : undefined;
-                }
-                var alertwin = getCookiecoo("coo-popoup");
-                if (alertwin == "no") {
-                    $("#coo-popoup").remove();
-                } else {
-                    $("#coo-popoup").css("display", "");
-                }
-            </script>
-        </header>
-    </div>
-    <div style="max-width: 100%; width:100%;">
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        </asp:ContentPlaceHolder>
-        <hr />
-        <div id="footerContainer" >
-            <div class="acdiv">
-                <ul>
-                    <li><a id="grayclass" href="javascript:void(0)">
-                        <img src="npm/wp-content/plugins/AccessibilityIWC/img/2.png"><br>
-                        Mono chrome</a></li>
-                    <li><a id="negativeclass" href="javascript:void(0)">
-                        <img src="npm/wp-content/plugins/AccessibilityIWC/img/3.png"><br>
-                        Dark contrast</a></li>
-                    <li><a id="negativeclasswhite" href="javascript:void(0)">
-                        <img src="npm/wp-content/plugins/AccessibilityIWC/img/4.png"><br>
-                        Bright contrast</a></li>
-                    <li><a id="plus" href="javascript:void(0)">
-                        <img src="npm/wp-content/plugins/AccessibilityIWC/img/5.png"><br>
-                        A+</a></li>
-                    <li><a id="minus" href="javascript:void(0)">
-                        <img src="npm/wp-content/plugins/AccessibilityIWC/img/6.png"><br>
-                        A-</a></li>
-                    <li><a id="underline" href="javascript:void(0)">
-                        <img src="npm/wp-content/plugins/AccessibilityIWC/img/7.png"><br>
-                        Highlight links</a></li>
-                    <li><a id="reset" href="javascript:void(0)">
-                        <img src="npm/wp-content/plugins/AccessibilityIWC/img/8.png"><br>
-                        Reset</a></li>
-                </ul>
-                <span>
-                    <p>© Copyright 2018 All rights reserved</p>
-                </span>
-            </div>
-            <div class="watapp"><a href="https://api.whatsapp.com/send?phone=972552449798" target="_blank">
-                <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/fin-01-01.svg"></a></div>
-            <div class=" justify-content-md-center footer-menu desktop-show row" id="footer-menu" style="background-color: #505050; padding-top: 17px;">
-                <div class="row mobile-logo ">
+                <footer class="row desktop-show" role="contentinfo">
                     <div>
-                        <div class="logo logo-center">
-                            <a href="npm">
-                                <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo_footer.png">
-                            </a>
+                        <img class="logo-img" style="width: 100%;" alt="pas" src="npm/wp-content/themes/npm/img/pas1.gif">
+                    </div>
+                    <div class="col-6 align-self-center">
+                        <p class="footer-copyright">
+                            <span class="content-info-text" style="font-size: 14px;">© Copyright 2018. NPM. All Rights Reserved</span>
+                        </p>
+                    </div>
+                </footer>
+                <div class="size18" id="flags" style="display: none">
+                    <ul class="ui-sortable" id="sortable">
+                        <li id="English"><a title="English" class="nturl notranslate en flag united-states" data-lang="English"></a></li>
+                        <li id="French"><a title="French" class="nturl notranslate fr flag French" data-lang="French"></a></li>
+                        <li id="Hebrew"><a title="Hebrew" class="nturl notranslate iw flag Hebrew" data-lang="Hebrew"></a></li>
+                        <li id="Spanish"><a title="Spanish" class="nturl notranslate es flag Spanish" data-lang="Spanish"></a></li>
+                    </ul>
+                </div>
+                <div id="glt-footer">
+                    <div class="default-language-en" id="google_language_translator">
+                        <div class="skiptranslate goog-te-gadget" dir="ltr">
+                            <div id=":0.targetLanguage">
+                                <select class="goog-te-combo" aria-label="Language Translate Widget">
+                                    <option value="">Select Language</option>
+                                    <option value="fr">French</option>
+                                    <option value="iw">Hebrew</option>
+                                    <option value="es">Spanish</option>
+                                </select>
+                            </div>
+                            Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank">
+                                <img width="37" height="14" style="padding-right: 3px" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span>
                         </div>
                     </div>
-                    <div class="col mainmenu">
-                        <nav class="nav right" role="navigation">
-                            <div class="menu">
-                                <ul>
-                                    <li class="page_item page-item-4699"><a href="npm/thanks-page/">About</a></li>
-                                    <li class="page_item page-item-4842"><a href="npm/spotlight/">Gadgets</a></li>
-                                    <li class="page_item page-item-4247"><a href="npm/tererte/">Colors</a></li>
-                                    <li class="page_item page-item-3885"><a href="npm/lptnx/">Needles</a></li>
-                                    <li class="page_item page-item-3882"><a href="npm/lpmobile/">Accessories</a></li>
-                                    <li class="page_item page-item-3882"><a href="npm/lpmobile/">Treatments</a></li>
-                                </ul>
-                            </div>
-                            <hr style="color: white !important; width: 100%; background-color: white">
-                        </nav>
-                        <div class="block">
-                            <div class="widget_text" id="text-2">
-                                <h3>Info footer address</h3>
-                                <div class="textwidget">
-                                    <p>
-                                        Miami Branch: 8330 SW 8th StMiami, FL 33144 | Phone: (305) 551-1600
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="social-icons align-self-center center">
-                        <div>
-                            <div class="widget_text" id="text-3">
-                                <h3>Icons</h3>
-                                <div class="textwidget">
-                                    <div style="background-color: #505050;"><a href="https://www.facebook.com/newpermanentmakeup/" target="_blank" rel="noopener">
-                                        <img width="50" height="50" class="alignnone wp-image-171" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/5.svg"></a><a href="https://www.instagram.com/npminternational/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-172" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/7.svg"></a><a href="https://www.linkedin.com/company/npm-international/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-173" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/8.svg"></a><a href="https://www.youtube.com/channel/UCNjAwiKP9z_xJT9d0Rx2PcQ" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-174" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/6.svg"></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <footer class="row desktop-show" role="contentinfo">
-                <div>
-                    <img class="logo-img" style="width: 100%;" alt="pas" src="npm/wp-content/themes/npm/img/pas1.gif">
-                </div>
-                <div class="col-6 align-self-center">
-                    <p class="footer-copyright">
-                        <span class="content-info-text" style="font-size: 14px;">© Copyright 2018. NPM. All Rights Reserved</span>
-                    </p>
-                </div>
-            </footer>
-            <div class="size18" id="flags" style="display: none">
-                <ul class="ui-sortable" id="sortable">
-                    <li id="English"><a title="English" class="nturl notranslate en flag united-states" data-lang="English"></a></li>
-                    <li id="French"><a title="French" class="nturl notranslate fr flag French" data-lang="French"></a></li>
-                    <li id="Hebrew"><a title="Hebrew" class="nturl notranslate iw flag Hebrew" data-lang="Hebrew"></a></li>
-                    <li id="Spanish"><a title="Spanish" class="nturl notranslate es flag Spanish" data-lang="Spanish"></a></li>
-                </ul>
-            </div>
-            <div id="glt-footer">
-                <div class="default-language-en" id="google_language_translator">
-                    <div class="skiptranslate goog-te-gadget" dir="ltr">
-                        <div id=":0.targetLanguage">
-                            <select class="goog-te-combo" aria-label="Language Translate Widget">
-                                <option value="">Select Language</option>
-                                <option value="fr">French</option>
-                                <option value="iw">Hebrew</option>
-                                <option value="es">Spanish</option>
-                            </select></div>
-                        Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank">
-                            <img width="37" height="14" style="padding-right: 3px" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span></div>
                 </div>
             </div>
         </div>
-    </div>
-</form>
+    </form>
 </body>
 </html>
