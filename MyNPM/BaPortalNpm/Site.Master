@@ -19,14 +19,14 @@
     <title>NPM Miami | New Permanent Makeup | npm</title>
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    <!--animation--->
+    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="description" content="Leader in New Permanent Makeup">
-    <!-- All in One SEO Pack 2.12 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+    
     <meta name="description" content="NPM is a world leader specializing in the technique of inserting pigments into the skin and improving appearance and emphasizing the existing natural lines.">
     <meta name="keywords" content="NPM International,NPM,Permanent Makeup,Makeup">
     <link href="npm/" rel="canonical">
-    <!-- /all in one seo pack -->
+    
     <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
     <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch">
     <link href="//npmsite.goil.co.il" rel="dns-prefetch">
@@ -57,7 +57,7 @@
     <link href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0" rel="stylesheet" media="all">
     <link href="npm/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=4.9.11" rel="stylesheet" media="all">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!--n2css-->
+    
     <link href="npm/wp-json/" rel="https://api.w.org/">
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F" rel="alternate" type="application/json+oembed">
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
@@ -85,15 +85,15 @@
             <%--Site Scripts--%>
         </Scripts>
     </asp:ScriptManager>
-<!-- wrapper -->
+
 <div class="wrapper">
-    <!-- header -->
+    
     <header class="header clear" role="banner">
         <div class="noscroll scrollon" id="headerBGs">
             <div class="wrapper">
-                <!--icons-->
+                
                 <div class="row mobile-logo" style="margin-top: 10px;">
-                    <!-- nav icons-->
+                    
                     <div class="col mainmenu">
                         <nav class="nav right" role="navigation">
                             <ul>
@@ -102,9 +102,9 @@
                                         <img style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg"><span class="header-icontext">Wish<span class="header-coltextw">List</span></span>
                                     </a>
                                 </li>
-                                <!---search desktop-->
+                                
                                 <li>
-                                    <!-- sidebar -->
+                                    
                                     <aside class="sidebar" role="complementary">
 
 
@@ -120,34 +120,28 @@
                                         </div>
 
                                     </aside>
-                                    <!-- /sidebar -->
+                                    
                                 </li>
-                                <!--- / search -->
+                                
                                 <li>
-                                    <!--a class="" style="padding: 0;" href="npm">
-                                    <img src="npm/wp-content/themes/npm/img/icons/Globe-01.svg" style="width: 28px;" alt="Logo" ><span class="text-lng"></span>
-                                    <!---btn lng Dropdown-->
-                                    <!--span class="dropdown" ><a class="no-padding" style="font-size: 20px;padding:0" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="btnlng-drow" src="npm/wp-content/themes/npm/img/down-arow.png"></a></span>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item"  style="font-size:16px" href="#">He</a>
-                                        <a class="dropdown-item"  style="font-size:16px" href="#">En</a>
-                                    </div-->
-                                    <!--/a-->
+                                    
+                                    
+                                    
                                     <div class="dropdown">
                                     </div>
                                 </li>
-                                <!--/ lng-->
+                                
                             </ul>
                         </nav>
                     </div>
                     <hr>
                 </div>
-                <!--<hr class="desktop-show2" style="color:#76b143">-->
+                
 
 
-                <!--icons-->
+                
                 <div class="row mobile-logo" id="headerBG">
-                    <!-- logo -->
+                    
                     <div class="col-2 logo-top" id="headerMobile">
                         <div class="logo">
                             <a href="npm">
@@ -156,21 +150,21 @@
                         </div>
 
                     </div>
-                    <!-- /logo -->
+                    
 
-                    <!--mobile icons-->
+                    
                     <div class="mobile-show4 ">
                         <a class="col-4" href="/my-wish-list/">
                             <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/w1.svg">
                         </a>
 
-                        <!--<a  class="col-4" data-toggle="modal" data-target="#search3"  href="npm">-->
+                        
                         <a class="col-4" href="npm">
                             <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
                         </a>
 
 
-                        <!-- Modal search -->
+                        
                         <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -227,7 +221,7 @@
             }
         </script>
     </header>
-    <!-- /header -->
+    
 </div>
     <div style="max-width: 100%; width:100%;">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
@@ -267,9 +261,9 @@
                 <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/fin-01-01.svg"></a></div>
             <div class=" justify-content-md-center footer-menu desktop-show row" id="footer-menu" style="background-color: #505050; padding-top: 17px;">
 
-                <!--icons-->
+                
                 <div class="row mobile-logo ">
-                    <!-- logo -->
+                    
                     <div>
                         <div class="logo logo-center">
                             <a href="npm">
@@ -277,10 +271,10 @@
                             </a>
                         </div>
                     </div>
-                    <!-- /logo -->
+                    
 
 
-                    <!-- nav menu -->
+                    
                     <div class="col mainmenu">
                         <nav class="nav right" role="navigation">
                             <div class="menu">
@@ -295,7 +289,7 @@
                             </div>
                             <hr style="color: white !important; width: 100%; background-color: white">
                         </nav>
-                        <!--widget contact data--->
+                        
                         <div class="block">
                             <div class="widget_text" id="text-2">
                                 <h3>Info footer address</h3>
@@ -306,10 +300,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!--widget contact data--->
+                        
                     </div>
-                    <!--col-md-10 end-->
-                    <!--icon--->
+                    
+                    
                     <div class="social-icons align-self-center center">
                         <div>
                             <div class="widget_text" id="text-3">
@@ -321,15 +315,15 @@
                             </div>
                         </div>
                     </div>
-                    <!--	<hr />-->
+                    
                 </div>
-                <!--end icon--->
+                
             </div>
             <footer class="row desktop-show" role="contentinfo">
                 <div>
                     <img class="logo-img" style="width: 100%;" alt="pas" src="npm/wp-content/themes/npm/img/pas1.gif">
                 </div>
-                <!-- copyright -->
+                
 
                 <div class="col-6 align-self-center">
                     <p class="footer-copyright">

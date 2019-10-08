@@ -68,3 +68,4 @@ C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csproj.CoreCompileInputs.
 C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csproj.CopyComplete
 C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.dll
 C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.pdb
+C:\BaPortalNpm\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csprojAssemblyReference.cache

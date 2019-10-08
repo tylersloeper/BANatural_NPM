@@ -19,7 +19,7 @@
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    <!--animation--->
+    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://mc.yandex.ru/metrika/tag.js" async=""></script>
     <script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.9.4" async=""></script>
@@ -39,13 +39,13 @@
 
     <meta name="description" content="Leader in New Permanent Makeup">
 
-    <!-- All in One SEO Pack 2.12 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+    
     <meta name="description" content="NPM is a world leader specializing in the technique of inserting pigments into the skin and improving appearance and emphasizing the existing natural lines.">
 
     <meta name="keywords" content="NPM International,NPM,Permanent Makeup,Makeup">
 
     <link href="npm/" rel="canonical">
-    <!-- /all in one seo pack -->
+    
     <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
     <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch">
     <link href="//npmsite.goil.co.il" rel="dns-prefetch">
@@ -80,7 +80,7 @@
     <link id="simple-favorites-css" href="npm/wp-content/plugins/favorites/assets/css/favorites.css?ver=2.3.1" rel="stylesheet" media="all">
     <link id="bfa-font-awesome-css" href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0" rel="stylesheet" media="all">
     <link id="cssmobmenu-icons-css" href="npm/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=4.9.11" rel="stylesheet" media="all">
-    <!--n2css-->
+    
     <script src="npm/wp-includes/js/jquery/jquery.js?ver=1.12.4" type="text/javascript"></script>
     <script src="npm/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" type="text/javascript"></script>
     <script src="npm/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" type="text/javascript"></script>
@@ -112,7 +112,7 @@
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
     <link href="npm/wp-content/plugins/AccessibilityIWC/css/a11y.css" rel="stylesheet" type="text/css">
     <script src="npm/wp-content/plugins/AccessibilityIWC/js/a11y.js"></script>
-    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script-->
+    
     <link href="https://translate.googleapis.com/translate_static/css/translateelement.css" rel="stylesheet" type="text/css" charset="UTF-8">
     <script src="https://translate.googleapis.com/translate_static/js/element/main.js" type="text/javascript" charset="UTF-8"></script>
     <script src="https://translate.googleapis.com/element/TE_20190724_00/e/js/element/element_main.js" type="text/javascript" charset="UTF-8"></script>
@@ -168,7 +168,7 @@
     &lt;img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=495420&amp;fmt=gif" /&gt;
 </noscript>
 
-<!-- Google Tag Manager -->
+
 <script>(function (w, d, s, l, i) {
     w[l] = w[l] || []; w[l].push({
         'gtm.start':
@@ -177,14 +177,14 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
 })(window, document, 'script', 'dataLayer', 'GTM-PBF75ZQ');</script>
-<!-- End Google Tag Manager -->
-<!-- Owl Stylesheets -->
+
+
 <link href="npm/wp-content/themes/npm/js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="npm/wp-content/themes/npm/js/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 <script src="https://localhost:8081/npm/wp-content/themes/npm/js/owlcarousel/owl.carousel.js"></script>
 
 
-<!-- Facebook Pixel Code -->
+
 <script>
     !function (f, b, e, v, n, t, s) {
         if (f.fbq) return; n = f.fbq = function () {
@@ -205,15 +205,15 @@
     src="https://www.facebook.com/tr?id=1333325126781355&amp;ev=PageView
     &amp;noscript=1"/&gt;
 </noscript>
-<!-- End Facebook Pixel Code -->
 
 
-<!-- Google Tag Manager (noscript) -->
+
+
 <noscript>
     &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBF75ZQ"
     height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
 </noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="strip1 row" id="strip1" style="background-image: url(npm/wp-content/uploads/2018/10/GlowUnlimited.png)">
 
 
@@ -222,10 +222,7 @@
 <main role="main">
 
 
-<!--	<section id="topImage" class="row">
-    <img class="img-top2 img-full top-banner-home img-responsive" src="">
-    <div class="btn-home ">  <a class="readmore" href="/contact-form/ ">הצטרפו עוד היום  </a></div>
-</section>-->
+
 
 <section class="strip2 row margin-auto" id="strip2">
 
@@ -241,7 +238,7 @@
     <div class="sketchfab-embed-wrapper" style="text-align: center; margin: 0 auto; width: 100%;">
 
         <div class="thert"></div>
-        <!--div id="bistart" style="width:100%; height:auto;   text-align:center;   z-index: 9999;"><img src="npm/wp-content/themes/npm/img/UnlimitedGlow.png" alt="Logo" ></div-->
+        
         <img id="bistart" style="cursor: pointer;" src="npm/wp-content/themes/npm/img/simg1.png">
 
         <div class="memorisme" id="bistarts">
@@ -249,7 +246,7 @@
         <div id="memoriframe"></div>
     </div>
 
-    <!-- 	<a class="btn-3d">INTERACT</a>-->
+    
 
 
 </section>
@@ -294,11 +291,11 @@
 <section>
     <a class="smoothScroll" id="bottom" href="#top"></a>
 </section>
-<!---Project collapse-->
+
 <section id="strip2_gallery" style="display: none">
     <div class="wrapper width-grid">
         <div class="row-space">
-            <!--row-->
+            
             <h2 class="title"></h2>
             <h2><span style="color: #2ec6f3; font-weight: normal !important;">GLOW</span> is finally here</h2>
             <div>
@@ -309,11 +306,11 @@
 </section>
 <section id="strip2_gallery">
 </section>
-<!--mobile-->
+
 <section>
-    <!--block2--->
+    
 </section>
-<!--*****for mobile slider strip 5 <1025******--->
+
 <section id="strip5">
     <div>
         <div class="bottom-title">
@@ -427,13 +424,13 @@
             NPM Ltd. was established in 2005 in the vicinity of Israel’s northern shoreline, in a high tech industrial and technological park.
             NPM’s innovative products – ORON 56, ORON 57, ORON 60, GLOW 7 and GLOW 10 for permanent make-up and micro-pigmentation are currently sold around the world and can be found at leading institutes.<p></p>
             <div class="text-left">
-                <!--<a  class="readmore" href="">MORE </a>-->
-                <a class="readmore" href=" https://npm-int.com/about/">MORE</a>
+                
+                <a class="readmore" href="BehindTheTechnology.aspx">MORE</a>
             </div>
         </div>
         <div class="maImage fade-left col-md-6 right no-paddingmob aos-init" style="padding-left: 7%; padding-top: 3%;" data-aos="fade-left">
             <iframe width="100%" height="450" src="https://www.youtube.com/embed/eXlty0Ecgu4?playlist=eXlty0Ecgu4&amp;autoplay=1&amp;VQ=HD720&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;loop=1" frameborder="0" allowfullscreen="" style="margin: 0 10px 0 -15px; height: 23.9vw;" allow="autoplay; encrypted-media"></iframe>
-            <!--open video modal-->
+            
             <div class="collapse multi-collapse" id="multiCollapseExample6">
                 <div>
                     <div>
@@ -459,7 +456,7 @@
 </script>
 
 
-<!--strip8 post  close map--->
+
 <section class="row" id="strip8" style="display: none">
     <div class="wrapper row">
         <div class="center2">
@@ -474,14 +471,14 @@
 </section>
 
 
-<!--****from partner map*******--->
+
 
 <section id="map2">
-<!--************************map main**************************-->
+
 
 <div class="partner-padd">
 <div class="wrapper width-grid" style="margin-top: 120px;">
-<!--map picture-->
+
 <div class="center2">
     <h4 class="title">WORLD DISTRIBUTION</h4>
 </div>
@@ -490,26 +487,26 @@
 </div>
 <div class="nomap-mobile">
     <img style="max-width: 100% !important; width: 100%" alt="Logo" src="npm/wp-content/themes/npm/img/MapMobileGifFix.gif">
-    <!-- <img src="npm/wp-content/themes/npm/img/map-gif.gif" style="max-width: 113% !important;" alt="Logo" > -->
+    
 </div>
-<!--s amerika-->
+
 <div class="row">
     <div class="col-5">
         <div class="center cursor-pointer ">
             <a class="btn  usa" data-target="#exampleModal" data-toggle="modal">
-                <!--img style="" src="npm/wp-content/uploads/2018/10/Map-Place2.gif"-->
+                
                 <p class="text-grid-tab text-days"></p>
             </a>
         </div>
-        <!-- Modal -->
+        
         <div tabindex="-1" class="modal fade" id="exampleModal-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding1">
                     <div class="modal-body">
-                        <!--USA-->
+                        
                         <div class="row tab-border popup-style" style="background-color: #2fc7f4; padding: 24px 0px; display: none">
                             <div class="col-md-5 col-12 align-self-center nopadding-right">
-                                <!--img class="map-height" src="npm/wp-content/uploads/2019/02/Anna-Khita-6-fix.jpg"-->
+                                
                             </div>
                             <div class="col-md-7 col-12">
                                 <div class="center cursor-pointer scroll-modal scroll-modal">
@@ -528,31 +525,31 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
+        
     </div>
-    <!--test  pomenat map-->
+    
 
 
 
 
-    <!--Europe-->
+    
     <div class="col-5 no-padding ">
-        <!--China-->
+        
         <div class="center cursor-pointer ">
             <a class="btn  china2" data-target="#exampleModal12" data-toggle="modal">
-                <!--img style="" src="npm/wp-content/uploads/2018/10/Map-Place2.gif"-->
-                <!--	 <p class="text-grid-tab">CHINA</p>-->
+                
+                
             </a>
         </div>
-        <!-- Modal -->
+        
         <div tabindex="-1" class="modal fade" id="exampleModal12-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel12-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding2">
                     <div class="modal-body">
-                        <!--row3 -->
+                        
                         <div class="row tab-border popup-style" style="background-color: #2fc7f4; padding: 24px 0px; display: none">
                             <div class="col-md-5 col-12 align-self-center nopadding-right">
-                                <!--img class="map-height" src="npm/wp-content/uploads/2018/10/Stella-Liang.jpg"-->
+                                
                             </div>
                             <div class="col-md-7 col-12">
                                 <div class="center cursor-pointer scroll-modal">
@@ -571,23 +568,23 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
+        
 
-        <!--INDIA-->
+        
         <div class="center cursor-pointer ">
             <a class="btn india no-maptitle" data-target="#exampleModal13" data-toggle="modal">
-                <!--img style="" src="npm/wp-content/uploads/2018/10/Map-Place2.gif"-->
-                <!--	 <p class="text-grid-tab">INDIA</p>-->
+                
+                
             </a>
         </div>
-        <!-- Modal -->
+        
         <div tabindex="-1" class="modal fade" id="exampleModal13-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel13-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding3">
                     <div class="modal-body">
                         <div class="row tab-border popup-style" style="background-color: #2fc7f4; padding: 24px 0px; display: none">
                             <div class="col-md-5 col-12 align-self-center nopadding-right">
-                                <!--img class="map-height" src="npm/wp-content/uploads/2018/10/‏‏לכידה.jpg"-->
+                                
                             </div>
                             <div class="col-md-7 col-12">
                                 <div class="center cursor-pointer scroll-modal">
@@ -631,27 +628,27 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
+        
 
-        <!-- / popup INDIA-->
+        
     </div>
 </div>
 
 <div class="row">
-    <!--n amerika-->
+    
     <div class="col-5  text-left" style="">
         <p class="text-grid-tab"></p>
     </div>
-    <!--afrika-->
+    
     <div class="col-6 margin-map ">
-        <!--icon click  to Germany popup-->
+        
         <div class="center cursor-pointer ">
             <a class="btn germany " data-target="#exampleModal14" data-toggle="modal">
-                <!--img style="" src="npm/wp-content/uploads/2018/10/Map-Place2.gif"-->
-                <!--	 <p class="text-grid-tab">Europe</p>-->
+                
+                
             </a>
         </div>
-        <!-- Modal -->
+        
         <div tabindex="-1" class="modal fade" id="exampleModal14-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel14-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding4">
@@ -675,18 +672,18 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
+        
 
-        <!-- / popup Germany-->
+        
 
-        <!--icon click THE NETHERLANDS popup-->
+        
         <div class="center cursor-pointer ">
             <a class="btn niderlandy " data-target="#exampleModal15" data-toggle="modal">
-                <!--img style="" src="npm/wp-content/uploads/2018/10/Map-Place2.gif"-->
-                <!-- <p class="text-grid-tab">THE NETHERLANDS</p>-->
+                
+                
             </a>
         </div>
-        <!-- Modal -->
+        
         <div tabindex="-1" class="modal fade" id="exampleModal15-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel15-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding5">
@@ -711,21 +708,21 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
+        
 
-        <!-- / popup THE NETHERLANDS-->
+        
 
 
 
-        <!--click icon popup THE Israel-->
+        
         <div class="center cursor-pointer ">
             <a class="btn israel " data-target="#exampleModal16" data-toggle="modal">
-                <!--	   <img style="margin: -7px 0 0 -60px;" src="">-->
-                <!--img style="" src="npm/wp-content/uploads/2018/10/Map-Place2.gif"-->
-                <!--		<p class="text-grid-tab">ISRAEL</p>-->
+                
+                
+                
             </a>
         </div>
-        <!-- Modal -->
+        
         <div tabindex="-1" class="modal fade" id="exampleModal16-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel16-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding6">
@@ -755,33 +752,29 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
-        <!-- / *********************popup THE Israel*******************-->
+        
+        
     </div>
 </div>
-<!--   <div style="margin: 0 auto">	<a href="/partners/" class="">MORE</a> </div>-->
+
 <div class="clearfix"></div>
-<!--map-->
+
 
 </div>
 <div class="margin-auto"><a class="more-map" href="/partners/">ALL</a> </div>
 
 </div>
-<!--/ TAb 2-->
-<!--**************************/map****************************-->
+
+
 </section>
 
-<!--end from partner map-->
 
 
 
-<!-- instagramm -->
 
-<!--section id="strip9">
 
-<div class="clearfix"></div>
 
-</section-->
+
 
 <section id="strip9">
 
@@ -1373,7 +1366,7 @@
 </section>
 <section id="contact-page">
     <main role="main">
-        <!--Section 2 about-->
+        
         <section class="row justify-content-md-center" id="contact_form">
             <div class="wrapper">
                 <h2>CONTACT</h2>
@@ -1450,9 +1443,9 @@
     </main>
 </section>
 </main>
-<!-- /wrapper -->
 
-<!--script src="npm/wp-content/themes/npm/js/owl.carousel.js"></script-->
+
+
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
     });
@@ -1488,7 +1481,7 @@
     <div class="mob-menu-logo-holder"><a class="headertext" href="npm"><span>NPM International</span></a></div>
     <div class="mobmenur-container"><a class="mobmenu-right-bt" href="#"><i class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a></div>
 </div>
-<!--  Right Panel Structure -->
+
 <div class="mob-menu-right-panel mobmenu  ">
     <a class="mobmenu-right-bt" href="#"><i class="mob-icon-cancel mob-cancel-button"></i></a>
     <div class="mobmenu_content">
@@ -1580,8 +1573,8 @@
         });
     })(jQuery);
 </script>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.1.3/jquery.min.js"></script>-->
-<!-- analytics -->
+
+
 
 
 <script>
@@ -1616,7 +1609,7 @@
     });
 </script>
 
-<!-- Load Facebook SDK for JavaScript -->
+
 <div class=" fb_reset" id="fb-root">
     <div style="top: -10000px; width: 0px; height: 0px; position: absolute;">
         <div>
@@ -1636,11 +1629,11 @@
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
 
 
 
-<!-- Yandex.Metrika counter -->
+
+
 <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
@@ -1657,7 +1650,7 @@
         });
     </script>
 <noscript>&lt;div&gt;&lt;img src="https://mc.yandex.ru/watch/52141933" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
-<!-- /Yandex.Metrika counter -->
+
 
 
 
