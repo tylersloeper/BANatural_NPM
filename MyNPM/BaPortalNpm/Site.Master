@@ -1,7 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BaPortalNpm.SiteMaster" %>
-
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <link href="Content/Site.css" rel="stylesheet" />
@@ -19,14 +17,11 @@
     <title>NPM Miami | New Permanent Makeup | npm</title>
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="description" content="Leader in New Permanent Makeup">
-    
     <meta name="description" content="NPM is a world leader specializing in the technique of inserting pigments into the skin and improving appearance and emphasizing the existing natural lines.">
     <meta name="keywords" content="NPM International,NPM,Permanent Makeup,Makeup">
     <link href="npm/" rel="canonical">
-    
     <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
     <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch">
     <link href="//npmsite.goil.co.il" rel="dns-prefetch">
@@ -57,7 +52,6 @@
     <link href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0" rel="stylesheet" media="all">
     <link href="npm/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=4.9.11" rel="stylesheet" media="all">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    
     <link href="npm/wp-json/" rel="https://api.w.org/">
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F" rel="alternate" type="application/json+oembed">
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
@@ -121,7 +115,6 @@
                                             </form>
                                             <div class="sidebar-widget">
                                             </div>
-
                                             <div class="sidebar-widget">
                                             </div>
                                         </aside>
@@ -174,21 +167,16 @@
                     date.setDate(date.getDate() + day);
                     document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
                     $("#coo-popoup").remove();
-
                 }
-
                 function closecoods() {
                     window.location.replace("http://www.google.com");
                 }
-
                 function getCookiecoo(name) {
-
                     var matches = document.cookie.match(new RegExp(
                         "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
                     ));
                     return matches ? decodeURIComponent(matches[1]) : undefined;
                 }
-
                 var alertwin = getCookiecoo("coo-popoup");
                 if (alertwin == "no") {
                     $("#coo-popoup").remove();
@@ -197,7 +185,6 @@
                 }
             </script>
         </header>
-    
     </div>
     <div style="max-width: 100%; width:100%;">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
@@ -257,7 +244,6 @@
                             </div>
                             <hr style="color: white !important; width: 100%; background-color: white">
                         </nav>
-                        
                         <div class="block">
                             <div class="widget_text" id="text-2">
                                 <h3>Info footer address</h3>

@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="BehindTheTechnology.aspx.cs" Inherits="BaPortalNpm.BehindTheTechnology" %>
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div style="height: 60px;"></div>
     <section id="topImage" class="row">

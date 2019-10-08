@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BaPortalNpm._Default" %>
-
 <asp:Content ID="BodyContentnpm" style="max-width: 100%;" ContentPlaceHolderID="MainContent" runat="server">
 <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg no-smil svgclippaths" lang="en-US" style="height: 100%;">
 <head>
@@ -15,11 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>NPM Miami | New Permanent Makeup | npm</title>
-
-
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://mc.yandex.ru/metrika/tag.js" async=""></script>
     <script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.9.4" async=""></script>
@@ -36,16 +32,10 @@
     <link rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" rel="stylesheet" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
-
     <meta name="description" content="Leader in New Permanent Makeup">
-
-    
     <meta name="description" content="NPM is a world leader specializing in the technique of inserting pigments into the skin and improving appearance and emphasizing the existing natural lines.">
-
     <meta name="keywords" content="NPM International,NPM,Permanent Makeup,Makeup">
-
     <link href="npm/" rel="canonical">
-    
     <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
     <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch">
     <link href="//npmsite.goil.co.il" rel="dns-prefetch">
@@ -80,7 +70,6 @@
     <link id="simple-favorites-css" href="npm/wp-content/plugins/favorites/assets/css/favorites.css?ver=2.3.1" rel="stylesheet" media="all">
     <link id="bfa-font-awesome-css" href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0" rel="stylesheet" media="all">
     <link id="cssmobmenu-icons-css" href="npm/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=4.9.11" rel="stylesheet" media="all">
-    
     <script src="npm/wp-includes/js/jquery/jquery.js?ver=1.12.4" type="text/javascript"></script>
     <script src="npm/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" type="text/javascript"></script>
     <script src="npm/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" type="text/javascript"></script>
@@ -112,7 +101,6 @@
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
     <link href="npm/wp-content/plugins/AccessibilityIWC/css/a11y.css" rel="stylesheet" type="text/css">
     <script src="npm/wp-content/plugins/AccessibilityIWC/js/a11y.js"></script>
-    
     <link href="https://translate.googleapis.com/translate_static/css/translateelement.css" rel="stylesheet" type="text/css" charset="UTF-8">
     <script src="https://translate.googleapis.com/translate_static/js/element/main.js" type="text/javascript" charset="UTF-8"></script>
     <script src="https://translate.googleapis.com/element/TE_20190724_00/e/js/element/element_main.js" type="text/javascript" charset="UTF-8"></script>
@@ -167,8 +155,6 @@
 <noscript>
     &lt;img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=495420&amp;fmt=gif" /&gt;
 </noscript>
-
-
 <script>(function (w, d, s, l, i) {
     w[l] = w[l] || []; w[l].push({
         'gtm.start':
@@ -177,14 +163,9 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
 })(window, document, 'script', 'dataLayer', 'GTM-PBF75ZQ');</script>
-
-
 <link href="npm/wp-content/themes/npm/js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="npm/wp-content/themes/npm/js/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 <script src="https://localhost:8081/npm/wp-content/themes/npm/js/owlcarousel/owl.carousel.js"></script>
-
-
-
 <script>
     !function (f, b, e, v, n, t, s) {
         if (f.fbq) return; n = f.fbq = function () {
@@ -205,57 +186,34 @@
     src="https://www.facebook.com/tr?id=1333325126781355&amp;ev=PageView
     &amp;noscript=1"/&gt;
 </noscript>
-
-
-
-
 <noscript>
     &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBF75ZQ"
     height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
 </noscript>
-
 <div class="strip1 row" id="strip1" style="background-image: url(npm/wp-content/uploads/2018/10/GlowUnlimited.png)">
-
-
 </div>
-
 <main role="main">
-
-
-
-
 <section class="strip2 row margin-auto" id="strip2">
-
     <img class="height-icon" alt="" src="">
-
     <div class="text-top">
         <a class="smoothScroll cursor-pointer" id="top" href="#bottom"></a>
         <h1 class="title" id="trfdehtc">
             <div class="head">THE <span class="color-m">FUTURE</span> IS ALREADY HERE</div>
         </h1>
     </div>
-
     <div class="sketchfab-embed-wrapper" style="text-align: center; margin: 0 auto; width: 100%;">
-
         <div class="thert"></div>
-        
         <img id="bistart" style="cursor: pointer;" src="npm/wp-content/themes/npm/img/simg1.png">
-
         <div class="memorisme" id="bistarts">
             <img style="cursor: pointer;" src="npm/wp-content/themes/npm/img/3D.png"></div>
         <div id="memoriframe"></div>
     </div>
-
-    
-
-
 </section>
 <script>
     $('#bistart').click(function (e) {
         document.getElementById('bistart').style.display = "none";
         document.getElementById('trfdehtc').style.top = "-200px";
         document.getElementById('trfdehtc').style.position = "relative";
-
         document.getElementById('bistarts').style.display = "none";
         var ifrm = document.createElement('iframe');
         ifrm.setAttribute('class', 'height-frame');
@@ -270,10 +228,8 @@
     });
     $('#bistarts').click(function (e) {
         document.getElementById('bistart').style.display = "none";
-
         document.getElementById('trfdehtc').style.top = "-200px";
         document.getElementById('trfdehtc').style.position = "relative";
-
         document.getElementById('bistarts').style.display = "none";
         var ifrm = document.createElement('iframe');
         ifrm.setAttribute('class', 'height-frame');
@@ -286,16 +242,13 @@
         el.parentNode.insertBefore(ifrm, el);
         ifrm.setAttribute('src', 'https://sketchfab.com/models/960cff85a59849d88a8a4e4859d7815b/embed?api_version=1.3.0&api_id=1_hero-viewer&autostart=1&internal=1&scrollwheel=0&sound_enable=0&transparent=1&ui_animations=0&ui_annotations=0&ui_controls=0&ui_fadeout=0&ui_fullscreen=0&ui_help=0&ui_infos=0&ui_inspector=0&ui_settings=0&ui_snapshots=0&ui_stop=0&ui_theatre=0&ui_watermark=0');
     });
-
 </script>
 <section>
     <a class="smoothScroll" id="bottom" href="#top"></a>
 </section>
-
 <section id="strip2_gallery" style="display: none">
     <div class="wrapper width-grid">
         <div class="row-space">
-            
             <h2 class="title"></h2>
             <h2><span style="color: #2ec6f3; font-weight: normal !important;">GLOW</span> is finally here</h2>
             <div>
@@ -306,11 +259,8 @@
 </section>
 <section id="strip2_gallery">
 </section>
-
 <section>
-    
 </section>
-
 <section id="strip5">
     <div>
         <div class="bottom-title">
@@ -325,7 +275,6 @@
                         <div class="nmpInstagramStrip"aria-hidden="false"  data-slick-index="4">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B2JjB7Xnm3O/">
                                         <img src="//scontent.cdninstagram.com/vp/5f3a3602575c0fe9a087580d58ba904a/5E2F7EA1/t51.2885-15/sh0.08/e35/s640x640/69217409_2696503257061730_792889456014083303_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -333,7 +282,6 @@
                         <div class="nmpInstagramStrip"aria-hidden="false"  data-slick-index="5">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B1_8YBznxBu/">
                                         <img src="//scontent.cdninstagram.com/vp/bad29b3b3531fbf04ab698ec3dad0cc2/5E1B0B46/t51.2885-15/sh0.08/e35/s640x640/69855148_502953773857739_5199591188006671739_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -341,7 +289,6 @@
                         <div class="nmpInstagramStrip"aria-hidden="false"  data-slick-index="6">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B1VyOaZHIxo/">
                                         <img src="//scontent.cdninstagram.com/vp/584b6c20a83cad1fce49f76dc81f89c7/5E242338/t51.2885-15/sh0.08/e35/s640x640/67147878_2390409597663398_7377448083139889043_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -349,7 +296,6 @@
                         <div class="nmpInstagramStrip" aria-hidden="true"  data-slick-index="7">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B01HEcvH5k2/">
                                         <img src="//scontent.cdninstagram.com/vp/bbd2810eb8b13edecf56a6b3663e2cc4/5E327451/t51.2885-15/sh0.08/e35/s640x640/67643727_341493786735347_8485069186049031870_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -357,7 +303,6 @@
                         <div class="nmpInstagramStrip" aria-hidden="true"  data-slick-index="8">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B0ltkY5nw-H/">
                                         <img src="//scontent.cdninstagram.com/vp/b4c0cd439610267b4c4bb4f47322b921/5E2FC6E5/t51.2885-15/sh0.08/e35/s640x640/66806136_192718925054294_7666541080418318385_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -365,7 +310,6 @@
                         <div class="nmpInstagramStrip" aria-hidden="true"  data-slick-index="9">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B0fo0Own66r/">
                                         <img src="//scontent.cdninstagram.com/vp/ed21820515693c794563e81f748a949a/5E3A6443/t51.2885-15/sh0.08/e35/s640x640/64397482_907435572952534_8629249198313077349_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -373,7 +317,6 @@
                         <div class="nmpInstagramStrip" aria-hidden="true"  data-slick-index="10">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B2liRROH2UQ/">
                                         <img src="//scontent.cdninstagram.com/vp/d6601980e18659e1f3eae84ce9c8a557/5E22EBAA/t51.2885-15/sh0.08/e35/s640x640/70049156_172692783778631_6600527836114322798_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -381,7 +324,6 @@
                         <div class="nmpInstagramStrip" aria-hidden="true"  data-slick-index="11">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B2j2EvOnRpa/">
                                         <img src="//scontent.cdninstagram.com/vp/124509fdf30353914583549cb6c33aa3/5E230722/t51.2885-15/sh0.08/e35/s640x640/69584016_905452683152851_6873036978385336092_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -389,7 +331,6 @@
                         <div class="nmpInstagramStrip" aria-hidden="true"  data-slick-index="12">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B2T9FuunXOl/">
                                         <img src="//scontent.cdninstagram.com/vp/a21f43d4267caa560c0708ec08bdd2ce/5E202DED/t51.2885-15/sh0.08/e35/s640x640/71184630_1631116917022147_5600529133141922084_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -397,7 +338,6 @@
                         <div class="nmpInstagramStrip" aria-hidden="true"  data-slick-index="13">
                             <div>
                                 <li >
-                                            
                                     <a class="animation" href="https://www.instagram.com/p/B2RLEQ8HtQY/">
                                         <img src="//scontent.cdninstagram.com/vp/18cb338b4519e23bcb11b03f790abe6c/5E1BF7BA/t51.2885-15/sh0.08/e35/s640x640/69941812_669378046901369_3837254121564501687_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
                             </div>
@@ -409,12 +349,7 @@
         <div class="clearfix"></div>
     </div>
 </section>
-
-
-
 <section id="strip6" style="background-image: url()">
-
-
     <div id="behindTheTechnologyStrip" class=" row">
         <div class="maContent fade-right col-md-6 padding-strip6 aos-init" style="text-align: left;" data-aos="fade-right">
             <h2 style="display: none"></h2>
@@ -424,13 +359,11 @@
             NPM Ltd. was established in 2005 in the vicinity of Israel’s northern shoreline, in a high tech industrial and technological park.
             NPM’s innovative products – ORON 56, ORON 57, ORON 60, GLOW 7 and GLOW 10 for permanent make-up and micro-pigmentation are currently sold around the world and can be found at leading institutes.<p></p>
             <div class="text-left">
-                
                 <a class="readmore" href="BehindTheTechnology.aspx">MORE</a>
             </div>
         </div>
         <div class="maImage fade-left col-md-6 right no-paddingmob aos-init" style="padding-left: 7%; padding-top: 3%;" data-aos="fade-left">
             <iframe width="100%" height="450" src="https://www.youtube.com/embed/eXlty0Ecgu4?playlist=eXlty0Ecgu4&amp;autoplay=1&amp;VQ=HD720&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;loop=1" frameborder="0" allowfullscreen="" style="margin: 0 10px 0 -15px; height: 23.9vw;" allow="autoplay; encrypted-media"></iframe>
-            
             <div class="collapse multi-collapse" id="multiCollapseExample6">
                 <div>
                     <div>
@@ -441,22 +374,14 @@
                 </div>
             </div>
         </div>
-
-
         <div class="clearfix"></div>
-
     </div>
-
-
 </section>
 <script>
     AOS.init({
         duration: 1200,
     })
 </script>
-
-
-
 <section class="row" id="strip8" style="display: none">
     <div class="wrapper row">
         <div class="center2">
@@ -469,16 +394,9 @@
         <div class="clearfix"></div>
     </div>
 </section>
-
-
-
-
 <section id="map2">
-
-
 <div class="partner-padd">
 <div class="wrapper width-grid" style="margin-top: 120px;">
-
 <div class="center2">
     <h4 class="title">WORLD DISTRIBUTION</h4>
 </div>
@@ -487,26 +405,20 @@
 </div>
 <div class="nomap-mobile">
     <img style="max-width: 100% !important; width: 100%" alt="Logo" src="npm/wp-content/themes/npm/img/MapMobileGifFix.gif">
-    
 </div>
-
 <div class="row">
     <div class="col-5">
         <div class="center cursor-pointer ">
             <a class="btn  usa" data-target="#exampleModal" data-toggle="modal">
-                
                 <p class="text-grid-tab text-days"></p>
             </a>
         </div>
-        
         <div tabindex="-1" class="modal fade" id="exampleModal-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding1">
                     <div class="modal-body">
-                        
                         <div class="row tab-border popup-style" style="background-color: #2fc7f4; padding: 24px 0px; display: none">
                             <div class="col-md-5 col-12 align-self-center nopadding-right">
-                                
                             </div>
                             <div class="col-md-7 col-12">
                                 <div class="center cursor-pointer scroll-modal scroll-modal">
@@ -525,31 +437,18 @@
                 </div>
             </div>
         </div>
-        
     </div>
-    
-
-
-
-
-    
     <div class="col-5 no-padding ">
-        
         <div class="center cursor-pointer ">
             <a class="btn  china2" data-target="#exampleModal12" data-toggle="modal">
-                
-                
             </a>
         </div>
-        
         <div tabindex="-1" class="modal fade" id="exampleModal12-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel12-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding2">
                     <div class="modal-body">
-                        
                         <div class="row tab-border popup-style" style="background-color: #2fc7f4; padding: 24px 0px; display: none">
                             <div class="col-md-5 col-12 align-self-center nopadding-right">
-                                
                             </div>
                             <div class="col-md-7 col-12">
                                 <div class="center cursor-pointer scroll-modal">
@@ -568,23 +467,16 @@
                 </div>
             </div>
         </div>
-        
-
-        
         <div class="center cursor-pointer ">
             <a class="btn india no-maptitle" data-target="#exampleModal13" data-toggle="modal">
-                
-                
             </a>
         </div>
-        
         <div tabindex="-1" class="modal fade" id="exampleModal13-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel13-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding3">
                     <div class="modal-body">
                         <div class="row tab-border popup-style" style="background-color: #2fc7f4; padding: 24px 0px; display: none">
                             <div class="col-md-5 col-12 align-self-center nopadding-right">
-                                
                             </div>
                             <div class="col-md-7 col-12">
                                 <div class="center cursor-pointer scroll-modal">
@@ -628,27 +520,17 @@
                 </div>
             </div>
         </div>
-        
-
-        
     </div>
 </div>
-
 <div class="row">
-    
     <div class="col-5  text-left" style="">
         <p class="text-grid-tab"></p>
     </div>
-    
     <div class="col-6 margin-map ">
-        
         <div class="center cursor-pointer ">
             <a class="btn germany " data-target="#exampleModal14" data-toggle="modal">
-                
-                
             </a>
         </div>
-        
         <div tabindex="-1" class="modal fade" id="exampleModal14-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel14-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding4">
@@ -672,18 +554,10 @@
                 </div>
             </div>
         </div>
-        
-
-        
-
-        
         <div class="center cursor-pointer ">
             <a class="btn niderlandy " data-target="#exampleModal15" data-toggle="modal">
-                
-                
             </a>
         </div>
-        
         <div tabindex="-1" class="modal fade" id="exampleModal15-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel15-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding5">
@@ -708,21 +582,10 @@
                 </div>
             </div>
         </div>
-        
-
-        
-
-
-
-        
         <div class="center cursor-pointer ">
             <a class="btn israel " data-target="#exampleModal16" data-toggle="modal">
-                
-                
-                
             </a>
         </div>
-        
         <div tabindex="-1" class="modal fade" id="exampleModal16-close" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel16-close">
             <div class="modal-dialog" role="document">
                 <div class="modal-content padding6">
@@ -752,34 +615,14 @@
                 </div>
             </div>
         </div>
-        
-        
     </div>
 </div>
-
 <div class="clearfix"></div>
-
-
 </div>
 <div class="margin-auto"><a class="more-map" href="/partners/">ALL</a> </div>
-
 </div>
-
-
 </section>
-
-
-
-
-
-
-
-
-
 <section id="strip9">
-
-
-
 <main role="main">
 <h2 class="title">OUR PARTNERS</h2>
 <section>
@@ -1366,7 +1209,6 @@
 </section>
 <section id="contact-page">
     <main role="main">
-        
         <section class="row justify-content-md-center" id="contact_form">
             <div class="wrapper">
                 <h2>CONTACT</h2>
@@ -1423,7 +1265,6 @@
                                         &lt;/div&gt;
                                         &lt;/div&gt;
                                         &lt;/div&gt;
-                                   
                                     </noscript>
                                 </div>
                             </div>
@@ -1443,9 +1284,6 @@
     </main>
 </section>
 </main>
-
-
-
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
     });
@@ -1481,14 +1319,12 @@
     <div class="mob-menu-logo-holder"><a class="headertext" href="npm"><span>NPM International</span></a></div>
     <div class="mobmenur-container"><a class="mobmenu-right-bt" href="#"><i class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a></div>
 </div>
-
 <div class="mob-menu-right-panel mobmenu  ">
     <a class="mobmenu-right-bt" href="#"><i class="mob-icon-cancel mob-cancel-button"></i></a>
     <div class="mobmenu_content">
     </div>
     <div class="mob-menu-right-bg-holder"></div>
 </div>
-
 <script type="text/javascript">
     var wpcf7 = { "apiSettings": { "root": "http:\/\/localhost:8081\/npm\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };
 </script>
@@ -1514,13 +1350,10 @@
     var recaptchaCallback = function () {
         var forms = document.getElementsByTagName('form');
         var pattern = /(^|\s)g-recaptcha(\s|$)/;
-
         for (var i = 0; i < forms.length; i++) {
             var divs = forms[i].getElementsByTagName('div');
-
             for (var j = 0; j < divs.length; j++) {
                 var sitekey = divs[j].getAttribute('data-sitekey');
-
                 if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
                     var params = {
                         'sitekey': sitekey,
@@ -1530,19 +1363,14 @@
                         'badge': divs[j].getAttribute('data-badge'),
                         'tabindex': divs[j].getAttribute('data-tabindex')
                     };
-
                     var callback = divs[j].getAttribute('data-callback');
-
                     if (callback && 'function' == typeof window[callback]) {
                         params['callback'] = window[callback];
                     }
-
                     var expired_callback = divs[j].getAttribute('data-expired-callback');
-
                     if (expired_callback && 'function' == typeof window[expired_callback]) {
                         params['expired-callback'] = window[expired_callback];
                     }
-
                     var widget_id = grecaptcha.render(divs[j], params);
                     recaptchaWidgets.push(widget_id);
                     break;
@@ -1550,7 +1378,6 @@
             }
         }
     };
-
     document.addEventListener('wpcf7submit', function (event) {
         switch (event.detail.status) {
         case 'spam':
@@ -1561,7 +1388,6 @@
             }
         }
     }, false);
-
     (function ($) {
         $('.wpcf7').on('wpcf7:spam', function (e) {
             $('[name="g-recaptcha-response"]', $(this)).each(function () {
@@ -1573,12 +1399,7 @@
         });
     })(jQuery);
 </script>
-
-
-
-
 <script>
-
     var wpcf7Elm = document.querySelector('.wpcf7');
     wpcf7Elm.addEventListener('wpcf7mailsent', function (event) {
         window.setTimeout(function () { window.location = "https://localhost:8081/npm/thanks-page/"; }, 1000);
@@ -1608,8 +1429,6 @@
         console.log(x);
     });
 </script>
-
-
 <div class=" fb_reset" id="fb-root">
     <div style="top: -10000px; width: 0px; height: 0px; position: absolute;">
         <div>
@@ -1628,19 +1447,12 @@
     js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
-
-
 <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
             m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
         })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
     ym(52141933, "init", {
         id: 52141933,
         clickmap: true,
@@ -1650,16 +1462,11 @@
         });
     </script>
 <noscript>&lt;div&gt;&lt;img src="https://mc.yandex.ru/watch/52141933" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
-
-
-
-
 <script>
     $('.show-form').on('click', function (event) {
         event.preventDefault();
         var elem = $(this);
         var target = $('div[data-target="' + elem.attr("data-target") + '"]');
-
         if (elem.hasClass('active')) {
             elem.removeClass("active");
             target.slideUp("slow");
