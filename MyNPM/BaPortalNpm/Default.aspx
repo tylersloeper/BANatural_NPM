@@ -616,7 +616,7 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="margin-auto"><a class="more-map" href="/partners/">ALL</a> </div>
+                    <div class="margin-auto"><a class="more-map" href="partners.aspx">ALL</a> </div>
                 </div>
             </section>
             <section id="strip9">
