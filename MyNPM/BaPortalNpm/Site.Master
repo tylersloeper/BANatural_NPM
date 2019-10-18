@@ -27,7 +27,6 @@
     <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch">
     <link href="//npmsite.goil.co.il" rel="dns-prefetch">
     <link href="//code.jquery.com" rel="dns-prefetch">
-    <link href="//translate.google.com" rel="dns-prefetch">
     <link href="//maxcdn.bootstrapcdn.com" rel="dns-prefetch">
     <link href="//fonts.googleapis.com" rel="dns-prefetch">
     <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
@@ -57,7 +56,6 @@
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F" rel="alternate" type="application/json+oembed">
     <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
     <link href="npm/wp-content/plugins/AccessibilityIWC/css/a11y.css" rel="stylesheet" type="text/css">
-    <link href="https://translate.googleapis.com/translate_static/css/translateelement.css" rel="stylesheet" type="text/css" charset="UTF-8">
 </head>
 <body>
     <form runat="server">
@@ -283,14 +281,6 @@
                         </p>
                     </div>
                 </footer>
-                <div class="size18" id="flags" style="display: none">
-                    <ul class="ui-sortable" id="sortable">
-                        <li id="English"><a title="English" class="nturl notranslate en flag united-states" data-lang="English"></a></li>
-                        <li id="French"><a title="French" class="nturl notranslate fr flag French" data-lang="French"></a></li>
-                        <li id="Hebrew"><a title="Hebrew" class="nturl notranslate iw flag Hebrew" data-lang="Hebrew"></a></li>
-                        <li id="Spanish"><a title="Spanish" class="nturl notranslate es flag Spanish" data-lang="Spanish"></a></li>
-                    </ul>
-                </div>
                 <div id="glt-footer">
                     <div class="default-language-en" id="google_language_translator">
                         <div class="skiptranslate goog-te-gadget" dir="ltr">

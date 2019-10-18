@@ -1349,7 +1349,6 @@
             jQuery(document).ready(function ($) {
             });
         </script>
-        <div id="glt-translate-trigger"><span class="translate">Translate »</span></div>
         <div id="glt-toolbar"></div>
         <div class="size18" id="flags" style="display: none">
             <ul class="ui-sortable" id="sortable">
