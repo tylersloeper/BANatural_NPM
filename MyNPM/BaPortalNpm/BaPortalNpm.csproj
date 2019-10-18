@@ -50,6 +50,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -14902,6 +14904,8 @@
     <Compile Include="BehindTheTechnology.aspx.designer.cs">
       <DependentUpon>BehindTheTechnology.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Classes\PhysicalProduct.cs" />
+    <Compile Include="Classes\TreatmentProduct.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -14986,6 +14990,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Entities\" />
     <Folder Include="npm\wp-content\cache\" />
     <Folder Include="npm\wp-content\plugins\contact-form-7\admin\images\" />
     <Folder Include="npm\wp-content\plugins\contact-form-7\images\service-icons\" />
@@ -15033,6 +15038,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
