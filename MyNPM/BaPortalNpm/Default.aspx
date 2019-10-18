@@ -191,24 +191,16 @@
             &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBF75ZQ"
     height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
         </noscript>
-        <div class="strip1 row" id="strip1" style="background-image: url(npm/wp-content/uploads/2018/10/GlowUnlimited.png)">
-        </div>
         <main role="main">
             <section class="strip2 row margin-auto" id="strip2">
-                <img class="height-icon" alt="" src="">
                 <div class="text-top">
-                    <a class="smoothScroll cursor-pointer" id="top" href="#bottom"></a>
                     <h1 class="title" id="trfdehtc">
                         <div class="head">THE <span class="color-m">FUTURE</span> IS ALREADY HERE</div>
                     </h1>
-                </div>
-                <div class="sketchfab-embed-wrapper" style="text-align: center; margin: 0 auto; width: 100%;">
-                    <div class="thert"></div>
-                    <img id="bistart" style="cursor: pointer;" src="npm/wp-content/themes/npm/img/simg1.png">
-                    <div class="memorisme" id="bistarts">
-                        <img style="cursor: pointer;" src="npm/wp-content/themes/npm/img/3D.png">
+                    <div style="text-align: center; margin: 0 auto; width: 100%;">
+                        Having some text here actually looks nice. <br />
+                        Put the carousel from Ba Natural here. And have each link to a treatment. 
                     </div>
-                    <div id="memoriframe"></div>
                 </div>
             </section>
             <script>
