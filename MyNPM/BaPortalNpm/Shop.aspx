@@ -3,15 +3,13 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div style="height: 70px;">
     </div>
-
-
     <div id="copiedContent" runat="server">
         <html lang="en-US" data-lang_code="en" data-lang_region="US" class="js">
         <!--<![endif]-->
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-            <title>NPM Shop | Offical NPM International Shop – Permanent Makeup, Micropigmentation</title>
+            <title></title>
             <meta name="theme-color" content="#232323">
             <link rel="shortcut icon" href="https://shop.npm-int.com/wp-content/uploads/2018/11/npm-shop-favicon-1.png">
             <script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vfloS5Wsk/www-widgetapi.js" async="">
@@ -33,12 +31,6 @@
 
             <link rel="alternate" hreflang="ar" href="https://shop.npm-int.com/?lang=ar">
             <link rel="alternate" hreflang="en" href="https://shop.npm-int.com">
-            <link rel="alternate" hreflang="fr" href="https://shop.npm-int.com/?lang=fr">
-            <link rel="alternate" hreflang="de" href="https://shop.npm-int.com/?lang=de">
-            <link rel="alternate" hreflang="he" href="https://shop.npm-int.com/?lang=he">
-            <link rel="alternate" hreflang="it" href="https://shop.npm-int.com/?lang=it">
-            <link rel="alternate" hreflang="ru" href="https://shop.npm-int.com/?lang=ru">
-            <link rel="alternate" hreflang="es" href="https://shop.npm-int.com/?lang=es">
 
             <!-- Google Tag Manager for WordPress by gtm4wp.com -->
             <script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
@@ -425,7 +417,7 @@
                     <span class="header-bg"></span>
                     <div class="page-container page-container-home">
 
-                        <div class="category-list-block">
+                        <div class="category-list-block" style="padding-bottom: 0px !important; border-bottom: none;">
                             <div class="woocommerce columns-5">
                                 <ul class="products-list columns-5">
                                     <li class="product-category product first">
@@ -464,7 +456,7 @@
 
                         <div class="products-list-block">
                             <div class="products-list-title">
-                                New in Shop
+                                Featured
                             </div>
                             <ul class="products-list">
                                 <li class="products-list-item has-post-thumbnail product type-product post-4475 status-publish first instock product_cat-devices shipping-taxable purchasable product-type-simple">

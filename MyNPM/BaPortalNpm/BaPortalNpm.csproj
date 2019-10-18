@@ -777,6 +777,7 @@
     <Content Include="npm\wp-content\plugins\sitepress-multilingual-cms-123\res\font\otgs-icons.ttf" />
     <Content Include="npm\wp-content\plugins\sitepress-multilingual-cms-123\res\font\otgs-icons.woff" />
     <Content Include="npm\wp-content\plugins\sitepress-multilingual-cms-123\res\languages.json" />
+    <Content Include="Content\_products-list.scss" />
     <None Include="npm\wp-content\plugins\sitepress-multilingual-cms-123\res\xsd\wpml-config.xsd">
       <SubType>Designer</SubType>
     </None>

@@ -87,7 +87,7 @@
                                 <nav class="nav right" role="navigation">
                                     <ul>
                                         <li>
-                                            <a class="wishlist-icon" href="/my-wish-list/">
+                                            <a class="wishlist-icon" href="Shop.aspx">
                                                 <span>Shop</span>
                                             </a>
                                         </li>

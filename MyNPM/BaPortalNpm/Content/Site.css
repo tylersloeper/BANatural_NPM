@@ -1631,4 +1631,8 @@ body {
         padding: 0;
     }
 }
-</style>
+
+.category-list-block, .products-list-block {
+    padding-bottom: 0px !important;
+    border-bottom: none;
+}
