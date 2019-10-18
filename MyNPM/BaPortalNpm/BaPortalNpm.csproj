@@ -14997,7 +14997,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Entities\" />
+    <Folder Include="Entities\Sql Scripts\" />
     <Folder Include="npm\wp-content\cache\" />
     <Folder Include="npm\wp-content\plugins\contact-form-7\admin\images\" />
     <Folder Include="npm\wp-content\plugins\contact-form-7\images\service-icons\" />
