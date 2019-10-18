@@ -92,12 +92,12 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="wishlist-icon" href="Sales/Treatments.aspx">
+                                            <a class="wishlist-icon" href="Treatments.aspx">
                                                 <span>Treatments</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="wishlist-icon" href="Sales/Seminars.aspx">
+                                            <a class="wishlist-icon" href="Seminars.aspx">
                                                 <span>Seminars</span>
                                             </a>
                                         </li>

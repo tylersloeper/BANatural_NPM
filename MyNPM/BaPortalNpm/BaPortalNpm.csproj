@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -44,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
@@ -14848,10 +14855,10 @@
     <Content Include="npm\wp-includes\wp-db.php" />
     <Content Include="npm\wp-includes\wp-diff.php" />
     <Content Include="partners.aspx" />
-    <Content Include="Sales\Needles.aspx" />
-    <Content Include="Sales\ProductPreview.aspx" />
-    <Content Include="Sales\Seminars.aspx" />
-    <Content Include="Sales\Treatments.aspx" />
+    <Content Include="Needles.aspx" />
+    <Content Include="ProductPreview.aspx" />
+    <Content Include="Seminars.aspx" />
+    <Content Include="Treatments.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -14931,32 +14938,32 @@
       <DependentUpon>partners.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sales\Needles.aspx.cs">
+    <Compile Include="Needles.aspx.cs">
       <DependentUpon>Needles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sales\Needles.aspx.designer.cs">
+    <Compile Include="Needles.aspx.designer.cs">
       <DependentUpon>Needles.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sales\ProductPreview.aspx.cs">
+    <Compile Include="ProductPreview.aspx.cs">
       <DependentUpon>ProductPreview.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sales\ProductPreview.aspx.designer.cs">
+    <Compile Include="ProductPreview.aspx.designer.cs">
       <DependentUpon>ProductPreview.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sales\Seminars.aspx.cs">
+    <Compile Include="Seminars.aspx.cs">
       <DependentUpon>Seminars.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sales\Seminars.aspx.designer.cs">
+    <Compile Include="Seminars.aspx.designer.cs">
       <DependentUpon>Seminars.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sales\Treatments.aspx.cs">
+    <Compile Include="Treatments.aspx.cs">
       <DependentUpon>Treatments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sales\Treatments.aspx.designer.cs">
+    <Compile Include="Treatments.aspx.designer.cs">
       <DependentUpon>Treatments.aspx</DependentUpon>
     </Compile>
     <Compile Include="Shop.aspx.cs">
@@ -15027,6 +15034,7 @@
     <Folder Include="npm\wp-content\uploads\2019\08\" />
     <Folder Include="npm\wp-content\uploads\2019\09\" />
     <Folder Include="npm\wp-content\uploads\simple-responsive-slider\" />
+    <Folder Include="Sales\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -15072,7 +15080,10 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
   </Target>
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
