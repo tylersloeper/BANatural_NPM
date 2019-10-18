@@ -14846,6 +14846,10 @@
     <Content Include="npm\wp-includes\wp-db.php" />
     <Content Include="npm\wp-includes\wp-diff.php" />
     <Content Include="partners.aspx" />
+    <Content Include="Sales\Needles.aspx" />
+    <Content Include="Sales\ProductPreview.aspx" />
+    <Content Include="Sales\Seminars.aspx" />
+    <Content Include="Sales\Treatments.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -14923,6 +14927,34 @@
       <DependentUpon>partners.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sales\Needles.aspx.cs">
+      <DependentUpon>Needles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sales\Needles.aspx.designer.cs">
+      <DependentUpon>Needles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\ProductPreview.aspx.cs">
+      <DependentUpon>ProductPreview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sales\ProductPreview.aspx.designer.cs">
+      <DependentUpon>ProductPreview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Seminars.aspx.cs">
+      <DependentUpon>Seminars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sales\Seminars.aspx.designer.cs">
+      <DependentUpon>Seminars.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Treatments.aspx.cs">
+      <DependentUpon>Treatments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sales\Treatments.aspx.designer.cs">
+      <DependentUpon>Treatments.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Shop.aspx.cs">
       <DependentUpon>Shop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
