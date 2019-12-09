@@ -138,6 +138,8 @@
     <Content Include="Images\Acupuncture2800x450.jpg" />
     <Content Include="Images\Acupuncture800x450.jpg" />
     <Content Include="Images\Cupping800x450.jpg" />
+    <Content Include="Images\HairPigmentation2_800x450.jpg" />
+    <Content Include="Images\HairPigmentation800x450.jpeg" />
     <Content Include="npm\wp-content\languages\admin-de_DE.mo" />
     <Content Include="npm\wp-content\languages\admin-de_DE.po" />
     <Content Include="npm\wp-content\languages\admin-es_ES.mo" />
