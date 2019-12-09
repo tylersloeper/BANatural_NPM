@@ -8,13 +8,13 @@
             <div class="z-slide-wrap" id='slider2'>
                 <ul class="z-slide-content">
                     <li class="z-slide-item">
-                        <a href="#image1" style="background-image: url(Scripts/zSlider-master/demo/images/1.jpg)" data-uuid='1'></a>
+                        <a href="#image1" style="background-image: url(Images/Acupuncture800x450.jpg)" data-uuid='1'></a>
                     </li>
                     <li class="z-slide-item">
-                        <a href="#image2" style="background-image: url(Scripts/zSlider-master/demo/images/2.jpg)" data-uuid='2'></a>
+                        <a href="#image2" style="background-image: url(Images/Acupuncture2800x450.jpg)" data-uuid='2'></a>
                     </li>
                     <li class="z-slide-item">
-                        <a href="#image3" style="background-image: url(Scripts/zSlider-master/demo/images/3.jpg)" data-uuid='3'></a>
+                        <a href="#image3" style="background-image: url(Images/Cupping800x450.jpg)" data-uuid='3'></a>
                     </li>
                 </ul>
             </div>

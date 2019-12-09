@@ -198,9 +198,10 @@
                     <h1 class="title" id="trfdehtc">
                         <div class="head">Now available at <a href="http://www.banatural.com/services"><span class="color-m">BA Natural</span></a></div>
                     </h1>
-                    <div style="text-align: center; margin: 0 auto; width: 100%;">
-                        Having some text here actually looks nice. <br />
-                        Put the carousel from Ba Natural here. And have each link to a treatment. 
+                    <div style="text-align: center; padding-left: 20%; padding-right: 20%; width: 100%;">
+                        At BA Natural we put your health at the top of our list. 
+                        Our Acupuncturists and Beauticians will evaluate your specific case, and and advise you on the best treatment available. 
+                        Come in for a free consultation today!
                     </div>
                     <div id="BaNaturalCarousel">
                         <BaNaturalNpm:BaSlideShow ID="BaSlideShowMainPage" runat="server"></BaNaturalNpm:BaSlideShow>

@@ -135,6 +135,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Images\Acupuncture2800x450.jpg" />
+    <Content Include="Images\Acupuncture800x450.jpg" />
+    <Content Include="Images\Cupping800x450.jpg" />
     <Content Include="npm\wp-content\languages\admin-de_DE.mo" />
     <Content Include="npm\wp-content\languages\admin-de_DE.po" />
     <Content Include="npm\wp-content\languages\admin-es_ES.mo" />
@@ -14858,9 +14861,6 @@
     <Content Include="partners.aspx" />
     <Content Include="Needles.aspx" />
     <Content Include="ProductPreview.aspx" />
-    <Content Include="Scripts\zSlider-master\demo\images\1.jpg" />
-    <Content Include="Scripts\zSlider-master\demo\images\2.jpg" />
-    <Content Include="Scripts\zSlider-master\demo\images\3.jpg" />
     <Content Include="Scripts\zSlider-master\demo\index.html" />
     <Content Include="Scripts\zSlider-master\demo\scripts\app.js" />
     <Content Include="Scripts\zSlider-master\demo\scripts\zSlider.js" />

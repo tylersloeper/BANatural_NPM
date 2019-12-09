@@ -773,7 +773,7 @@ select {
   background-color: #000;
 }
 .inner-wrap {
-  max-width: 720px;
+  max-width: 800px;
   margin: 16px auto;
 }
 .inner-wrap h3 {
@@ -782,7 +782,7 @@ select {
   margin: 12px 0;
 }
 #slider2 {
-  height: 240px;
+  height: 400px;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.2), 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 .event-list {
