@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BaPortalNpm._Default" %>
+<%@ Register TagPrefix="BaNaturalNpm" TagName="BaSlideShow" Src="~/BaPortalCarousel.ascx" %>
 
 <asp:Content ID="BodyContentnpm" style="max-width: 100%;" ContentPlaceHolderID="MainContent" runat="server">
     <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg no-smil svgclippaths" lang="en-US" style="height: 100%;">
@@ -200,6 +201,9 @@
                     <div style="text-align: center; margin: 0 auto; width: 100%;">
                         Having some text here actually looks nice. <br />
                         Put the carousel from Ba Natural here. And have each link to a treatment. 
+                    </div>
+                    <div id="BaNaturalCarousel">
+                        <BaNaturalNpm:BaSlideShow ID="BaSlideShowMainPage" runat="server"></BaNaturalNpm:BaSlideShow>
                     </div>
                 </div>
             </section>

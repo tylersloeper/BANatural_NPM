@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="BaPortalCarousel.ascx" />
     <Content Include="BehindTheTechnology.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -14857,6 +14858,19 @@
     <Content Include="partners.aspx" />
     <Content Include="Needles.aspx" />
     <Content Include="ProductPreview.aspx" />
+    <Content Include="Scripts\zSlider-master\demo\images\1.jpg" />
+    <Content Include="Scripts\zSlider-master\demo\images\2.jpg" />
+    <Content Include="Scripts\zSlider-master\demo\images\3.jpg" />
+    <Content Include="Scripts\zSlider-master\demo\index.html" />
+    <Content Include="Scripts\zSlider-master\demo\scripts\app.js" />
+    <Content Include="Scripts\zSlider-master\demo\scripts\zSlider.js" />
+    <Content Include="Scripts\zSlider-master\demo\styles\main.css" />
+    <Content Include="Scripts\zSlider-master\demo\styles\zSlider.css" />
+    <Content Include="Scripts\zSlider-master\dist\zSlider.css" />
+    <Content Include="Scripts\zSlider-master\dist\zSlider.js" />
+    <Content Include="Scripts\zSlider-master\dist\zSlider.min.js" />
+    <Content Include="Scripts\zSlider-master\Gruntfile.js" />
+    <Content Include="Scripts\zSlider-master\src\zSlider.js" />
     <Content Include="Seminars.aspx" />
     <Content Include="Treatments.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -14904,6 +14918,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BaPortalCarousel.ascx.cs">
+      <DependentUpon>BaPortalCarousel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaPortalCarousel.ascx.designer.cs">
+      <DependentUpon>BaPortalCarousel.ascx</DependentUpon>
+    </Compile>
     <Compile Include="BehindTheTechnology.aspx.cs">
       <DependentUpon>BehindTheTechnology.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -15040,6 +15061,27 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\zSlider-master\.jshintrc" />
+    <Content Include="Scripts\zSlider-master\bower.json" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\button.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\common.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\icons.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\input.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\item.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\list.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\mixins.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\normalize.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\topbar.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\variables-custom.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\Common\variables.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\csslintrc" />
+    <Content Include="Scripts\zSlider-master\demo\styles\less\main.less" />
+    <Content Include="Scripts\zSlider-master\demo\styles\main.css.map" />
+    <Content Include="Scripts\zSlider-master\dist\zSlider.css.map" />
+    <Content Include="Scripts\zSlider-master\dist\zSlider.less" />
+    <Content Include="Scripts\zSlider-master\package.json" />
+    <Content Include="Scripts\zSlider-master\README.md" />
+    <Content Include="Scripts\zSlider-master\src\zSlider.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
