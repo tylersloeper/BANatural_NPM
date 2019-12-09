@@ -195,7 +195,7 @@
             <section class="strip2 row margin-auto" id="strip2">
                 <div class="text-top">
                     <h1 class="title" id="trfdehtc">
-                        <div class="head">THE <span class="color-m">FUTURE</span> IS ALREADY HERE</div>
+                        <div class="head">Now available at <a href="http://www.banatural.com/services"><span class="color-m">BA Natural</span></a></div>
                     </h1>
                     <div style="text-align: center; margin: 0 auto; width: 100%;">
                         Having some text here actually looks nice. <br />
