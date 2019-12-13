@@ -20,5 +20,14 @@ namespace BaPortalNpm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::BaPortalNpm.BaPortalCarousel BaSlideShowMainPage;
+        
+        /// <summary>
+        /// InstagramStrip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::BaPortalNpm.HomePageSlidingInstagramAdvert InstagramStrip;
     }
 }

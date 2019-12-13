@@ -135,6 +135,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="HomePageSlidingInstagramAdvert.ascx" />
     <Content Include="Images\Acupuncture2800x450.jpg" />
     <Content Include="Images\Acupuncture800x450.jpg" />
     <Content Include="Images\Cupping800x450.jpg" />
@@ -14952,6 +14953,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HomePageSlidingInstagramAdvert.ascx.cs">
+      <DependentUpon>HomePageSlidingInstagramAdvert.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePageSlidingInstagramAdvert.ascx.designer.cs">
+      <DependentUpon>HomePageSlidingInstagramAdvert.ascx</DependentUpon>
     </Compile>
     <Compile Include="partners.aspx.cs">
       <DependentUpon>partners.aspx</DependentUpon>

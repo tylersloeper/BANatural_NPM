@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BaPortalNpm._Default" %>
 <%@ Register TagPrefix="BaNaturalNpm" TagName="BaSlideShow" Src="~/BaPortalCarousel.ascx" %>
+<%@ Register TagPrefix="BaNaturalNpm" TagName="InstagramStrip" Src="~/HomePageSlidingInstagramAdvert.ascx" %>
 
 <asp:Content ID="BodyContentnpm" style="max-width: 100%;" ContentPlaceHolderID="MainContent" runat="server">
     <html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg no-smil svgclippaths" lang="en-US" style="height: 100%;">
@@ -258,97 +259,8 @@
                     </div>
                 </div>
             </section>
-            <section id="strip2_gallery">
-            </section>
+            <div style="height: 60px;"></div>
             <section>
-            </section>
-            <section id="strip5">
-                <div>
-                    <div class="bottom-title">
-                        <h2 class="title">
-                            <div>OUR TECHNOLOGY – YOUR <span class="color-m">ART</span></div>
-                        </h2>
-                    </div>
-                    <div style="display: block; text-align: center;">
-                        <ul>
-                            <div>
-                                <div>
-                                    <div class="nmpInstagramStrip" aria-hidden="false" data-slick-index="4">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B2JjB7Xnm3O/">
-                                                    <img src="//scontent.cdninstagram.com/vp/5f3a3602575c0fe9a087580d58ba904a/5E2F7EA1/t51.2885-15/sh0.08/e35/s640x640/69217409_2696503257061730_792889456014083303_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="false" data-slick-index="5">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B1_8YBznxBu/">
-                                                    <img src="//scontent.cdninstagram.com/vp/bad29b3b3531fbf04ab698ec3dad0cc2/5E1B0B46/t51.2885-15/sh0.08/e35/s640x640/69855148_502953773857739_5199591188006671739_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="false" data-slick-index="6">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B1VyOaZHIxo/">
-                                                    <img src="//scontent.cdninstagram.com/vp/584b6c20a83cad1fce49f76dc81f89c7/5E242338/t51.2885-15/sh0.08/e35/s640x640/67147878_2390409597663398_7377448083139889043_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="true" data-slick-index="7">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B01HEcvH5k2/">
-                                                    <img src="//scontent.cdninstagram.com/vp/bbd2810eb8b13edecf56a6b3663e2cc4/5E327451/t51.2885-15/sh0.08/e35/s640x640/67643727_341493786735347_8485069186049031870_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="true" data-slick-index="8">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B0ltkY5nw-H/">
-                                                    <img src="//scontent.cdninstagram.com/vp/b4c0cd439610267b4c4bb4f47322b921/5E2FC6E5/t51.2885-15/sh0.08/e35/s640x640/66806136_192718925054294_7666541080418318385_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="true" data-slick-index="9">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B0fo0Own66r/">
-                                                    <img src="//scontent.cdninstagram.com/vp/ed21820515693c794563e81f748a949a/5E3A6443/t51.2885-15/sh0.08/e35/s640x640/64397482_907435572952534_8629249198313077349_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="true" data-slick-index="10">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B2liRROH2UQ/">
-                                                    <img src="//scontent.cdninstagram.com/vp/d6601980e18659e1f3eae84ce9c8a557/5E22EBAA/t51.2885-15/sh0.08/e35/s640x640/70049156_172692783778631_6600527836114322798_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="true" data-slick-index="11">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B2j2EvOnRpa/">
-                                                    <img src="//scontent.cdninstagram.com/vp/124509fdf30353914583549cb6c33aa3/5E230722/t51.2885-15/sh0.08/e35/s640x640/69584016_905452683152851_6873036978385336092_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="true" data-slick-index="12">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B2T9FuunXOl/">
-                                                    <img src="//scontent.cdninstagram.com/vp/a21f43d4267caa560c0708ec08bdd2ce/5E202DED/t51.2885-15/sh0.08/e35/s640x640/71184630_1631116917022147_5600529133141922084_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                    <div class="nmpInstagramStrip" aria-hidden="true" data-slick-index="13">
-                                        <div>
-                                            <li>
-                                                <a class="animation" href="https://www.instagram.com/p/B2RLEQ8HtQY/">
-                                                    <img src="//scontent.cdninstagram.com/vp/18cb338b4519e23bcb11b03f790abe6c/5E1BF7BA/t51.2885-15/sh0.08/e35/s640x640/69941812_669378046901369_3837254121564501687_n.jpg?_nc_ht=scontent.cdninstagram.com"></a> </li>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
             </section>
             <section id="strip6" style="background-image: url()">
                 <div id="behindTheTechnologyStrip" class=" row">
@@ -378,6 +290,9 @@
                     <div class="clearfix"></div>
                 </div>
             </section>
+            <div>
+                <BaNaturalNpm:InstagramStrip ID="InstagramStrip" runat="server"></BaNaturalNpm:InstagramStrip>
+            </div>
             <script>
                 AOS.init({
                     duration: 1200,
