@@ -2219,7 +2219,7 @@ div.wpcf7-acceptance-missing {
 #strip5 {
   /*padding: 60px 0;*/
   padding-bottom: 60px;
-  padding-top: 130px;
+  padding-top: 65px;
 }
 #strip5 h2 {
   color: #616161;
@@ -5178,11 +5178,12 @@ footer a {
     padding: 0;
   }
   #strip2 .head {
-    font-size: 43px;
+    font-size: 48px;
     color: #000000 !important;
     font-weight: lighter;
     letter-spacing: 3.2px;
   }
+
   #strip5 {
     padding-bottom: 0;
   }
@@ -5750,9 +5751,6 @@ footer a {
   }
 }
 @media all and (max-width: 1600px) {
-  #strip5 {
-    padding-top: 200px;
-  }
   .favorites-list .col-md-2 {
     width: auto;
     margin: 0 auto;
@@ -5865,7 +5863,7 @@ footer a {
     z-index: 1;
     display: inline-block;
     text-align: center;
-    top: 5%;
+    top: 76px;
     width: 100%;
     position: absolute;
     /* padding-top: 64px; */
@@ -6047,11 +6045,7 @@ footer a {
     font-weight: 300;
   }
 }
-#strip2 .head {
-  color: #000000 !important;
-  font-weight: lighter;
-  letter-spacing: 3.2px;
-}
+
 .page-template-about-page #player {
   position: relative;
   height: 1068px;
