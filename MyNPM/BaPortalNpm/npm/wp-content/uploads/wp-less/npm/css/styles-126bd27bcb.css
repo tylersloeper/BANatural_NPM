@@ -555,16 +555,25 @@ footer .footer-copyright {
   text-align: none;
 }
 
-.nmpInstagramStrip{
-	width: 9%;
-	display: inline-block;
-	height:auto;
-	text-align:center !important;
+.nmpInstagramStrip {
+    width: 130px;
+    display: inline-block;
+    display: inline;
+    text-align: center !important;
 }
 
-.nmpInstagramStrip div, .nmpInstagramStrip li {
-	text-align:center !important;
-}
+    .nmpInstagramStrip img {
+        width: 190px !important;
+    }
+
+    .nmpInstagramStrip a img {
+        display: inline;
+    }
+
+    .nmpInstagramStrip div, .nmpInstagramStrip li {
+        text-align: center !important;
+        display: inline !important;
+    }
 
 #insta.li{
 	width: 30%;
