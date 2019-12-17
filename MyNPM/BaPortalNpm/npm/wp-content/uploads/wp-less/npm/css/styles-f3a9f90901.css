@@ -2525,9 +2525,6 @@ div.wpcf7-acceptance-missing {
 #strip8 a:hover {
   background-color: #35ceff;
 }
-#map2 {
-  padding: 60px 0;
-}
 #map2 h4 {
   color: #616161;
   font-size: 48px;
@@ -4181,7 +4178,7 @@ footer a {
     display: none !important;
   }
   #strip6 {
-    padding: 30px !important;
+    padding-top: 134px !important;
   }
   .padding-clients2 {
     padding: 30px;
@@ -4948,9 +4945,6 @@ footer a {
   .padding-clients2 {
     padding: 0 !important;
   }
-  #strip6 {
-    padding: 9px !important;
-  }
   .span-text-b {
     color: white !important;
     position: absolute;
@@ -5292,9 +5286,6 @@ footer a {
   }
   .col-7.align-self-end {
     align-self: auto !important;
-  }
-  #strip6 {
-    padding: 0;
   }
   #strip6 p {
     text-align: justify;

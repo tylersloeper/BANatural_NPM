@@ -259,9 +259,7 @@
                     </div>
                 </div>
             </section>
-            <!-- <div style="height: 60px;"></div> -->
-            <section>
-            </section>
+            <div style="height: 75px"></div>
             <section id="strip6" style="background-image: url()">
                 <div id="behindTheTechnologyStrip" class=" row">
                     <div class="maContent fade-right col-md-6 padding-strip6 aos-init" style="text-align: left;" data-aos="fade-right">
