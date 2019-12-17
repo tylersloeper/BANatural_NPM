@@ -86,11 +86,13 @@
                             <div class="col mainmenu">
                                 <nav class="nav right" role="navigation">
                                     <ul>
-                                        <li>
-                                            <a class="wishlist-icon" href="Shop.aspx">
-                                                <span>Shop</span>
-                                            </a>
-                                        </li>
+                                        <!-- Omit this for now, for simplicity. 
+                                            <li>
+                                                <a class="wishlist-icon" href="Shop.aspx">
+                                                    <span>Shop</span>
+                                                </a>
+                                            </li>
+                                        -->
                                         <li>
                                             <a class="wishlist-icon" href="Treatments.aspx">
                                                 <span>Treatments</span>
@@ -103,19 +105,14 @@
                                         </li>
                                         <li>
                                             <a class="wishlist-icon" href="http://www.banatural.com/">
-                                                <span>About BA Natural</span>
+                                                <span>BA Natural</span>
                                             </a>
                                         </li>
                                         <li>
                                             <aside class="sidebar" role="complementary">
-                                                <form class="search-form" role="search" action="npm/" method="get">
-                                                    <button class="search-submit searchbttn inline va-middle" type="submit"></button>
-                                                    <input name="s" class="search-field inline pad-right-20 va-middle col-orange font-s-30" type="search" placeholder="search..." value="">
-                                                </form>
-                                                <div class="sidebar-widget">
-                                                </div>
-                                                <div class="sidebar-widget">
-                                                </div>
+                                                <a class="wishlist-icon" href="https://npm-int.com/">
+                                                    <span style="font-weight: bold; color: #18b3e1">NPM International</span>
+                                                </a>
                                             </aside>
                                         </li>
                                         <li>
@@ -226,21 +223,15 @@
                     <div class="row mobile-logo ">
                         <div>
                             <div class="logo logo-center">
-                                <a href="npm">
-                                    <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo_footer.png">
-                                </a>
+                                <img style="visibility: hidden" class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo_footer.png">
                             </div>
                         </div>
                         <div class="col mainmenu">
                             <nav class="nav right" role="navigation">
                                 <div class="menu">
                                     <ul>
-                                        <li class="page_item page-item-4699"><a href="npm/thanks-page/">About</a></li>
-                                        <li class="page_item page-item-4842"><a href="npm/spotlight/">Gadgets</a></li>
-                                        <li class="page_item page-item-4247"><a href="npm/tererte/">Colors</a></li>
-                                        <li class="page_item page-item-3885"><a href="npm/lptnx/">Needles</a></li>
-                                        <li class="page_item page-item-3882"><a href="npm/lpmobile/">Accessories</a></li>
-                                        <li class="page_item page-item-3882"><a href="npm/lpmobile/">Treatments</a></li>
+                                        <li class="page_item page-item-4699"><a href="BehindTheTechnology.aspx">About</a></li>
+                                        <li class="page_item page-item-3882"><a href="Treatments.aspx">Treatments</a></li>
                                     </ul>
                                 </div>
                                 <hr style="color: white !important; width: 100%; background-color: white">
@@ -281,22 +272,6 @@
                         </p>
                     </div>
                 </footer>
-                <div id="glt-footer">
-                    <div class="default-language-en" id="google_language_translator">
-                        <div class="skiptranslate goog-te-gadget" dir="ltr">
-                            <div id=":0.targetLanguage">
-                                <select class="goog-te-combo" aria-label="Language Translate Widget">
-                                    <option value="">Select Language</option>
-                                    <option value="fr">French</option>
-                                    <option value="iw">Hebrew</option>
-                                    <option value="es">Spanish</option>
-                                </select>
-                            </div>
-                            Powered by <span style="white-space: nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank">
-                                <img width="37" height="14" style="padding-right: 3px" alt="Google Translate" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png">Translate</a></span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </form>
