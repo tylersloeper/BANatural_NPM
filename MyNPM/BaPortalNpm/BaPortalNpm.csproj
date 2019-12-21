@@ -164,7 +164,6 @@
     <Content Include="Images\3D Areola Free service 1920x1080.png" />
     <Content Include="Images\4 BA NPM price list brows 1920x1080.png" />
     <Content Include="Images\4 Microblading 2 1920x1080.png" />
-    <Content Include="Images\4.1 BA Microblading Service before and after 1920x1080.png" />
     <Content Include="Images\4.2 BA Microshading Service before and after 1920x1080.png" />
     <Content Include="Images\5 BA NPM price list eyeliner 1920x1080.png" />
     <Content Include="Images\5 Microblading 3 1920x1080.png" />
@@ -177,6 +176,7 @@
     <Content Include="Images\Acupuncture2800x450.jpg" />
     <Content Include="Images\Acupuncture800x450.jpg" />
     <Content Include="Images\BA Eyelash Extension Service before and after 1920x1080.png" />
+    <Content Include="Images\BA Microblading Service before and after 1920x1080 - Copy.png" />
     <Content Include="Images\BA Microblading Service before and after 1920x1080.png" />
     <Content Include="Images\BA Microshading Service before and after 1920x1080.png" />
     <Content Include="Images\BA NPM HFS Before and After 1 1920x1080.png" />
@@ -219,6 +219,10 @@
     <Content Include="Images\lips_removal_beforeafter transvid.png" />
     <Content Include="Images\Microblading800x450.png" />
     <Content Include="Images\Summary800x450.png" />
+    <Content Include="Images\treatmentsBaNaturalHFS800x450.png" />
+    <Content Include="Images\TreatmentsPageEyeLashExtensions800x450.png" />
+    <Content Include="Images\TreatmentsPageMicroblading800x450.png" />
+    <Content Include="Images\treatmetnspageHFS800x450.png" />
     <Content Include="npm\wp-content\languages\admin-de_DE.mo" />
     <Content Include="npm\wp-content\languages\admin-de_DE.po" />
     <Content Include="npm\wp-content\languages\admin-es_ES.mo" />

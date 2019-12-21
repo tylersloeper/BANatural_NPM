@@ -604,8 +604,18 @@ input.search-field.inline.pad-right-20.va-middle.col-orange.font-s-30 {
   border: 0;
   font-size: 15px;
 }
+.BaNaturalTreatmentsImages {
+    width: 60%;
+    display: inline-block;
+}
+
+.BaNaturalTreatmentDescription {
+    width: 60%;
+    display:inline-block;
+}
+
 aside.sidebar {
-  margin-right: -30px;
+    margin-right: -30px;
 }
 input.search-input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */

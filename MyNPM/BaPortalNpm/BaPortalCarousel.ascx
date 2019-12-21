@@ -8,22 +8,22 @@
             <div class="z-slide-wrap" id='slider2'>
                 <ul class="z-slide-content">
                     <li class="z-slide-item">
-                        <a href="https://www.yelp.com/biz/ba-natural-body-care-miami" style="background-image: url(Images/Microblading800x450.png)" data-uuid='1'></a>
+                        <a href="treatments.aspx" style="background-image: url(Images/Microblading800x450.png)" data-uuid='1'></a>
                     </li>
                     <li class="z-slide-item">
-                        <a href="https://www.yelp.com/biz/ba-natural-body-care-miami" style="background-image: url(Images/EyelashExtensions800x450.png)" data-uuid='2'></a>
+                        <a href="treatments.aspx" style="background-image: url(Images/EyelashExtensions800x450.png)" data-uuid='2'></a>
                     </li>
                     <li class="z-slide-item">
-                        <a href="https://www.yelp.com/biz/ba-natural-body-care-miami" style="background-image: url(Images/Eyeliner800x450.png)" data-uuid='3'></a>
+                        <a href="treatments.aspx" style="background-image: url(Images/Eyeliner800x450.png)" data-uuid='3'></a>
                     </li>
                     <li class="z-slide-item">
-                        <a href="https://www.yelp.com/biz/ba-natural-body-care-miami" style="background-image: url(Images/HairFollicle800x450.png)" data-uuid='4'></a>
+                        <a href="treatments.aspx" style="background-image: url(Images/HairFollicle800x450.png)" data-uuid='4'></a>
                     </li>
                     <li class="z-slide-item">
-                        <a href="https://www.yelp.com/biz/ba-natural-body-care-miami" style="background-image: url(Images/LipPigmentation800x450.png)" data-uuid='5'></a>
+                        <a href="treatments.aspx" style="background-image: url(Images/LipPigmentation800x450.png)" data-uuid='5'></a>
                     </li>
                     <li class="z-slide-item">
-                        <a href="https://www.yelp.com/biz/ba-natural-body-care-miami" style="background-image: url(Images/Summary800x450.png)" data-uuid='6'></a>
+                        <a href="treatments.aspx" style="background-image: url(Images/Summary800x450.png)" data-uuid='6'></a>
                     </li>
                 </ul>
             </div>
