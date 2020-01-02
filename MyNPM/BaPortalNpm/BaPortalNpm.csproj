@@ -115,9 +115,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="BaNatural.aspx" />
     <Content Include="BaPortalCarousel.ascx" />
     <Content Include="BehindTheTechnology.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="ContactUs.ascx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -15003,6 +15005,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BaNatural.aspx.cs">
+      <DependentUpon>BaNatural.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaNatural.aspx.designer.cs">
+      <DependentUpon>BaNatural.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BaPortalCarousel.ascx.cs">
       <DependentUpon>BaPortalCarousel.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -15025,6 +15034,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.ascx.cs">
+      <DependentUpon>ContactUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.ascx.designer.cs">
+      <DependentUpon>ContactUs.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
