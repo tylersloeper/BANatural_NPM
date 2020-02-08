@@ -115,8 +115,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\BaNaturalNpmLocal.mdf" />
+    <Content Include="App_Data\BaNaturalNpmLocal_log.ldf">
+      <DependentUpon>BaNaturalNpmLocal.mdf</DependentUpon>
+    </Content>
     <Content Include="BaNatural.aspx" />
     <Content Include="BaPortalCarousel.ascx" />
+    <Content Include="BaPortalNpmAdminLogin.aspx" />
     <Content Include="BehindTheTechnology.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="ContactUs.ascx" />
@@ -15019,6 +15024,13 @@
     <Compile Include="BaPortalCarousel.ascx.designer.cs">
       <DependentUpon>BaPortalCarousel.ascx</DependentUpon>
     </Compile>
+    <Compile Include="BaPortalNpmAdminLogin.aspx.cs">
+      <DependentUpon>BaPortalNpmAdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaPortalNpmAdminLogin.aspx.designer.cs">
+      <DependentUpon>BaPortalNpmAdminLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BehindTheTechnology.aspx.cs">
       <DependentUpon>BehindTheTechnology.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -15026,6 +15038,8 @@
     <Compile Include="BehindTheTechnology.aspx.designer.cs">
       <DependentUpon>BehindTheTechnology.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Email.cs" />
+    <Compile Include="Classes\Seminar.cs" />
     <Compile Include="Classes\PhysicalProduct.cs" />
     <Compile Include="Classes\TreatmentProduct.cs" />
     <Compile Include="Contact.aspx.cs">
@@ -15125,7 +15139,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Entities\Sql Scripts\" />
     <Folder Include="npm\wp-content\cache\" />
     <Folder Include="npm\wp-content\plugins\contact-form-7\admin\images\" />
