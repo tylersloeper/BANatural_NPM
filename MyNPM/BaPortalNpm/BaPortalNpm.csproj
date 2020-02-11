@@ -15087,7 +15087,7 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="EmailNpm.cs">
-      <DependentUpon>NpmEntity.tt</DependentUpon>
+      <DependentUpon>NpmModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -15149,7 +15149,7 @@
       <DependentUpon>Seminars.aspx</DependentUpon>
     </Compile>
     <Compile Include="SeminarsNpm.cs">
-      <DependentUpon>NpmEntity.tt</DependentUpon>
+      <DependentUpon>NpmModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Treatments.aspx.cs">
       <DependentUpon>Treatments.aspx</DependentUpon>
