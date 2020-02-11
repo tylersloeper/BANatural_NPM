@@ -83,8 +83,9 @@ namespace BaPortalNpm.DAL
                 Entity.SaveChanges();
                 return true;
             }
-            catch
+            catch(Exception ex)
             {
+                string helper = ex.InnerException.ToString();
                 return false;
             }
         }

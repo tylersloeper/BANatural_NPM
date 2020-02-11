@@ -13,6 +13,15 @@ namespace BaPortalNpm {
     public partial class ContactUs {
         
         /// <summary>
+        /// contactUsPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl contactUsPanel;
+        
+        /// <summary>
         /// NameField control.
         /// </summary>
         /// <remarks>
@@ -56,5 +65,23 @@ namespace BaPortalNpm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label contactUsError;
+        
+        /// <summary>
+        /// successHolder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl successHolder;
+        
+        /// <summary>
+        /// contactUsSuccess control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label contactUsSuccess;
     }
 }

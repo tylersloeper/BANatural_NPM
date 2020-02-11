@@ -2,7 +2,7 @@
 <section id="contact-page">
     <main role="main">
         <section class="row justify-content-md-center" id="contact_form">
-            <div class="wrapper">
+            <div id="contactUsPanel" runat="server" class="wrapper">
                 <h2>CONTACT</h2>
                 <div class="wpcf7" id="wpcf7-f263-o1" role="form" lang="en-US" dir="ltr">
                     <div class="screen-reader-response"></div>
@@ -78,6 +78,9 @@
                 </div>
             </div>
             <asp:Label ID="contactUsError" Visible="false" ForeColor="Red" runat="server">There was a problem processing your request.</asp:Label>
+            <div id="successHolder" style="height: 150px; padding: 190px;" runat="server" Visible="False">
+                <asp:Label ID="contactUsSuccess" runat="server">Your message has been sent!</asp:Label>
+            </div>
         </section>
     </main>
 </section>
