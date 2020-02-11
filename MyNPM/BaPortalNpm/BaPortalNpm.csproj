@@ -231,6 +231,10 @@
     <Content Include="Images\TreatmentsPageEyeLashExtensions800x450.png" />
     <Content Include="Images\TreatmentsPageMicroblading800x450.png" />
     <Content Include="Images\treatmetnspageHFS800x450.png" />
+    <Content Include="NpmEntity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>NpmEntity.cs</LastGenOutput>
+    </Content>
     <Content Include="NpmModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>NpmModel.edmx</DependentUpon>
@@ -15074,6 +15078,7 @@
     <Compile Include="ContactUs.ascx.designer.cs">
       <DependentUpon>ContactUs.ascx</DependentUpon>
     </Compile>
+    <Compile Include="DAL\DAL.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -15082,7 +15087,7 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="EmailNpm.cs">
-      <DependentUpon>NpmModel.tt</DependentUpon>
+      <DependentUpon>NpmEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -15093,6 +15098,11 @@
     </Compile>
     <Compile Include="HomePageSlidingInstagramAdvert.ascx.designer.cs">
       <DependentUpon>HomePageSlidingInstagramAdvert.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NpmEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NpmEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="NpmModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -15139,7 +15149,7 @@
       <DependentUpon>Seminars.aspx</DependentUpon>
     </Compile>
     <Compile Include="SeminarsNpm.cs">
-      <DependentUpon>NpmModel.tt</DependentUpon>
+      <DependentUpon>NpmEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="Treatments.aspx.cs">
       <DependentUpon>Treatments.aspx</DependentUpon>
