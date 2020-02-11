@@ -8,28 +8,40 @@
 </head>
 <body>
 <form id="recipientLogin" class="contact100-form" runat="server">
-    <div runat="server" id="loginForm" style="height: auto; width: 300px;">
-        <div class="" data-validate = "Login Name">
-            <input id="loginName" class="s2-txt1 placeholder0 input100" runat="server" type="text" name="name" placeholder="Your Login Name"/>
-            <span class="focus-input100"></span>
+<asp:Panel id="loginPanel" runat="server">
+    <h1>Log in</h1>
+        <div runat="server" id="loginForm" style="height: auto; width: 300px;">
+            <div class="" data-validate = "Login Name">
+                <input id="loginName" class="s2-txt1 placeholder0 input100" runat="server" type="text" name="name" placeholder="Your Login Name"/>
+                <span class="focus-input100"></span>
+            </div>
+            <div class="" data-validate = "Pin">
+                <input id="loginPin" class="s2-txt1 placeholder0 input100" runat="server" type="text" name="email" placeholder="Pin"/>
+                <span class="focus-input100"></span>
+            </div>
+            <div class="" data-validate = "Password">
+                <input id="loginPassword" class="s2-txt1 placeholder0 input100" runat="server" type="text" name="email" placeholder="Password"/>
+                <span class="focus-input100"></span>
+            </div>
+            <div class="w-full">
+                <asp:Button ID="btnContinue" Text="Send" runat="server" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04" />
+            </div>
         </div>
-        <div class="" data-validate = "Pin">
-            <input id="loginPin" class="s2-txt1 placeholder0 input100" runat="server" type="text" name="email" placeholder="Pin"/>
-            <span class="focus-input100"></span>
-        </div>
-        <div class="" data-validate = "Password">
-            <input id="loginPassword" class="s2-txt1 placeholder0 input100" runat="server" type="text" name="email" placeholder="Password"/>
-            <span class="focus-input100"></span>
-        </div>
-        <div class="w-full">
-            <asp:Button ID="btnContinue" Text="Send" runat="server" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04" />
-        </div>
-    </div>
-    <br/>
-    <asp:Label id="recipientsPageMessage" Visible="False" runat="server"/>
-    <br/>
-    <asp:GridView  cellpadding="5" ID="recipientsgridView" cssclass="GridViewStyle" runat="server" AutoGenerateColumns="true"/> 
-    <asp:Button ID="delete" Visible="False" Text="Delete All" runat="server" OnClick="DeleteClick"/>
+        <br/>
+        <asp:Label id="recipientsPageMessage" Visible="False" runat="server"/>
+        <br/>
+        <asp:GridView  cellpadding="5" ID="recipientsgridView" cssclass="GridViewStyle" runat="server" AutoGenerateColumns="true"/> 
+        <asp:Button ID="delete" Visible="False" Text="Delete All" runat="server" OnClick="DeleteClick"/>
+</asp:Panel>
+<asp:Panel ID="ViewEmails" runat="server" Visible="False">
+    <h1>Emails</h1>
+    <asp:Button ID="Previous100" Text="Previous 100" runat="server" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04" />
+    <asp:Button ID="Next100" Text="Next 100" runat="server" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04" />
+</asp:Panel>
+<asp:Panel ID="ManageSeminars" runat="server" Visible="False">
+    <h1>Seminars</h1>
+
+</asp:Panel>
 </form>
 </body>
 </html>

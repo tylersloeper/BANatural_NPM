@@ -51,6 +51,9 @@ namespace BaPortalNpm
                 BindDataToTable();
                 delete.Visible = true;
                 recipientsPageMessage.Visible = false;
+
+                this.ViewEmails.Visible = true;
+                this.ManageSeminars.Visible = true;
                 return true;
             }
             else

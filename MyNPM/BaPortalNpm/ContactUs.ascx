@@ -18,19 +18,23 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <span class="wpcf7-form-control-wrap your-name">
-                                    <input name="your-name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-invalid="false" aria-required="true" type="text" size="40" placeholder="NAME" value=""></span>
+                                    <input runat="server" UseSubmitBehavior="False" id="NameField" name="your-name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-invalid="false" aria-required="true" type="text" size="40" placeholder="NAME" value="" />
+                                </span>
                             </div>
                             <div class="col-md-4">
                                 <span class="wpcf7-form-control-wrap your-subject">
-                                    <input name="your-subject" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-invalid="false" aria-required="true" type="text" size="40" placeholder="TEL" value=""></span>
+                                    <input runat="server" UseSubmitBehavior="False" id="PhoneField" name="your-subject" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-invalid="false" aria-required="true" type="text" size="40" placeholder="TEL" value=""/>
+
+                                </span>
                             </div>
                             <div class="col-md-4">
                                 <span class="wpcf7-form-control-wrap your-email">
-                                    <input name="your-email" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-invalid="false" aria-required="true" type="email" size="40" placeholder="E-MAIL" value=""></span>
+                                    <input runat="server" UseSubmitBehavior="False" id="emailField" name="your-email" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-invalid="false" aria-required="true" type="email" size="40" placeholder="E-MAIL" value=""/>
+                                </span>
                             </div>
                             <div class="col-md-12 margin-textarea">
                                 <span class="wpcf7-form-control-wrap your-message">
-                                    <textarea name="your-message" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="MESSAGE" rows="10" cols="40"></textarea></span>
+                                    <textarea runat="server" UseSubmitBehavior="False" id="bodyField" name="your-message" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="MESSAGE" rows="10" cols="40"></textarea></span>
                             </div>
                             <input name="your-url" class="wpcf7-form-control wpcf7-hidden" id="yoururl" type="hidden" value="">
                             <input name="your-time" class="wpcf7-form-control wpcf7-hidden" id="yourtime" type="hidden" value="11:58am">
@@ -73,6 +77,7 @@
                     </form>
                 </div>
             </div>
+            <asp:Label ID="contactUsError" Visible="false" ForeColor="Red" runat="server">There was a problem processing your request.</asp:Label>
         </section>
     </main>
 </section>

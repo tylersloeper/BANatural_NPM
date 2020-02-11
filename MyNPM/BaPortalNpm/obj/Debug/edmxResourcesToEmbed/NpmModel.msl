@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BaNaturalNpmLocalModelStoreContainer" CdmEntityContainer="BaNaturalNpmLocalEntities">
+    <EntitySetMapping Name="EmailNpms">
+      <EntityTypeMapping TypeName="BaNaturalNpmLocalModel.EmailNpm">
+        <MappingFragment StoreEntitySet="EmailNpm">
+          <ScalarProperty Name="DateSent" ColumnName="DateSent" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="EmailAddressenDate" ColumnName="EmailAddressenDate" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SeminarsNpms">
+      <EntityTypeMapping TypeName="BaNaturalNpmLocalModel.SeminarsNpm">
+        <MappingFragment StoreEntitySet="SeminarsNpm">
+          <ScalarProperty Name="InternalDate" ColumnName="InternalDate" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LinkToPaypal" ColumnName="LinkToPaypal" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="WhereDate" ColumnName="WhereDate" />
+          <ScalarProperty Name="WhenDate" ColumnName="WhenDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

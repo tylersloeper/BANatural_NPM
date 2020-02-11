@@ -22,6 +22,15 @@ namespace BaPortalNpm {
         protected global::System.Web.UI.HtmlControls.HtmlForm recipientLogin;
         
         /// <summary>
+        /// loginPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel loginPanel;
+        
+        /// <summary>
         /// loginForm control.
         /// </summary>
         /// <remarks>
@@ -92,5 +101,41 @@ namespace BaPortalNpm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button delete;
+        
+        /// <summary>
+        /// ViewEmails control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel ViewEmails;
+        
+        /// <summary>
+        /// Previous100 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Previous100;
+        
+        /// <summary>
+        /// Next100 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Next100;
+        
+        /// <summary>
+        /// ManageSeminars control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel ManageSeminars;
     }
 }

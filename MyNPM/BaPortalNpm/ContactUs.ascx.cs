@@ -11,9 +11,19 @@ namespace BaPortalNpm
 {
     public partial class ContactUs : System.Web.UI.UserControl
     {
+        // DAL
+        private readonly DAL.DAL _dataLayer = new DAL.DAL();
+
+        private readonly List<string> flaggedAsSpamWord = new List<string> { "Rolex", "Omega", "Quartz",
+            "Montblanc", "Watch", "Tiffany", "Replica", "Jacket", "Jimmy Choo", "Louboutin", "Big Bang", "Timberland",
+            "Outlet", "euro", "london", "Д", "и", "レ", "￥"};
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            // SendEmail2();
+            if (this.IsPostBack)
+            {
+                SaveMailLocally();
+            }
         }
 
         private void SendEmail2()
@@ -44,6 +54,74 @@ namespace BaPortalNpm
             {
                 string helper = ex.ToString();
                 string helper2 = ex.InnerException.ToString();
+            }
+        }
+
+        private void SaveMailLocally()
+        {
+            EmailNpm newEmail = new EmailNpm
+            {
+                DateSent = DateTime.Now.ToLongDateString(),
+                EmailAddressenDate = this.emailField.Value,
+                FullName = this.NameField.Value,
+                Message = this.bodyField.Value,
+                PhoneNumber = this.PhoneField.Value
+            };
+
+            if (!HasSpam(newEmail))
+            {
+                _dataLayer.InsertNewEmail(newEmail);
+            }
+            else
+            {
+                this.contactUsError.Visible = true;
+            }
+        }
+
+        private bool HasSpam(EmailNpm emailToValidate)
+        {
+            var retVal = false;
+            if (!string.IsNullOrEmpty(emailToValidate.Message) && emailToValidate.Message.Length < 2000
+                && emailToValidate.FullName.Length < 200
+                && emailToValidate.PhoneNumber.Length < 200)
+            {
+                // Check for Spam Words
+                foreach (var word in flaggedAsSpamWord)
+                {
+                    if (emailToValidate.Message.IndexOf(word, 0, StringComparison.CurrentCultureIgnoreCase) != -1)
+                    {
+                        // The string exists in the original
+                        retVal = true;
+                        break;
+                    }
+                }
+
+                // check for Spam email addresses
+                if (!retVal)
+                {
+                    if (!IsValidEmailAddress(emailToValidate.EmailAddressenDate))
+                    {
+                        retVal = true;
+                    }
+                }
+            }
+            else
+            {
+                retVal = true;
+            }
+            return retVal;
+        }
+
+        public bool IsValidEmailAddress(string emailaddress)
+        {
+            try
+            {
+                MailAddress m = new MailAddress(emailaddress);
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
             }
         }
     }
