@@ -30,8 +30,8 @@ namespace BaPortalNpm
         {
             EmailNpm newEmail = new EmailNpm
             {
-                DateSent = DateTime.Now.ToShortDateString(),
-                EmailAddressenDate = this.emailField.Value,
+                DateSent = DateTime.Now,
+                EmailAddress = this.emailField.Value,
                 FullName = this.NameField.Value,
                 Message = this.bodyField.Value,
                 Title = "N/A",
@@ -72,7 +72,7 @@ namespace BaPortalNpm
                 // check for Spam email addresses
                 if (!retVal)
                 {
-                    if (!IsValidEmailAddress(emailToValidate.EmailAddressenDate))
+                    if (!IsValidEmailAddress(emailToValidate.EmailAddress))
                     {
                         retVal = true;
                     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.UI.WebControls.Expressions;
 
 namespace BaPortalNpm.DAL
 {
@@ -56,6 +57,15 @@ namespace BaPortalNpm.DAL
         {
             IQueryable<EmailNpm> emailsSelected = from m in Entity.EmailNpms
                 select m;
+            List<EmailNpm> resultSet = emailsSelected.ToList();
+            return resultSet;
+        }
+
+        public List<EmailNpm> SelectTopEmailsByDate(int amount)
+        {
+            IQueryable<EmailNpm> emailsSelected = (from m in Entity.EmailNpms
+                orderby m.DateSent
+                select m).Take(amount);
             List<EmailNpm> resultSet = emailsSelected.ToList();
             return resultSet;
         }

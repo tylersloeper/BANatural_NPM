@@ -7,10 +7,10 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="varchar" MaxLength="255" />
     <Property Name="FullName" Type="varchar" MaxLength="255" />
-    <Property Name="EmailAddressenDate" Type="varchar" MaxLength="255" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="255" />
     <Property Name="Message" Type="varchar" MaxLength="255" />
     <Property Name="PhoneNumber" Type="varchar" MaxLength="255" />
-    <Property Name="DateSent" Type="varchar" MaxLength="255" />
+    <Property Name="DateSent" Type="datetime" />
   </EntityType>
   <EntityType Name="SeminarsNpm">
     <Key>
@@ -19,8 +19,8 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="varchar" MaxLength="255" />
     <Property Name="Description" Type="varchar" MaxLength="255" />
-    <Property Name="WhenDate" Type="varchar" MaxLength="255" />
-    <Property Name="WhereDate" Type="varchar" MaxLength="255" />
+    <Property Name="When" Type="varchar" MaxLength="255" />
+    <Property Name="Where" Type="varchar" MaxLength="255" />
     <Property Name="PhoneNumber" Type="varchar" MaxLength="255" />
     <Property Name="LinkToPaypal" Type="varchar" MaxLength="255" />
     <Property Name="Price" Type="float" />

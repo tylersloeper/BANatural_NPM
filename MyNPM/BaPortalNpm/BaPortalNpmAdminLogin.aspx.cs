@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -11,12 +13,20 @@ namespace BaPortalNpm
 {
     public partial class BaPortalNpmAdminLogin : System.Web.UI.Page
     {
-        private readonly string UserName = "BettyChange@npm";
+        // DAL
+        private readonly DAL.DAL _dataLayer = new DAL.DAL();
+
+        private readonly string UserName = "BettyChang@npm";
         private readonly string Pin = "0359834";
         private readonly string Password = ".%Nkw4Q)he43VLL-";
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            this.loadMails.Click += GetEmailDate;
+            this.newSeminarButton.Click += loadNewSeminarPanel;
+            this.loadOldSeminars.Click += LoadExistingSeminars;
+            this.SubmitNewSeminar.Click += SubmitNewSeminarAction;
+
             try
             {
                 if (LoggedIn())
@@ -48,8 +58,7 @@ namespace BaPortalNpm
             if (Session["loggedIn"] != null)
             {
                 this.loginForm.Visible = false;
-                BindDataToTable();
-                delete.Visible = true;
+                BindDataToEmailGrid();
                 recipientsPageMessage.Visible = false;
 
                 this.ViewEmails.Visible = true;
@@ -70,7 +79,7 @@ namespace BaPortalNpm
                     this.loginPassword.Value == Password)
                 {
                     Session["loginAttempts"] = 0;
-                    this.loginForm.Visible = false;
+                    this.loginPanel.Visible = false;
                     Session["loggedIn"] = true;
                     LoggedIn();
                 }
@@ -103,54 +112,144 @@ namespace BaPortalNpm
         }
 
         // UI
-        private void BindDataToTable()
+        private void GetEmailDate(object sender, EventArgs e)
         {
-            string path = Server.MapPath(@"~/myEmailList.csv");
-            using (FileStream fs = File.OpenRead(path))
+            this.mailGrid.Visible = true;
+            BindDataToEmailGrid();
+        }
+
+        private void LoadExistingSeminars(object sender, EventArgs e)
+        {
+            this.existingSeminarsGrid.Visible = true;
+            BindDataToSeminarGrid();
+        }
+
+        private void SubmitNewSeminarAction(object sender, EventArgs e)
+        {
+            if (validateSeminarFields())
             {
-                DataTable recipientInfo = new DataTable();
-                recipientInfo.Columns.Add("Name", typeof(string));
-                recipientInfo.Columns.Add("Email Address", typeof(string));
-
-                TextReader textReader = new StreamReader(path, true);
-                string[] csvData = textReader.ReadToEnd().Split('\n');
-
-                foreach (var record in csvData)
-                {
-                    try
-                    {
-                        string[] currentRecord = record.Split(',');
-                        DataRow row = recipientInfo.NewRow();
-                        row["Name"] = currentRecord[0];
-                        row["Email Address"] = currentRecord[1];
-                        recipientInfo.Rows.Add(row);
-                    }
-                    catch (Exception ex)
-                    {
-                        string exMessage = ex.Message; // ignore
-                    }
-                }
-
-                this.recipientsgridView.DataSource = recipientInfo;
-                this.recipientsgridView.DataBind();
+                this.newSeminarInfo.Visible = false;
+                InsertNewSeminar();
+                ResetSeminarForm();
             }
         }
 
-        protected void DeleteClick(object sender, EventArgs e)
+        private void loadNewSeminarPanel(object sender, EventArgs e)
         {
-            try
+            this.newSeminarInfo.Visible = true;
+        }
+
+        private void BindDataToEmailGrid()
+        {
+            DataTable emailInfo = new DataTable();
+            emailInfo.Columns.Add("Name", typeof(string));
+            emailInfo.Columns.Add("Email Address", typeof(string));
+            emailInfo.Columns.Add("Phone Number", typeof(string));
+            emailInfo.Columns.Add("Date Sent", typeof(string));
+            emailInfo.Columns.Add("Message", typeof(string));
+
+            var emailListToDisplay = _dataLayer.SelectTopEmailsByDate(100);
+
+            foreach (var record in emailListToDisplay)
             {
-                string path = Server.MapPath(@"~/myEmailList.csv");
-                if ((System.IO.File.Exists(path)))
+                try
                 {
-                    System.IO.File.Delete(path);
+                    DataRow row = emailInfo.NewRow();
+                    row["Name"] = record.FullName;
+                    row["Email Address"] = record.EmailAddress;
+                    row["Phone Number"] = record.PhoneNumber;
+                    row["Date Sent"] = (DateTime.Parse(record.DateSent.ToString())).ToShortDateString();
+                    row["Message"] = record.Message;
+                    emailInfo.Rows.Add(row);
+                }
+                catch (Exception ex)
+                {
+                    string exMessage = ex.Message; // ignore
                 }
             }
-            catch (Exception ex)
-            {
-                // do nothing
-                string exception = ex?.InnerException?.Message;
-            }
+
+            this.emailDataGrid.DataSource = emailInfo;
+            this.emailDataGrid.DataBind();
         }
+
+        private void BindDataToSeminarGrid()
+        {
+            DataTable emailInfo = new DataTable();
+            emailInfo.Columns.Add("Title", typeof(string));
+            emailInfo.Columns.Add("When", typeof(string));
+            emailInfo.Columns.Add("Where", typeof(string));
+            emailInfo.Columns.Add("Phone Number", typeof(string));
+            emailInfo.Columns.Add("Price", typeof(string));
+            emailInfo.Columns.Add("Description", typeof(string));
+
+            var emailListToDisplay = _dataLayer.SelectAllSeminars();
+
+            foreach (var record in emailListToDisplay)
+            {
+                try
+                {
+                    DataRow row = emailInfo.NewRow();
+                    row["Title"] = record.Title;
+                    row["When"] = record.When;
+                    row["Where"] = record.Where;
+                    row["Phone Number"] = record.PhoneNumber;
+                    row["Price"] = record.Price;
+                    row["Description"] = record.Description;
+                    emailInfo.Rows.Add(row);
+                }
+                catch (Exception ex)
+                {
+                    string exMessage = ex.Message; // ignore
+                }
+            }
+
+            this.existingSeminarsGrid.DataSource = emailInfo;
+            this.existingSeminarsGrid.DataBind();
+        }
+
+        private void InsertNewSeminar()
+        {
+            SeminarsNpm newSeminar = new SeminarsNpm
+            {
+                Title = this.Title.Value,
+                Description = this.Description.Value,
+                PhoneNumber = this.ShopPhoneNumber.Value,
+                Price = float.Parse(this.Price.Value, CultureInfo.InvariantCulture.NumberFormat),
+                When = this.When.Value,
+                Where = this.Where.Value,
+                InternalDate = DateTime.Parse(this.When.Value),
+                LinkToPaypal = ""
+            };
+
+            _dataLayer.InsertNewSeminar(newSeminar);
+        }
+
+        private bool validateSeminarFields()
+        {
+            if (!DateTime.TryParse(this.When.Value, out _))
+            {
+                this.dateInvalid.Visible = true;
+                return false;
+            }
+
+            if (!float.TryParse(this.Price.Value, out _))
+            {
+                this.PriceInvalid.Visible = true;
+                return false;
+            }
+
+            return true;
+        }
+
+        private void ResetSeminarForm()
+        {
+            this.Where.Value = "";
+            this.When.Value = "";
+            this.Price.Value = "";
+            this.ShopPhoneNumber.Value = "";
+            this.Description.Value = "";
+            this.Title.Value = "";
+        }
+
     }
 }

@@ -12,10 +12,10 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Title" Type="varchar" MaxLength="255" />
           <Property Name="FullName" Type="varchar" MaxLength="255" />
-          <Property Name="EmailAddressenDate" Type="varchar" MaxLength="255" />
+          <Property Name="EmailAddress" Type="varchar" MaxLength="255" />
           <Property Name="Message" Type="varchar" MaxLength="255" />
           <Property Name="PhoneNumber" Type="varchar" MaxLength="255" />
-          <Property Name="DateSent" Type="varchar" MaxLength="255" />
+          <Property Name="DateSent" Type="datetime" />
         </EntityType>
         <EntityType Name="SeminarsNpm">
           <Key>
@@ -24,8 +24,8 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Title" Type="varchar" MaxLength="255" />
           <Property Name="Description" Type="varchar" MaxLength="255" />
-          <Property Name="WhenDate" Type="varchar" MaxLength="255" />
-          <Property Name="WhereDate" Type="varchar" MaxLength="255" />
+          <Property Name="When" Type="varchar" MaxLength="255" />
+          <Property Name="Where" Type="varchar" MaxLength="255" />
           <Property Name="PhoneNumber" Type="varchar" MaxLength="255" />
           <Property Name="LinkToPaypal" Type="varchar" MaxLength="255" />
           <Property Name="Price" Type="float" />
@@ -50,10 +50,10 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="EmailAddressenDate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="EmailAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="Message" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="PhoneNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="DateSent" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="DateSent" Type="DateTime" Precision="3" />
         </EntityType>
         <EntityType Name="SeminarsNpm">
           <Key>
@@ -62,8 +62,8 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="WhenDate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="WhereDate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="When" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Where" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="PhoneNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="LinkToPaypal" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="Price" Type="Double" />
@@ -81,7 +81,7 @@
                 <ScalarProperty Name="DateSent" ColumnName="DateSent" />
                 <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
                 <ScalarProperty Name="Message" ColumnName="Message" />
-                <ScalarProperty Name="EmailAddressenDate" ColumnName="EmailAddressenDate" />
+                <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
                 <ScalarProperty Name="FullName" ColumnName="FullName" />
                 <ScalarProperty Name="Title" ColumnName="Title" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -95,8 +95,8 @@
                 <ScalarProperty Name="Price" ColumnName="Price" />
                 <ScalarProperty Name="LinkToPaypal" ColumnName="LinkToPaypal" />
                 <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
-                <ScalarProperty Name="WhereDate" ColumnName="WhereDate" />
-                <ScalarProperty Name="WhenDate" ColumnName="WhenDate" />
+                <ScalarProperty Name="Where" ColumnName="Where" />
+                <ScalarProperty Name="When" ColumnName="When" />
                 <ScalarProperty Name="Description" ColumnName="Description" />
                 <ScalarProperty Name="Title" ColumnName="Title" />
                 <ScalarProperty Name="Id" ColumnName="Id" />

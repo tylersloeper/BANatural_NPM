@@ -17,8 +17,8 @@ namespace BaPortalNpm
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public string WhenDate { get; set; }
-        public string WhereDate { get; set; }
+        public string When { get; set; }
+        public string Where { get; set; }
         public string PhoneNumber { get; set; }
         public string LinkToPaypal { get; set; }
         public Nullable<double> Price { get; set; }

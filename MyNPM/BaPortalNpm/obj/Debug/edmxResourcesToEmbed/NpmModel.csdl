@@ -11,10 +11,10 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Name="EmailAddressenDate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="Message" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="PhoneNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Name="DateSent" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="DateSent" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityType Name="SeminarsNpm">
     <Key>
@@ -23,8 +23,8 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Name="WhenDate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Name="WhereDate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="When" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Where" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="PhoneNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="LinkToPaypal" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="Price" Type="Double" />
