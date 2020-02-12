@@ -26,6 +26,7 @@ namespace BaPortalNpm
             this.newSeminarButton.Click += loadNewSeminarPanel;
             this.loadOldSeminars.Click += LoadExistingSeminars;
             this.SubmitNewSeminar.Click += SubmitNewSeminarAction;
+            this.DeleteSeminarButton.Click += DeleteSeminarClick;
 
             try
             {
@@ -130,8 +131,12 @@ namespace BaPortalNpm
             {
                 this.newSeminarInfo.Visible = false;
                 InsertNewSeminar();
-                ResetSeminarForm();
             }
+        }
+
+        private void DeleteSeminarClick(object sender, EventArgs e)
+        {
+            DeleteSeminar();
         }
 
         private void loadNewSeminarPanel(object sender, EventArgs e)
@@ -174,28 +179,30 @@ namespace BaPortalNpm
 
         private void BindDataToSeminarGrid()
         {
-            DataTable emailInfo = new DataTable();
-            emailInfo.Columns.Add("Title", typeof(string));
-            emailInfo.Columns.Add("When", typeof(string));
-            emailInfo.Columns.Add("Where", typeof(string));
-            emailInfo.Columns.Add("Phone Number", typeof(string));
-            emailInfo.Columns.Add("Price", typeof(string));
-            emailInfo.Columns.Add("Description", typeof(string));
+            DataTable seminarInfo = new DataTable();
+            seminarInfo.Columns.Add("ID", typeof(string));
+            seminarInfo.Columns.Add("Title", typeof(string));
+            seminarInfo.Columns.Add("When", typeof(string));
+            seminarInfo.Columns.Add("Where", typeof(string));
+            seminarInfo.Columns.Add("Phone Number", typeof(string));
+            seminarInfo.Columns.Add("Price", typeof(string));
+            seminarInfo.Columns.Add("Description", typeof(string));
 
-            var emailListToDisplay = _dataLayer.SelectAllSeminars();
+            List<SeminarsNpm> emailListToDisplay = _dataLayer.SelectAllSeminars();
 
             foreach (var record in emailListToDisplay)
             {
                 try
                 {
-                    DataRow row = emailInfo.NewRow();
+                    DataRow row = seminarInfo.NewRow();
+                    row["ID"] = record.Id;
                     row["Title"] = record.Title;
                     row["When"] = record.When;
                     row["Where"] = record.Where;
                     row["Phone Number"] = record.PhoneNumber;
                     row["Price"] = record.Price;
                     row["Description"] = record.Description;
-                    emailInfo.Rows.Add(row);
+                    seminarInfo.Rows.Add(row);
                 }
                 catch (Exception ex)
                 {
@@ -203,7 +210,7 @@ namespace BaPortalNpm
                 }
             }
 
-            this.existingSeminarsGrid.DataSource = emailInfo;
+            this.existingSeminarsGrid.DataSource = seminarInfo;
             this.existingSeminarsGrid.DataBind();
         }
 
@@ -221,7 +228,20 @@ namespace BaPortalNpm
                 LinkToPaypal = ""
             };
 
-            _dataLayer.InsertNewSeminar(newSeminar);
+            if (_dataLayer.InsertNewSeminar(newSeminar))
+            {
+                ResetSeminarForm();
+                Response.Redirect("BaPortalNpmAdminLogin.aspx");
+            }
+        }
+
+        private void DeleteSeminar()
+        {
+            int id = int.Parse(this.DeleteSeminarHolder.Value);
+            if (_dataLayer.DeleteSeminarById(id))
+            {
+                Response.Redirect("BaPortalNpmAdminLogin.aspx");
+            }
         }
 
         private bool validateSeminarFields()
@@ -251,5 +271,21 @@ namespace BaPortalNpm
             this.Title.Value = "";
         }
 
+        public void ItemsGrid_Command(Object sender, DataGridCommandEventArgs e)
+        {
+            switch (((LinkButton)e.CommandSource).CommandName)
+            {
+                case "Delete":
+                    int rowNumber = e.Item.ItemIndex;
+                    var row = this.existingSeminarsGrid.Items[rowNumber].Cells[1];
+                    var result = row.FindControl("ID");
+                    // var idOfRecord = row["ID"];
+                    break;
+                default:
+                    // Do nothing.
+                    break;
+
+            }
+        }
     }
 }

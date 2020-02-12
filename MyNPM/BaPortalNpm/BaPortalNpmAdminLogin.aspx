@@ -63,9 +63,12 @@
 
     <h2>Existing Seminars</h2>
     <asp:Button ID="loadOldSeminars" Text="Load existing Seminars" runat="server" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04" />
-    <asp:DataGrid id="existingSeminarsGrid" Visible="False" runat="server">
-        
-    </asp:DataGrid>
+    <asp:DataGrid AutoGenerateColumns="true" 
+        id="existingSeminarsGrid" Visible="False" runat="server" OnItemCommand="ItemsGrid_Command">
+    </asp:DataGrid><br/><br/>
+    
+    <input id="DeleteSeminarHolder" class="s2-txt1 placeholder0 input100" runat="server" type="text" name="email" placeholder="ID to delete"/><br/>
+    <asp:Button ID="DeleteSeminarButton" Text="Delete Seminar" runat="server" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04" />
 </asp:Panel>
 </form>
 </body>

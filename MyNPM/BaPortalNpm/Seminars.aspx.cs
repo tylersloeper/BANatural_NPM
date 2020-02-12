@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Web;
+using System.Web.Caching;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -61,7 +62,28 @@ namespace BaPortalNpm.Sales
 
         private List<SeminarsNpm> GetSeminars()
         {
-            return _dataLayer.SelectAllSeminars();
+            List<SeminarsNpm> emailListToDisplay;
+            if (this.Cache["emailListToDisplay"] == null)
+            {
+                emailListToDisplay = _dataLayer.SelectAllSeminars();
+                Cache pageCache = this.Cache;
+                DateTime absoluteExpirationTime = DateTime.Now.AddMinutes(1);
+
+                pageCache.Add(
+                    "emailListToDisplay",
+                    emailListToDisplay,
+                    null,
+                    absoluteExpirationTime,
+                    Cache.NoSlidingExpiration,
+                    CacheItemPriority.Normal,
+                    null);
+            }
+            else
+            {
+                emailListToDisplay = this.Cache["emailListToDisplay"] as List<SeminarsNpm>;
+            }
+
+            return emailListToDisplay;
         }
 
         private void AssignSeminarToDate()
