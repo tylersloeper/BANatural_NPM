@@ -8,9 +8,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <LastActiveSolutionConfig>Release|Any CPU</LastActiveSolutionConfig>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
     <ProjectView>ShowAllFiles</ProjectView>
-    <NameOfLastUsedPublishProfile>FolderProfile</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
@@ -32,7 +31,7 @@
           <StartWorkingDirectory>
           </StartWorkingDirectory>
           <EnableENC>True</EnableENC>
-          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
