@@ -1,0 +1,280 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BaPortalNpm.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="npm/wp-content/themes/npm/img/favicon.ico" rel="shortcut icon">
+    <link href="npm/wp-content/themes/npm/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="icon/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="icon/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+    <link href="icon/site.webmanifest" rel="manifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>NPM Miami | New Permanent Makeup | npm</title>
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="description" content="Leader in New Permanent Makeup">
+    <meta name="description" content="NPM is a world leader specializing in the technique of inserting pigments into the skin and improving appearance and emphasizing the existing natural lines.">
+    <meta name="keywords" content="NPM International,NPM,Permanent Makeup,Makeup">
+    <link href="npm/" rel="canonical">
+    <link href="//cdnjs.cloudflare.com" rel="dns-prefetch">
+    <link href="//stackpath.bootstrapcdn.com" rel="dns-prefetch">
+    <link href="//npmsite.goil.co.il" rel="dns-prefetch">
+    <link href="//code.jquery.com" rel="dns-prefetch">
+    <link href="//maxcdn.bootstrapcdn.com" rel="dns-prefetch">
+    <link href="//fonts.googleapis.com" rel="dns-prefetch">
+    <link href="//cdn.jsdelivr.net" rel="dns-prefetch">
+    <link href="//s.w.org" rel="dns-prefetch">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css?ver=4.9.11" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.1" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/google-language-translator/css/style.css?ver=5.0.48" rel="stylesheet" media="">
+    <link href="npm/wp-content/plugins/google-language-translator/css/toolbar.css?ver=5.0.48" rel="stylesheet" media="">
+    <link href="npm/wp-content/plugins/search-filter/style.css?ver=1" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/simple-responsive-slider/assets/css/responsiveslides.css?ver=4.9.11" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/sravnitel/assets/css/sravnitel.css?ver=4.9.11" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/twenty20/assets/css/twenty20.css?ver=1.55" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/wp-carousel-free/public/css/slick.css?ver=2.0.0" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/wp-carousel-free/public/css/font-awesome.min.css?ver=2.0.0" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/wp-carousel-free/public/css/wp-carousel-free-public.css?ver=2.0.0" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/yuzo-related-post/assets/css/style.css?ver=5.12.88" rel="stylesheet" media="all">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css?ver=4.9.11" rel="stylesheet" media="all">
+    <link href="npm/wp-content/themes/npm/normalize.css?ver=1.0" rel="stylesheet" media="all">
+    <link href="npm/wp-content/themes/npm/style.css?ver=1.0" rel="stylesheet" media="all">
+    <link href="npm/wp-content/uploads/wp-less/npm/css/styles-126bd27bcb.css" rel="stylesheet" media="all">
+    <link href="//fonts.googleapis.com/css?family=Dosis%3Ainherit%2C400&amp;subset=latin%2Clatin-ext&amp;ver=4.9.11" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/favorites/assets/css/favorites.css?ver=2.3.1" rel="stylesheet" media="all">
+    <link href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css?ver=4.7.0" rel="stylesheet" media="all">
+    <link href="npm/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=4.9.11" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="npm/wp-json/" rel="https://api.w.org/">
+    <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F" rel="alternate" type="application/json+oembed">
+    <link href="npm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8081%2Fnpm%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
+    <link href="npm/wp-content/plugins/AccessibilityIWC/css/a11y.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <div class="wrapper">
+            <header class="header clear" role="banner">
+                <div class="noscroll scrollon" id="headerBGs">
+                    <div class="wrapper">
+                        <div class="row mobile-logo" style="margin-top: 10px;">
+                            <div class="col mainmenu">
+                                <nav class="nav right" role="navigation">
+                                    <ul>
+                                        <!-- Omit this for now, for simplicity. 
+                                            <li>
+                                                <a class="wishlist-icon" href="Shop.aspx">
+                                                    <span>Shop</span>
+                                                </a>
+                                            </li>
+                                        -->
+                                        <li>
+                                            <a class="wishlist-icon" href="Treatments.aspx">
+                                                <span>Treatments</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="wishlist-icon" href="Seminars.aspx">
+                                                <span>Seminars</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="wishlist-icon" href="BaNatural.aspx">
+                                                <span>BA Natural</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <aside class="sidebar" role="complementary">
+                                                <a class="wishlist-icon" href="https://npm-int.com/">
+                                                    <span style="font-weight: bold; color: #18b3e1">NPM International</span>
+                                                </a>
+                                            </aside>
+                                        </li>
+                                        <li>
+                                            <div class="dropdown">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="row mobile-logo" id="headerBG">
+                            <div class="col-2 logo-top" id="headerMobile">
+                                <div class="logo">
+                                    <a href="Default.aspx">
+                                        <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mobile-show4 ">
+                                <a class="col-4" href="npm">
+                                    <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Search-01.svg">
+                                </a>
+                                <div tabindex="-1" class="modal fade" id="search3" role="dialog" aria-hidden="true" aria-labelledby="exampleModalLabel3" style="display: none">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button class="close" aria-label="Close" type="button" data-dismiss="modal">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="col-4" href="npm">
+                                    <img class="logo-fix" style="width: 28px;" alt="Logo" src="npm/wp-content/themes/npm/img/icons/Globe-01.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function closecoo() {
+                        var date = new Date,
+                            day = 120;
+                        date.setDate(date.getDate() + day);
+                        document.cookie = "coo-popoup=no; path=/; expires=" + date.toUTCString();
+                        $("#coo-popoup").remove();
+                    }
+                    function closecoods() {
+                        window.location.replace("http://www.google.com");
+                    }
+                    function getCookiecoo(name) {
+                        var matches = document.cookie.match(new RegExp(
+                            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                        ));
+                        return matches ? decodeURIComponent(matches[1]) : undefined;
+                    }
+                    var alertwin = getCookiecoo("coo-popoup");
+                    if (alertwin == "no") {
+                        $("#coo-popoup").remove();
+                    } else {
+                        $("#coo-popoup").css("display", "");
+                    }
+                </script>
+            </header>
+        </div>
+        <div style="max-width: 100%; width: 100%;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <div id="footerContainer">
+                <div class="acdiv">
+                    <ul>
+                        <li><a id="grayclass" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/2.png"><br>
+                            Mono chrome</a></li>
+                        <li><a id="negativeclass" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/3.png"><br>
+                            Dark contrast</a></li>
+                        <li><a id="negativeclasswhite" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/4.png"><br>
+                            Bright contrast</a></li>
+                        <li><a id="plus" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/5.png"><br>
+                            A+</a></li>
+                        <li><a id="minus" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/6.png"><br>
+                            A-</a></li>
+                        <li><a id="underline" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/7.png"><br>
+                            Highlight links</a></li>
+                        <li><a id="reset" href="javascript:void(0)">
+                            <img src="npm/wp-content/plugins/AccessibilityIWC/img/8.png"><br>
+                            Reset</a></li>
+                    </ul>
+                    <span>
+                        <p>© Copyright 2018 All rights reserved</p>
+                    </span>
+                </div>
+                <div class="watapp">
+                    <a href="https://api.whatsapp.com/send?phone=972552449798" target="_blank">
+                        <img class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/fin-01-01.svg"></a>
+                </div>
+                <div class=" justify-content-md-center footer-menu desktop-show row" id="footer-menu" style="background-color: #505050; padding-top: 17px;">
+                    <div class="row mobile-logo ">
+                        <div>
+                            <div class="logo logo-center">
+                                <img style="visibility: hidden" class="logo-img" alt="Logo" src="npm/wp-content/themes/npm/img/logo_footer.png">
+                            </div>
+                        </div>
+                        <div class="col mainmenu">
+                            <nav class="nav right" role="navigation">
+                                <div class="menu">
+                                    <ul>
+                                        <li class="page_item page-item-4699"><a href="BehindTheTechnology.aspx">About</a></li>
+                                        <li class="page_item page-item-3882"><a href="Treatments.aspx">Treatments</a></li>
+                                        <li class="page_item page-item-3882"><a href="Contact.aspx">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <hr style="color: white !important; width: 100%; background-color: white">
+                            </nav>
+                            <div class="block">
+                                <div class="widget_text" id="text-2">
+                                    <h3>Info footer address</h3>
+                                    <div class="textwidget">
+                                        <p>
+                                            Miami Branch: 8330 SW 8th StMiami, FL 33144 | Phone: (305) 551-1600
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons align-self-center center">
+                            <div>
+                                <div class="widget_text" id="text-3">
+                                    <h3>Icons</h3>
+                                    <div class="textwidget">
+                                        <div style="background-color: #505050;">
+                                            <a href="https://www.facebook.com/newpermanentmakeup/" target="_blank" rel="noopener">
+                                                <img width="50" height="50" class="alignnone wp-image-171" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/5.svg"></a><a href="https://www.instagram.com/npminternational/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-172" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/7.svg"></a><a href="https://www.linkedin.com/company/npm-international/" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-173" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/8.svg"></a><a href="https://www.youtube.com/channel/UCNjAwiKP9z_xJT9d0Rx2PcQ" target="_blank" rel="noopener"><img width="50" height="50" class="alignnone wp-image-174" alt="" src="https://npm-int.com/wp-content/themes/npm/img/icons/6.svg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="row desktop-show" role="contentinfo">
+                    <div>
+                        <img class="logo-img" style="width: 100%;" alt="pas" src="npm/wp-content/themes/npm/img/pas1.gif">
+                    </div>
+                    <div class="col-6 align-self-center">
+                        <p class="footer-copyright">
+                            <span class="content-info-text" style="font-size: 14px;">© Copyright 2018. NPM. All Rights Reserved</span>
+                        </p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
