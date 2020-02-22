@@ -8,7 +8,11 @@ namespace BaPortalNpm.DAL
 {
     public class DAL
     {
-        protected readonly BaNaturalNpmLocalEntities Entity = new BaNaturalNpmLocalEntities();
+        // Local database mdf sql express connection
+        // protected readonly BaNaturalNpmLocalEntities Entity = new BaNaturalNpmLocalEntities();
+
+        // prod database connection
+        protected readonly baPortalNpmEntities Entity = new baPortalNpmEntities();
 
         #region Seminars
 

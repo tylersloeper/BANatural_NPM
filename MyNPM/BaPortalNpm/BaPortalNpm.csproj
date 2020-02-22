@@ -242,6 +242,16 @@
       <DependentUpon>NpmModel.edmx</DependentUpon>
       <LastGenOutput>NpmModel.cs</LastGenOutput>
     </Content>
+    <Content Include="NpmModelProd.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NpmModelProd.edmx</DependentUpon>
+      <LastGenOutput>NpmModelProd.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="NpmModelProd.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NpmModelProd.edmx</DependentUpon>
+      <LastGenOutput>NpmModelProd.cs</LastGenOutput>
+    </Content>
     <Content Include="npm\wp-content\languages\admin-de_DE.mo" />
     <Content Include="npm\wp-content\languages\admin-de_DE.po" />
     <Content Include="npm\wp-content\languages\admin-es_ES.mo" />
@@ -899,6 +909,13 @@
     </EntityDeploy>
     <Content Include="NpmModel.edmx.diagram">
       <DependentUpon>NpmModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="NpmModelProd.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>NpmModelProd.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="NpmModelProd.edmx.diagram">
+      <DependentUpon>NpmModelProd.edmx</DependentUpon>
     </Content>
     <None Include="npm\wp-content\plugins\sitepress-multilingual-cms-123\res\xsd\wpml-config.xsd">
       <SubType>Designer</SubType>
@@ -14995,7 +15012,7 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="EmailNpm.cs">
-      <DependentUpon>NpmModel.tt</DependentUpon>
+      <DependentUpon>NpmModelProd.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -15027,6 +15044,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>NpmModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="NpmModelProd.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NpmModelProd.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NpmModelProd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NpmModelProd.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NpmModelProd.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NpmModelProd.edmx</DependentUpon>
+    </Compile>
     <Compile Include="partners.aspx.cs">
       <DependentUpon>partners.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -15057,7 +15089,7 @@
       <DependentUpon>Seminars.aspx</DependentUpon>
     </Compile>
     <Compile Include="SeminarsNpm.cs">
-      <DependentUpon>NpmModel.tt</DependentUpon>
+      <DependentUpon>NpmModelProd.tt</DependentUpon>
     </Compile>
     <Compile Include="Treatments.aspx.cs">
       <DependentUpon>Treatments.aspx</DependentUpon>
