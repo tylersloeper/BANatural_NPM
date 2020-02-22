@@ -217,8 +217,8 @@ C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\bin\Newtonsoft.Json.xml
 C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\bin\Antlr3.Runtime.pdb
 C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csprojAssemblyReference.cache
 C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csproj.CoreCompileInputs.cache
 C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csproj.CopyComplete
 C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.dll
 C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.pdb
+C:\_baportalnpm\BANatural_NPM\MyNPM\BaPortalNpm\obj\Debug\BaPortalNpm.csprojAssemblyReference.cache

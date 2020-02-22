@@ -12,7 +12,7 @@ namespace BaPortalNpm.DAL
         // protected readonly BaNaturalNpmLocalEntities Entity = new BaNaturalNpmLocalEntities();
 
         // prod database connection
-        protected readonly baPortalNpmEntities Entity = new baPortalNpmEntities();
+        protected readonly baPortalNpmEntities1 Entity = new baPortalNpmEntities1();
 
         #region Seminars
 
