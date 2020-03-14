@@ -1926,9 +1926,6 @@ a#pills-profile-tab6 img:hover {
   text-align: left;
   color: white;
 }
-.strip2 {
-  height: 49vw;
-}
 a#pills-profile-tab6 img:before {
   content: '';
   visibility: hidden;
@@ -2018,8 +2015,10 @@ a#pills-home-tab img:hover {
   z-index: 9999;
 }
 .page-template-front-page #strip2 {
-  padding-top: 70px;
-  margin: 0;
+    padding-top: 70px;
+    margin: auto !important;
+    width: 80%;
+    margin: 0;
 }
 .page-template-explore-page .header {
   height: 0;
@@ -2961,11 +2960,6 @@ div.wpcf7-acceptance-missing {
 }
 .page-template-front-page .strip2 iframe {
   max-width: 100%;
-}
-#strip2 {
-  padding: 10px 0;
-  /*background: rgb(197,197,197);*/
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c5c5c5', endColorstr='#6f7777', GradientType=0);
 }
 #strip2 .head {
   font-size: 43px;
@@ -4246,9 +4240,6 @@ footer a {
   .favorites-list .attachment-thumbnail {
     width: 60%;
   }
-  .strip2 {
-    height: 179vw;
-  }
   /*.home .strip2 {height: 70vw;}*/
   .nomap-desktop {
     display: none;
@@ -4855,9 +4846,6 @@ footer a {
   .page-template-gadgets-page .nav-pills .nav-link.active,
   .nav-pills .show > .nav-link {
     max-height: 61px;
-  }
-  .home .strip2 {
-    height: 60vw;
   }
   .home #strip5 {
     padding-top: 15px;
