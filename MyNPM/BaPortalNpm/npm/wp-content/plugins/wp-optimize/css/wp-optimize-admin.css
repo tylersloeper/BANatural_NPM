@@ -743,7 +743,7 @@ body.is-scrolled .wpo-main-header {
 
 /* Columns */
 
-@media  {
+@media (min-width: 1200px) {
 
 	.wpo-tab-postbox.right-col {
 		width: 350px;

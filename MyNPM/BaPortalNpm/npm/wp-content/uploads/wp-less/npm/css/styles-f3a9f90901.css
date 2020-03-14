@@ -5831,7 +5831,7 @@ footer a {
     margin-right: -60%;
   }
 }
-@media all and  {
+@media all and (min-width: 1200px) {
   .nomap-mobile {
     display: none;
   }

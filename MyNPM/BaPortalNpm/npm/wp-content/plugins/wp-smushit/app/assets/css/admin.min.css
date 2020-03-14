@@ -2920,7 +2920,7 @@
   }
 }
 
-@media  {
+@media (min-width: 1200px) {
   .sui-2-3-6 .sui-wrap .sui-col-lg-12 {
     width: 100%;
     max-width: 100%;
@@ -3506,7 +3506,7 @@
   }
 }
 
-@media  {
+@media (min-width: 1200px) {
   .sui-2-3-6 .sui-wrap .sui-header.sui-with-floating-input h1 {
     padding-right: 260px;
   }
@@ -5794,7 +5794,7 @@ fieldset[disabled] .sui-2-3-6 .sui-wrap .sui-form-control-inline:hover {
   }
 }
 
-@media  {
+@media (min-width: 1200px) {
   .sui-2-3-6 .sui-wrap .sui-row-with-sidenav .sui-sidenav .sui-with-floating-input {
     width: 240px;
     position: absolute;
@@ -5822,7 +5822,7 @@ fieldset[disabled] .sui-2-3-6 .sui-wrap .sui-form-control-inline:hover {
   }
 }
 
-@media  {
+@media (min-width: 1200px) {
   .sui-2-3-6 .sui-wrap .sui-row-with-sidenav .sui-sidenav .sui-sidenav-settings {
     padding-left: 15px;
   }
@@ -5834,7 +5834,7 @@ fieldset[disabled] .sui-2-3-6 .sui-wrap .sui-form-control-inline:hover {
   }
 }
 
-@media  {
+@media (min-width: 1200px) {
   .sui-2-3-6 .sui-wrap .sui-row-with-sidenav .sui-sidenav .sui-sidenav-hide-lg {
     display: none;
   }
@@ -5847,7 +5847,7 @@ fieldset[disabled] .sui-2-3-6 .sui-wrap .sui-form-control-inline:hover {
   }
 }
 
-@media  {
+@media (min-width: 1200px) {
   .sui-2-3-6 .sui-wrap .sui-row-with-sidenav .sui-sidenav {
     width: 220px;
     display: table-cell;
@@ -7594,7 +7594,7 @@ html.sui-has-overlay {
   }
 }
 
-@media  {
+@media (min-width: 1200px) {
   .sui-hidden-lg {
     display: none !important;
   }
