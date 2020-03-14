@@ -126,10 +126,6 @@
     <Content Include="BehindTheTechnology.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="ContactUs.ascx" />
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -139,10 +135,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="HomePageSlidingInstagramAdvert.ascx" />
     <Content Include="Images\1 BA Service List 1920x1080.png" />
     <Content Include="Images\1 Bring 1 get 1 half off 1920x1080.png" />

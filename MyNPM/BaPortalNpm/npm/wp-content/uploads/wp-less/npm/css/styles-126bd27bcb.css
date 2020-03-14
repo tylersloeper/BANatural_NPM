@@ -2018,7 +2018,7 @@ a#pills-home-tab img:hover {
   z-index: 9999;
 }
 .page-template-front-page #strip2 {
-  padding: 0;
+  padding-top: 70px;
   margin: 0;
 }
 .page-template-explore-page .header {

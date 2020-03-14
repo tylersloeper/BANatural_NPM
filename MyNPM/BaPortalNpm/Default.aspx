@@ -212,40 +212,6 @@
                     </div>
                 </div>
             </section>
-            <script>
-                $('#bistart').click(function (e) {
-                    document.getElementById('bistart').style.display = "none";
-                    document.getElementById('trfdehtc').style.top = "-200px";
-                    document.getElementById('trfdehtc').style.position = "relative";
-                    document.getElementById('bistarts').style.display = "none";
-                    var ifrm = document.createElement('iframe');
-                    ifrm.setAttribute('class', 'height-frame');
-                    ifrm.setAttribute('width', '1920');
-                    ifrm.setAttribute('height', '650');
-                    ifrm.setAttribute('frameborder', '0');
-                    ifrm.setAttribute('allow', 'autoplay; fullscreen; vr');
-                    ifrm.setAttribute('mozallowfullscreen', 'true');
-                    var el = document.getElementById('memoriframe');
-                    el.parentNode.insertBefore(ifrm, el);
-                    ifrm.setAttribute('src', 'https://sketchfab.com/models/960cff85a59849d88a8a4e4859d7815b/embed?api_version=1.3.0&api_id=1_hero-viewer&autostart=1&internal=1&scrollwheel=0&sound_enable=0&transparent=1&ui_animations=0&ui_annotations=0&ui_controls=0&ui_fadeout=0&ui_fullscreen=0&ui_help=0&ui_infos=0&ui_inspector=0&ui_settings=0&ui_snapshots=0&ui_stop=0&ui_theatre=0&ui_watermark=0');
-                });
-                $('#bistarts').click(function (e) {
-                    document.getElementById('bistart').style.display = "none";
-                    document.getElementById('trfdehtc').style.top = "-200px";
-                    document.getElementById('trfdehtc').style.position = "relative";
-                    document.getElementById('bistarts').style.display = "none";
-                    var ifrm = document.createElement('iframe');
-                    ifrm.setAttribute('class', 'height-frame');
-                    ifrm.setAttribute('width', '1920');
-                    ifrm.setAttribute('height', '650');
-                    ifrm.setAttribute('frameborder', '0');
-                    ifrm.setAttribute('allow', 'autoplay; fullscreen; vr');
-                    ifrm.setAttribute('mozallowfullscreen', 'true');
-                    var el = document.getElementById('memoriframe');
-                    el.parentNode.insertBefore(ifrm, el);
-                    ifrm.setAttribute('src', 'https://sketchfab.com/models/960cff85a59849d88a8a4e4859d7815b/embed?api_version=1.3.0&api_id=1_hero-viewer&autostart=1&internal=1&scrollwheel=0&sound_enable=0&transparent=1&ui_animations=0&ui_annotations=0&ui_controls=0&ui_fadeout=0&ui_fullscreen=0&ui_help=0&ui_infos=0&ui_inspector=0&ui_settings=0&ui_snapshots=0&ui_stop=0&ui_theatre=0&ui_watermark=0');
-                });
-            </script>
             <section>
                 <a class="smoothScroll" id="bottom" href="#top"></a>
             </section>
@@ -260,7 +226,7 @@
                     </div>
                 </div>
             </section>
-            <div style="height: 75px"></div>
+            <!-- <div style="height: 75px"></div> -->
             <section id="strip6" style="background-image: url()">
                 <div id="behindTheTechnologyStrip" class=" row">
                     <div class="maContent fade-right col-md-6 padding-strip6 aos-init" style="text-align: left;" data-aos="fade-right">
