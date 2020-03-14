@@ -196,7 +196,7 @@
         </noscript>
         <main role="main">
             <section class="strip2 row margin-auto" id="strip2">
-                <div class="text-top">
+                <div>
                     <div id="BaNaturalCarousel">
                         <BaNaturalNpm:BaSlideShow ID="BaSlideShowMainPage" runat="server"></BaNaturalNpm:BaSlideShow>
                     </div>
