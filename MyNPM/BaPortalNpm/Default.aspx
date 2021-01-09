@@ -197,14 +197,19 @@
         <main role="main">
             <section class="strip2 row margin-auto" id="strip2">
                 <div>
+                <h1 class="title" id="BaNaturalSectionTitle">
+                        <div class="head">
+                            <span style="color:#616161">Our</span> <a href="BaNatural.aspx"><span class="color-m">Services</span></a>
+                        </div>
+                    </h1>
                     <div id="BaNaturalCarousel">
                         <BaNaturalNpm:BaSlideShow ID="BaSlideShowMainPage" runat="server"></BaNaturalNpm:BaSlideShow>
                     </div>
-                    <h1 class="title" id="BaNaturalSectionTitle">
+                    <h3 class="title" id="BaNaturalSectionTitle2">
                         <div class="head">
-                            <span style="color:#616161">NOW AVAILABLE AT</span> <a href="BaNatural.aspx"><span class="color-m">BA NATURAL MIAMI</span></a>
+                            <span style="color:#616161; font-size:28px;">AVAILABLE AT</span> <a href="BaNatural.aspx"><span style="font-size:28px;" class="color-m">BA NATURAL MIAMI</span></a>
                         </div>
-                    </h1>
+                    </h3>
                     <div style="text-align: center; padding-left: 20%; padding-right: 20%; width: 100%;">
                         At BA Natural we put your health at the top of our list. 
                         Our Acupuncturists and Beauticians will evaluate your specific case, and and advise you on the best treatment available. 
