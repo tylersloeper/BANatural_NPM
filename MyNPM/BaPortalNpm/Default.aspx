@@ -222,6 +222,21 @@
                     </div>
                 </div>
             </section>
+            <br /><br />
+            <section>
+                <div class="bottom-title">
+                    <h1 class="title" id="BaNaturalSectionTitle">
+                        <div class="head">
+                            <span style="color:#616161">What is</span> <a href="BaNatural.aspx"><span class="color-m">New Permanent Makeup (NPM)</span></a>
+                        </div>
+                    </h1>
+                    <div style="text-align: left; padding-left: 16%; padding-right: 16%; width: 100%; float: left;">
+                        NPM, stands for New Permanent Makeup Technologies. NPM is made up of a group of different beauty treatments, which are designed to last for up to several years. Some of the first permanent makeup treatments to become available were desgined to creat the effect of; permanent eyeliner, permanent lipstick, fuller eyebrows, fuller hair, and many more beauty and makeup effects.
+                        <br /><br />
+                        NPM has quickly become an international business. NPM is trademarked by NPM international, and recently been expanding into the Americas. In Miami you can retrieve these treaments at NPM MIAMI, located <a class="readmore" href="BaNatural.aspx">HERE</a>.
+                    </div>
+                </div>
+            </section>
             <section>
                 <a class="smoothScroll" id="bottom" href="#top"></a>
             </section>
