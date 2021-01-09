@@ -135,6 +135,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="GoogleMaps.ascx" />
     <Content Include="HomePageSlidingInstagramAdvert.ascx" />
     <Content Include="Images\1 BA Service List 1920x1080.png" />
     <Content Include="Images\1 Bring 1 get 1 half off 1920x1080.png" />
@@ -15008,6 +15009,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GoogleMaps.ascx.cs">
+      <DependentUpon>GoogleMaps.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoogleMaps.ascx.designer.cs">
+      <DependentUpon>GoogleMaps.ascx</DependentUpon>
     </Compile>
     <Compile Include="HomePageSlidingInstagramAdvert.ascx.cs">
       <DependentUpon>HomePageSlidingInstagramAdvert.ascx</DependentUpon>
