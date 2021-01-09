@@ -95,7 +95,7 @@
                                         -->
                                         <li>
                                             <a class="wishlist-icon" href="Treatments.aspx">
-                                                <span>Treatments</span>
+                                                <span>Our Treatments</span>
                                             </a>
                                         </li>
                                         <li>
@@ -111,7 +111,7 @@
                                         <li>
                                             <aside class="sidebar" role="complementary">
                                                 <a class="wishlist-icon" href="https://npm-int.com/">
-                                                    <span style="font-weight: bold; color: #18b3e1">NPM International</span>
+                                                    <span>NPM International</span>
                                                 </a>
                                             </aside>
                                         </li>
