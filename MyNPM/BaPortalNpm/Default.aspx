@@ -197,23 +197,28 @@
         <main role="main">
             <section class="strip2 row margin-auto" id="strip2">
                 <div>
-                <h1 class="title" id="BaNaturalSectionTitle">
+                    <h1 class="title" id="BaNaturalSectionTitle">
                         <div class="head">
                             <span style="color:#616161">Our</span> <a href="BaNatural.aspx"><span class="color-m">Services</span></a>
                         </div>
                     </h1>
-                    <div id="BaNaturalCarousel">
-                        <BaNaturalNpm:BaSlideShow ID="BaSlideShowMainPage" runat="server"></BaNaturalNpm:BaSlideShow>
-                    </div>
-                    <h3 class="title" id="BaNaturalSectionTitle2">
-                        <div class="head">
-                            <span style="color:#616161; font-size:28px;">AVAILABLE AT</span> <a href="BaNatural.aspx"><span style="font-size:28px;" class="color-m">BA NATURAL MIAMI</span></a>
+                    <div>
+                        <div style="width:49%; display:inline-block; vertical-align: top;">
+                            <h3 id="BaNaturalSectionTitle2">
+                                <span style="color:#616161; font-size:40px; text-align: left; float: left; padding-left: 15%;  padding-right: 15%;">FIND US AT</span><br />
+                                <a href="BaNatural.aspx"><span style="font-size:40px; text-align: left; float: left; padding-left: 15%;  padding-right: 15%;" class="color-m">BA NATURAL MIAMI</span></a>
+                            </h3>
+                            <div style="text-align: left; padding-left: 15%; padding-right: 15%; width: 100%; float: left;">
+                                At BA Natural we put your health at the top of our list. 
+                                Our Acupuncturists and Beauticians will evaluate your specific case, and and advise you on the best treatment available. 
+                                Come in for a free consultation today!
+                            </div>
                         </div>
-                    </h3>
-                    <div style="text-align: center; padding-left: 20%; padding-right: 20%; width: 100%;">
-                        At BA Natural we put your health at the top of our list. 
-                        Our Acupuncturists and Beauticians will evaluate your specific case, and and advise you on the best treatment available. 
-                        Come in for a free consultation today!
+                        <div style="width: 50%; display:inline-block; margin-top: -10px;">
+                            <div id="BaNaturalCarousel">
+                                <BaNaturalNpm:BaSlideShow ID="BaSlideShowMainPage" runat="server"></BaNaturalNpm:BaSlideShow>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

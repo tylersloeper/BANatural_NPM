@@ -230,9 +230,10 @@
                             <nav class="nav right" role="navigation">
                                 <div class="menu">
                                     <ul>
-                                        <li class="page_item page-item-4699"><a href="BehindTheTechnology.aspx">About</a></li>
+                                        <li class="page_item page-item-4699"><a href="BaNatural.aspx">About Us</a></li>
                                         <li class="page_item page-item-3882"><a href="Treatments.aspx">Treatments</a></li>
                                         <li class="page_item page-item-3882"><a href="Contact.aspx">Contact Us</a></li>
+                                        <li class="page_item page-item-4699"><a href="BehindTheTechnology.aspx">Founder</a></li>
                                     </ul>
                                 </div>
                                 <hr style="color: white !important; width: 100%; background-color: white">
